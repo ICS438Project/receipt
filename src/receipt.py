@@ -5,7 +5,7 @@ from langchain.llms import OpenAI
 
 data = []
 
-st.sidebar(data)
+st.sidebar.write(data)
 
 st.title('Start App')
 
