@@ -8,7 +8,7 @@ st.title('Start App')
 openai_api_key = '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'
 
 def generate_response(input_text):
-  llm = OpenAI(temperature=0.7, openai_api_key=openai_api_key)
+  llm = OpenAI(model="gpt-3.5-turbo", temperature=0.7, openai_api_key=openai_api_key, max_tokens=256,  top_p=1, frequency_penalty=0, presence_penalty=0)
   st.info(llm(input_text))
 
 with st.form('my_form'):
