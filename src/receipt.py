@@ -3,7 +3,7 @@
 import streamlit as st
 from langchain.llms import OpenAI
 
-data = []
+data = {}
 
 st.title('Start App')
 
