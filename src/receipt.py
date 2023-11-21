@@ -24,8 +24,6 @@ with st.form('my_form'):
     "total": "(float value)",
     "receiptDate": "(string value)",
     "receiptTime": "(string value)",
-
-
     "ITEMS": [
       {
         "description": "(string value)",
