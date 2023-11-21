@@ -12,7 +12,33 @@ def generate_response(input_text):
   st.info(llm(input_text))
 
 with st.form('my_form'):
-  text = st.text_area('Enter text:', '')
+  prompt = 'fill all possible info into this json data structure, and correct all the missing info'
+  structure = '''{
+  "ReceiptInfo": {
+    "merchant": "(string value)",
+    "address": "(string value)",
+    "city": "(string value)",
+    "state": "(string value)",
+    "phoneNumber": "(string value)",
+    "tax": "(float value)",
+    "total": "(float value)",
+    "receiptDate": "(string value)",
+    "receiptTime": "(string value)",
+
+
+    "ITEMS": [
+      {
+        "description": "(string value)",
+        "quantity": "(integer value)",
+        "unitPrice": "(float value)",
+        "totalPrice": "(float value)",
+        "discountAmount": "(float value)"
+      }, ...
+    ]
+  }
+}
+'''
+  text = st.text_area('Enter your scanned receipt:', '')
   submitted = st.form_submit_button('Submit')
   if submitted and openai_api_key.startswith('sk-'):
-    generate_response(text)
+    generate_response(prompt + text + structure)
