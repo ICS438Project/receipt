@@ -12,7 +12,7 @@ openai_api_key = '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'
 def generate_response(input_text):
   llm = OpenAI(model="gpt-3.5-turbo-instruct", temperature=0.3, max_tokens=800, openai_api_key=openai_api_key, top_p=1, frequency_penalty=0, presence_penalty=0)
   st.info(llm(input_text))
-  data.push(llm(input_text))
+  data.append(llm(input_text))
 
 with st.form('my_form'):
   prompt = 'fill all info into this json data structure, and correct all the spelling'
