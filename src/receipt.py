@@ -41,4 +41,5 @@ with st.form('my_form'):
   text = st.text_area('Enter your scanned receipt:', '')
   submitted = st.form_submit_button('Submit')
   if submitted and openai_api_key.startswith('sk-'):
-    generate_response(prompt + text + structure)
+    st.write(prompt + text + structure)
+    # generate_response(prompt + text + structure)
