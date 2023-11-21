@@ -5,8 +5,6 @@ from langchain.llms import OpenAI
 
 data = []
 
-st.sidebar.write(data)
-
 st.title('Start App')
 
 openai_api_key = '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'
@@ -45,3 +43,5 @@ with st.form('my_form'):
   submitted = st.form_submit_button('Submit')
   if submitted and openai_api_key.startswith('sk-'):
     generate_response(prompt + text + structure)
+
+st.write(data)
