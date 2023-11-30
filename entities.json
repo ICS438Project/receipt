@@ -1,0 +1,30 @@
+
+{
+  "ReceiptInfo": {
+    "merchant": "Marley's Shop",
+    "address": "123 Long Rd",
+    "city": "Kailua",
+    "state": "HI",
+    "phoneNumber": "(808) 555-1234",
+    "tax": 1.15,
+    "total": 14.72,
+    "receiptDate": "04/12/2023",
+    "receiptTime": "Transaction ID: 5769009",
+    "ITEMS": [
+      {
+        "description": "APPLES (1 lb)",
+        "quantity": 2,
+        "unitPrice": 2.99,
+        "totalPrice": 5.98,
+        "discountAmount": 1.00
+      },
+      {
+        "description": "Choco Dream Cookies",
+        "quantity": 1,
+        "unitPrice": 7.59,
+        "totalPrice": 7.59,
+        "discountAmount": 0
+      }
+    ]
+  }
+}
