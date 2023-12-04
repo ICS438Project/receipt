@@ -12,6 +12,8 @@ import base64
 # Load your data into a DataFrame
 # df = pd.read_csv('entities_database.csv')
 
+#show file path in cloud
+_ = '''
 current_directory = Path(__file__).resolve().parent
 
 # List all files in the directory
@@ -19,7 +21,7 @@ for file in current_directory.iterdir():
     if file.is_file():
         st.write(file.name)
 
-st.write(Path(__file__).parents[0])
+st.write(Path(__file__).parents[0])'''
 
 st.title('Receipt Dashboard')
 st.write('Distribution of Receipts Across Vendor Categories')
@@ -39,7 +41,7 @@ plt.xticks(rotation=45)
 st.pyplot(fig)
 
 
-df = pd.read_csv('database.csv')
+df = pd.read_csv('/mount/src/receipt/src/database.csv')
 column_counts = df.count()
 st.title('Vendor Categories Distribution Dashboard')
 st.write('Distribution of Items in Each Vendor Category')
