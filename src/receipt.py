@@ -1,6 +1,7 @@
 # pip install streamlit openai langchain
 
 import streamlit as st
+from pathlib import Path
 from langchain.llms import OpenAI
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -10,6 +11,7 @@ import base64
 
 # Load your data into a DataFrame
 # df = pd.read_csv('entities_database.csv')
+st.write(Path(__file__).parents[0]  / 'database.csv')
 
 st.title('Receipt Dashboard')
 st.write('Distribution of Receipts Across Vendor Categories')
