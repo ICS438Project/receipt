@@ -6,49 +6,28 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load your data into a DataFrame
-df = pd.read_csv('entities_database.csv')
+# df = pd.read_csv('entities_database.csv')
 
 # Load your categories database into a DataFrame (assuming you have a CSV file with a column named 'Categories')
-categories_df = pd.read_csv('database.csv')
+df = pd.read_csv('database.csv')
 
 # Set the title and description of the app
-st.title('Receipt Analytics Dashboard')
-st.write('Distribution of Receipts Across Vendor and Item Categories')
+st.title('Vendor Categories Distribution Dashboard')
+st.write('Distribution of Receipts Across Vendor Categories')
 
-# Create filter widgets
-selected_vendor_category = st.selectbox('Select Vendor Category', df['Vendor Category'].unique())
-selected_item_category = st.selectbox('Select Item Category', df['Item Category'].unique())
+# Create filter widgets (optional)
+selected_category = st.selectbox('Select Vendor Category', df.columns)
 
-# Filter the DataFrame based on selected categories
-filtered_df = df[(df['Vendor Category'] == selected_vendor_category) & (df['Item Category'] == selected_item_category)]
+# Create a bar chart to display the distribution of the selected vendor category
+fig, ax = plt.subplots(figsize=(10, 6))
+vendor_counts = df[selected_category].value_counts()
+ax.bar(vendor_counts.index, vendor_counts.values)
+ax.set_xlabel(selected_category)
+ax.set_ylabel('Number of Receipts')
+ax.set_xticklabels(vendor_counts.index, rotation=45)
 
-# Create a bar chart to display the distribution of Vendor Categories
-fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 8))
-vendor_counts = filtered_df['Vendor Category'].value_counts()
-ax1.bar(vendor_counts.index, vendor_counts.values)
-ax1.set_xlabel('Vendor Categories')
-ax1.set_ylabel('Number of Receipts')
-ax1.set_xticklabels(vendor_counts.index, rotation=45)
-
-# Create a bar chart to display the distribution of Item Categories
-item_counts = filtered_df['Item Category'].value_counts()
-ax2.bar(item_counts.index, item_counts.values)
-ax2.set_xlabel('Item Categories')
-ax2.set_ylabel('Number of Items')
-ax2.set_xticklabels(item_counts.index, rotation=45)
-
-# Display the charts in Streamlit
+# Display the chart in Streamlit
 st.pyplot(fig)
-
-# Add a section to display the distribution of categories from the Categories database
-st.header('Distribution of Categories')
-category_counts = categories_df['Categories'].value_counts()
-fig_category, ax_category = plt.subplots(figsize=(10, 6))
-ax_category.bar(category_counts.index, category_counts.values)
-ax_category.set_xlabel('Categories')
-ax_category.set_ylabel('Count')
-ax_category.set_xticklabels(category_counts.index, rotation=45)
-st.pyplot(fig_category)
 
 _ = '''
 openai_api_key = ''
