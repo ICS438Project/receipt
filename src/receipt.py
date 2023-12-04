@@ -29,7 +29,7 @@ plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
 # Display the chart in Streamlit
 st.pyplot(fig)
 
-'''
+_ = '''
 openai_api_key = ''
 
 def generate_response(input_text):
