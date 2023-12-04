@@ -1,3 +1,12 @@
 streamlit
 openai
 langchain
+transformers
+sklearn
+jsonschema
+os
+time
+json
+pandas
+numpy
+torch
