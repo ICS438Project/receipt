@@ -4,29 +4,42 @@ import streamlit as st
 from langchain.llms import OpenAI
 import pandas as pd
 import matplotlib.pyplot as plt
+import io
+import base64
+
 
 # Load your data into a DataFrame
 # df = pd.read_csv('entities_database.csv')
 
-# Load your categories database into a DataFrame (assuming you have a CSV file with a column named 'Categories')
-df = pd.read_csv('database.csv')
-
-# Set the title and description of the app
-st.title('Vendor Categories Distribution Dashboard')
+st.title('Receipt Dashboard')
 st.write('Distribution of Receipts Across Vendor Categories')
+data = {
+    'ReceiptID': [1, 2, 3, 4, 5],
+    'Vendor Category': ['Grocery', 'Health and Beauty', 'Clothing and Apparel', 'Grocery', 'Electronics and Appliances']
+}
+df = pd.DataFrame(data)
 
-# Create filter widgets (optional)
-selected_category = st.selectbox('Select Vendor Category', df.columns)
-
-# Create a bar chart to display the distribution of the selected vendor category
-fig, ax = plt.subplots(figsize=(10, 6))
-vendor_counts = df[selected_category].value_counts()
+vendor_counts = df['Vendor Category'].value_counts()
+fig, ax = plt.subplots()
 ax.bar(vendor_counts.index, vendor_counts.values)
-ax.set_xlabel(selected_category)
+ax.set_xlabel('Vendor Categories')
 ax.set_ylabel('Number of Receipts')
-ax.set_xticklabels(vendor_counts.index, rotation=45)
+plt.xticks(rotation=45)
 
-# Display the chart in Streamlit
+st.pyplot(fig)
+
+
+df = pd.read_csv('database.csv')
+column_counts = df.count()
+st.title('Vendor Categories Distribution Dashboard')
+st.write('Distribution of Items in Each Vendor Category')
+
+fig, ax = plt.subplots(figsize=(10, 6))
+ax.bar(column_counts.index, column_counts.values)
+ax.set_xlabel('Vendor Categories')
+ax.set_ylabel('Count')
+ax.set_xticklabels(column_counts.index, rotation=45)
+
 st.pyplot(fig)
 
 _ = '''
