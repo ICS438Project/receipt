@@ -6,10 +6,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load your data into a DataFrame
-df = pd.read_csv('./entities_database.csv')
+df = pd.read_csv('entities_database.csv')
 
 # Load your categories database into a DataFrame (assuming you have a CSV file with a column named 'Categories')
-categories_df = pd.read_csv('./vender_categories_datebase.csv')
+categories_df = pd.read_csv('vender_categories_datebase.csv')
 
 # Set the title and description of the app
 st.title('Receipt Analytics Dashboard')
