@@ -19,7 +19,7 @@ for file in current_directory.iterdir():
     if file.is_file():
         st.write(file.name)
 
-#Path(__file__).parents[0]  / 'database.csv'
+st.write(Path(__file__).parents[0])
 
 st.title('Receipt Dashboard')
 st.write('Distribution of Receipts Across Vendor Categories')
