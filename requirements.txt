@@ -2,7 +2,6 @@ streamlit
 openai
 langchain
 transformers
-sklearn
 jsonschema
 os
 time
