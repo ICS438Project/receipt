@@ -5,7 +5,7 @@
             "address": "240 EAST DELAWARE AVENUE",
             "city": "NEWARK",
             "state": "DE",
-            "phoneNumber": "(443) 993-7029",
+            "phoneNumber": "(xxx) xxx-xxxx",
             "tax": 0,
             "total": 16.09,
             "receiptDate": "06-Jul-2023",
@@ -79,7 +79,7 @@
             "state": "HI",
             "phoneNumber": "(808) 224-2607",
             "tax": 0.38,
-            "total": 9.64,
+            "total": 8.38,
             "receiptDate": "30-Jul-2023",
             "receiptTime": "1:02:48P",
             "ITEMS": [
@@ -102,7 +102,7 @@
             "phoneNumber": "(808) 689-5860",
             "tax": 0.36,
             "total": 7.99,
-            "receiptDate": "07/18/2023",
+            "receiptDate": "JULY 18, 2023",
             "receiptTime": "7:38 PM",
             "ITEMS": [
                 {
@@ -110,14 +110,14 @@
                     "quantity": 1,
                     "unitPrice": 2.93,
                     "totalPrice": 2.93,
-                    "discountAmount": 4.5
+                    "discountAmount": 4.0
                 },
                 {
                     "description": "BAUD WAFER CHOCLT",
                     "quantity": 1,
                     "unitPrice": 2.69,
                     "totalPrice": 2.69,
-                    "discountAmount": 1.59
+                    "discountAmount": 1.57
                 },
                 {
                     "description": "HWNISL TEABG GVGNS",
@@ -143,8 +143,8 @@
             "ITEMS": [
                 {
                     "description": "2 Cucumber Maki",
-                    "quantity": 1,
-                    "unitPrice": 3.98,
+                    "quantity": 2,
+                    "unitPrice": 1.99,
                     "totalPrice": 3.98,
                     "discountAmount": 0
                 },
@@ -161,8 +161,8 @@
     {
         "ReceiptInfo": {
             "merchant": "McDonald's Restaurant #14616",
-            "address": "3549 Russett Green E",
-            "city": "Anne",
+            "address": "3549 RUSSETT GREEN E (WM#1985)",
+            "city": "ANNE",
             "state": "MD",
             "phoneNumber": "(301) 776-7980",
             "tax": 0.48,
@@ -263,7 +263,7 @@
                     "discountAmount": 0
                 },
                 {
-                    "description": "1 CR GYSR SPR WTR 33.8 1.29B",
+                    "description": "1 CR GYSR SPR WTR 33.8",
                     "quantity": 1,
                     "unitPrice": 1.29,
                     "totalPrice": 1.29,
@@ -284,7 +284,7 @@
                     "discountAmount": 0
                 },
                 {
-                    "description": "1 CR GYSR SPR WTR 33.8 1.29B",
+                    "description": "1 CR GYSR SPR WTR 33.8",
                     "quantity": 1,
                     "unitPrice": 1.29,
                     "totalPrice": 1.29,
@@ -360,31 +360,31 @@
     {
         "ReceiptInfo": {
             "merchant": "Longs",
-            "address": "4211 Waialae Ave",
-            "city": "Honolulu",
+            "address": "4211 WAIALAE AVE",
+            "city": "HONOLULU",
             "state": "HI",
             "phoneNumber": "(xxx) xxx-xxxx",
             "tax": 0.82,
             "total": 18.18,
-            "receiptDate": "06/08/2023",
+            "receiptDate": "JUNE 8, 2023",
             "receiptTime": "6:17 PM",
             "ITEMS": [
                 {
-                    "description": "1 CFRIO SF PEG BAG 3Z",
+                    "description": "CFRIO SF PEG BAG 3Z",
                     "quantity": 1,
                     "unitPrice": 4.59,
                     "totalPrice": 4.59,
                     "discountAmount": 0
                 },
                 {
-                    "description": "1 HLMRK EVERYDY CARD ASST",
+                    "description": "HLMRK EVERYDY CARD ASST",
                     "quantity": 2,
                     "unitPrice": 4.99,
                     "totalPrice": 9.98,
                     "discountAmount": 0
                 },
                 {
-                    "description": "1 TROLLI SOUR CRAWLR 5Z",
+                    "description": "TROLLI SOUR CRAWLR 5Z",
                     "quantity": 1,
                     "unitPrice": 2.79,
                     "totalPrice": 2.79,
@@ -448,14 +448,14 @@
                     "discountAmount": 0
                 },
                 {
-                    "description": "UNKNOWN 150F",
+                    "description": "DORITOS COO",
                     "quantity": 1,
                     "unitPrice": 5.96,
                     "totalPrice": 5.96,
-                    "discountAmount": 0
+                    "discountAmount": 1.0
                 },
                 {
-                    "description": "BASHATI UNKNOWN",
+                    "description": "BASHATI",
                     "quantity": 1,
                     "unitPrice": 19.98,
                     "totalPrice": 19.98,
@@ -467,8 +467,8 @@
     {
         "ReceiptInfo": {
             "merchant": "Walmart",
-            "address": "3549 Russett Grn",
-            "city": "Laurel",
+            "address": "3549 RUSSETT GRN",
+            "city": "LAUREL",
             "state": "MD",
             "phoneNumber": "(301) 604-0180",
             "tax": 0.12,
