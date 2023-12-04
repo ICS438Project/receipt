@@ -2,10 +2,4 @@ streamlit
 openai
 langchain
 transformers
-jsonschema
-os
-time
-json
-pandas
-numpy
 torch
