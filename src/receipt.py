@@ -11,7 +11,15 @@ import base64
 
 # Load your data into a DataFrame
 # df = pd.read_csv('entities_database.csv')
-st.write(Path(__file__).parents[0]  / 'database.csv')
+
+current_directory = Path(__file__).resolve().parent
+
+# List all files in the directory
+for file in current_directory.iterdir():
+    if file.is_file():
+        st.write(file.name)
+
+#Path(__file__).parents[0]  / 'database.csv'
 
 st.title('Receipt Dashboard')
 st.write('Distribution of Receipts Across Vendor Categories')
