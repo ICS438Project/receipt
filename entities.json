@@ -1,6 +1,100 @@
 [
     {
         "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.21,
+            "total": 4.7,
+            "receiptDate": "05/26/22",
+            "receiptTime": "11:57",
+            "ITEMS": [
+                {
+                    "description": "LUCERNE MILK WHOLE",
+                    "quantity": 1,
+                    "unitPrice": 4.49,
+                    "totalPrice": 4.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Sugar Sugar Hawaii",
+            "address": "4211 Waialae Ave., #W-2D",
+            "city": "Honolulu",
+            "state": "Hawaii",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 1.71,
+            "total": 37.86,
+            "receiptDate": "Nov 04, 2023",
+            "receiptTime": "02:26 PM",
+            "ITEMS": [
+                {
+                    "description": "Knitty Critters - Pouch Pals - Eddy",
+                    "quantity": 1,
+                    "unitPrice": 18.0,
+                    "totalPrice": 18.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "The Bear Crochet Kit",
+                    "quantity": 1,
+                    "unitPrice": 18.0,
+                    "totalPrice": 18.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Knitty Critters - Pouch Pals - Popcorn The Bunny Crochet Kit",
+                    "quantity": 1,
+                    "unitPrice": 18.0,
+                    "totalPrice": 18.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Paper Bag ($0.15)",
+                    "quantity": 1,
+                    "unitPrice": 0.15,
+                    "totalPrice": 0.15,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Foodland",
+            "address": "2939 Harding Avenue",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 734-6303",
+            "tax": 0.74,
+            "total": 16.52,
+            "receiptDate": "09/04/23",
+            "receiptTime": "02:41pm",
+            "ITEMS": [
+                {
+                    "description": "SPRAY ROSES",
+                    "quantity": 1,
+                    "unitPrice": 8.99,
+                    "totalPrice": 8.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "LINDT MILK CHOC",
+                    "quantity": 1,
+                    "unitPrice": 6.79,
+                    "totalPrice": 6.79,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
             "merchant": "Halal Gyro Kabob House",
             "address": "240 EAST DELAWARE AVENUE",
             "city": "NEWARK",
@@ -16,6 +110,422 @@
                     "quantity": 1,
                     "unitPrice": 13.99,
                     "totalPrice": 13.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 0.5,
+            "total": 11.03,
+            "receiptDate": "11/05/23",
+            "receiptTime": "18:06:31",
+            "ITEMS": [
+                {
+                    "description": "GV CF LG 12",
+                    "quantity": 1,
+                    "unitPrice": 2.4,
+                    "totalPrice": 2.4,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "EZEKIEL",
+                    "quantity": 1,
+                    "unitPrice": 8.13,
+                    "totalPrice": 8.13,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "LILIHA BAKERY",
+            "address": "Pearl Highlands Center",
+            "city": "Pearl City",
+            "state": "HI",
+            "phoneNumber": "(808) 455-1188",
+            "tax": 2.22,
+            "total": 49.36,
+            "receiptDate": "10/21/2023",
+            "receiptTime": "5:46:41 PM",
+            "ITEMS": [
+                {
+                    "description": "Poi Donut",
+                    "quantity": 1,
+                    "unitPrice": 20.9,
+                    "totalPrice": 20.9,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Coco Puff",
+                    "quantity": 6,
+                    "unitPrice": 2.08,
+                    "totalPrice": 12.5,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Green Tea Puff",
+                    "quantity": 1,
+                    "unitPrice": 13.74,
+                    "totalPrice": 13.74,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Walter St",
+            "city": "<UNKNOWN>",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 1.62,
+            "total": 36.09,
+            "receiptDate": "10/21/23",
+            "receiptTime": "11:46:09",
+            "ITEMS": [
+                {
+                    "description": "<UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 34.47,
+                    "totalPrice": 34.47,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 0.32,
+            "total": 7.12,
+            "receiptDate": "10/08/23",
+            "receiptTime": "12:20:17",
+            "ITEMS": [
+                {
+                    "description": "PREP PROD CH",
+                    "quantity": 1,
+                    "unitPrice": 2.38,
+                    "totalPrice": 2.38,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "GV CHK MOZZ",
+                    "quantity": 1,
+                    "unitPrice": 4.42,
+                    "totalPrice": 4.42,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "1131 Kuala St",
+            "city": "Pearl City",
+            "state": "HI",
+            "phoneNumber": "(808) 454-8785",
+            "tax": 4.78,
+            "total": 106.18,
+            "receiptDate": "10/04/23",
+            "receiptTime": "14:24:58",
+            "ITEMS": [
+                {
+                    "description": "KETTLE",
+                    "quantity": 1,
+                    "unitPrice": 43.24,
+                    "totalPrice": 43.24,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "POPCORN",
+                    "quantity": 1,
+                    "unitPrice": 7.88,
+                    "totalPrice": 7.88,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DOG SNACKS",
+                    "quantity": 1,
+                    "unitPrice": 4.54,
+                    "totalPrice": 4.54,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "CHK NDL SOUP",
+                    "quantity": 3,
+                    "unitPrice": 2.26,
+                    "totalPrice": 6.78,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "POT RST SOUP",
+                    "quantity": 1,
+                    "unitPrice": 2.26,
+                    "totalPrice": 2.26,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "TUNA",
+                    "quantity": 4,
+                    "unitPrice": 1.32,
+                    "totalPrice": 5.28,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SPAM LNCH MT",
+                    "quantity": 1,
+                    "unitPrice": 2.98,
+                    "totalPrice": 2.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DL BAR 8CT",
+                    "quantity": 1,
+                    "unitPrice": 7.12,
+                    "totalPrice": 7.12,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "BENADRYL 100",
+                    "quantity": 1,
+                    "unitPrice": 15.24,
+                    "totalPrice": 15.24,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "GOLDBEARS",
+                    "quantity": 2,
+                    "unitPrice": 1.28,
+                    "totalPrice": 2.56,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SR GLDBRS",
+                    "quantity": 1,
+                    "unitPrice": 0.98,
+                    "totalPrice": 0.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "NORI",
+                    "quantity": 2,
+                    "unitPrice": 1.27,
+                    "totalPrice": 2.54,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "DRIVER LICENSE HAWAII KA",
+            "address": "6600 KALANIANAOLE HWY ST",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 768-4800",
+            "tax": 0,
+            "total": 40.94,
+            "receiptDate": "05/03/22",
+            "receiptTime": "12:48:17",
+            "ITEMS": [
+                {
+                    "description": "CHASE VISA",
+                    "quantity": 1,
+                    "unitPrice": 40.94,
+                    "totalPrice": 40.94,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 2.3,
+            "total": 51.26,
+            "receiptDate": "06/27/23",
+            "receiptTime": "20:08:54",
+            "ITEMS": [
+                {
+                    "description": "DOLE JCE",
+                    "quantity": 1,
+                    "unitPrice": 7.68,
+                    "totalPrice": 7.68,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "HI FEE/DEP",
+                    "quantity": 1,
+                    "unitPrice": 9.96,
+                    "totalPrice": 9.96,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FC PNUT PNUT BTR BTR",
+                    "quantity": 1,
+                    "unitPrice": 3.48,
+                    "totalPrice": 3.48,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SEASONED SF CANDY",
+                    "quantity": 1,
+                    "unitPrice": 3.48,
+                    "totalPrice": 3.48,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SF CANDY",
+                    "quantity": 2,
+                    "unitPrice": 5.12,
+                    "totalPrice": 10.24,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "KETCHUP",
+                    "quantity": 1,
+                    "unitPrice": 2.3,
+                    "totalPrice": 2.3,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "BEN FRANKLIN CRAFTS #05575",
+            "address": "106",
+            "city": "AZRIROS",
+            "state": "UNKNOWN",
+            "phoneNumber": "(808) 261-4621",
+            "tax": 2.89,
+            "total": 64.25,
+            "receiptDate": "08/31/23",
+            "receiptTime": "7:22PM",
+            "ITEMS": [
+                {
+                    "description": "LAUHALA MAT",
+                    "quantity": 2,
+                    "unitPrice": 34.09,
+                    "totalPrice": 68.18,
+                    "discountAmount": 6.82
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "COSTCO WHOLESALE",
+            "address": "525 Alakawa St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 3.68,
+            "total": 81.73,
+            "receiptDate": "06/22/2022",
+            "receiptTime": "16:43",
+            "ITEMS": [
+                {
+                    "description": "840043 MASHD POTATO",
+                    "quantity": 1,
+                    "unitPrice": 7.49,
+                    "totalPrice": 7.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "3 WHOLE MILK",
+                    "quantity": 1,
+                    "unitPrice": 5.77,
+                    "totalPrice": 5.77,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "8789 PINEAPPLE",
+                    "quantity": 1,
+                    "unitPrice": 3.69,
+                    "totalPrice": 3.69,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "48757 SPRING MIX",
+                    "quantity": 1,
+                    "unitPrice": 5.49,
+                    "totalPrice": 5.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1089787 KS BAGS 200",
+                    "quantity": 1,
+                    "unitPrice": 18.89,
+                    "totalPrice": 18.89,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1634838 MASSAMAN",
+                    "quantity": 1,
+                    "unitPrice": 8.99,
+                    "totalPrice": 8.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "36946 BEEF BULGOGI",
+                    "quantity": 1,
+                    "unitPrice": 27.73,
+                    "totalPrice": 27.73,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 1.33,
+            "total": 29.5,
+            "receiptDate": "05/09/22",
+            "receiptTime": "18:36:08",
+            "ITEMS": [
+                {
+                    "description": "SF CANDY",
+                    "quantity": 1,
+                    "unitPrice": 2.88,
+                    "totalPrice": 2.88,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FC PB 6CT",
+                    "quantity": 2,
+                    "unitPrice": 7.68,
+                    "totalPrice": 15.36,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FC PB 6CT",
+                    "quantity": 1,
+                    "unitPrice": 7.68,
+                    "totalPrice": 7.68,
                     "discountAmount": 0
                 }
             ]
@@ -73,6 +583,864 @@
     },
     {
         "ReceiptInfo": {
+            "merchant": "The Counter",
+            "address": "39 Camila C",
+            "city": "<UNKNOWN>",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 2.3,
+            "total": 51.05,
+            "receiptDate": "Jun 8'23",
+            "receiptTime": "05:34PM",
+            "ITEMS": [
+                {
+                    "description": "Classic Choc",
+                    "quantity": 1,
+                    "unitPrice": 9.5,
+                    "totalPrice": 9.5,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Fries & Sweets",
+                    "quantity": 1,
+                    "unitPrice": 11.0,
+                    "totalPrice": 11.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "K-Mini Burgers",
+                    "quantity": 1,
+                    "unitPrice": 8.5,
+                    "totalPrice": 8.5,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Beef 1/3",
+                    "quantity": 1,
+                    "unitPrice": 15.0,
+                    "totalPrice": 15.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Glass of Water",
+                    "quantity": 2,
+                    "unitPrice": 0.0,
+                    "totalPrice": 0.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Diet Coke",
+                    "quantity": 1,
+                    "unitPrice": 4.75,
+                    "totalPrice": 4.75,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "PHO 777",
+            "address": "STE 2041960 KAPIOLANI BLVD",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 955-7770",
+            "tax": 0,
+            "total": 44.47,
+            "receiptDate": "26-Oct-2022",
+            "receiptTime": "7:07:53P",
+            "ITEMS": [
+                {
+                    "description": "CREDIT CARD AUTH",
+                    "quantity": 1,
+                    "unitPrice": 44.47,
+                    "totalPrice": 44.47,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "BEN FRANKLIN CRAFTS #05614 (3)",
+            "address": "122",
+            "city": "KAIACID",
+            "state": "HI",
+            "phoneNumber": "(808) 735-4211",
+            "tax": 0.45,
+            "total": 9.93,
+            "receiptDate": "06/21/23",
+            "receiptTime": "7:29PM KAIACID",
+            "ITEMS": [
+                {
+                    "description": "TRAVEL SEWING KIT",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SLAM DUNK BUBBLE GUM",
+                    "quantity": 1,
+                    "unitPrice": 4.49,
+                    "totalPrice": 4.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Store 215 Dir Dane Elder",
+            "address": "377 Keahole Street",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 396-6337",
+            "tax": 1.64,
+            "total": 36.38,
+            "receiptDate": "10/13/23",
+            "receiptTime": "19:27",
+            "ITEMS": [
+                {
+                    "description": "OYSTER SAUCE 180Z",
+                    "quantity": 1,
+                    "unitPrice": 6.79,
+                    "totalPrice": 6.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "QRT CK LEMON",
+                    "quantity": 1,
+                    "unitPrice": 8.99,
+                    "totalPrice": 8.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "NY STYLE GRND PORK",
+                    "quantity": 1,
+                    "unitPrice": 6.49,
+                    "totalPrice": 6.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "GREEN CABBAGE",
+                    "quantity": 1,
+                    "unitPrice": 1.79,
+                    "totalPrice": 7.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "REDUCED BANANAS",
+                    "quantity": 1,
+                    "unitPrice": 1.39,
+                    "totalPrice": 4.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Store <UNKNOWN> Jamie DePrizio",
+            "address": "1772 South King Street",
+            "city": "<UNKNOWN>",
+            "state": "<UNKNOWN>",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.26,
+            "total": 5.73,
+            "receiptDate": "09/17/2023",
+            "receiptTime": "12:47:17",
+            "ITEMS": [
+                {
+                    "description": "BEEF LIVER SLICED",
+                    "quantity": 1,
+                    "unitPrice": 5.47,
+                    "totalPrice": 5.47,
+                    "discountAmount": 0.68
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Dunkin'",
+            "address": "2560 McCarthy Mall",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 956-6728",
+            "tax": 0.54,
+            "total": 12.01,
+            "receiptDate": "2/28/2023",
+            "receiptTime": "12:12 PM",
+            "ITEMS": [
+                {
+                    "description": "1 Grill Chz",
+                    "quantity": 1,
+                    "unitPrice": 3.69,
+                    "totalPrice": 3.69,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Sourdough",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "2WChdChz",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1AmrChz",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 2pc Bagel Minis Plain",
+                    "quantity": 1,
+                    "unitPrice": 3.09,
+                    "totalPrice": 3.09,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Sm Ice Orig Latte",
+                    "quantity": 1,
+                    "unitPrice": 4.69,
+                    "totalPrice": 4.69,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "University of Hawaii - Manoa Bookstore",
+            "address": "2465 Campus Road",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 956-9645",
+            "tax": 0,
+            "total": 31.45,
+            "receiptDate": "10/31/2023",
+            "receiptTime": "14:57",
+            "ITEMS": [
+                {
+                    "description": "LABCOAT UNISEX L WHITE",
+                    "quantity": 1,
+                    "unitPrice": 26.95,
+                    "totalPrice": 26.95,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "GOGGLES SAFETY GREEN",
+                    "quantity": 1,
+                    "unitPrice": 4.5,
+                    "totalPrice": 4.5,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Foodland",
+            "address": "1450 Ala Moana Blvd, Suite 8000",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 949-5044",
+            "tax": 0.46,
+            "total": 10.14,
+            "receiptDate": "10/15/23",
+            "receiptTime": "09:04pm",
+            "ITEMS": [
+                {
+                    "description": "FOUNTAIN DRNK",
+                    "quantity": 1,
+                    "unitPrice": 1.69,
+                    "totalPrice": 1.69,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "AMB BENTO SPCY CKN",
+                    "quantity": 1,
+                    "unitPrice": 1.69,
+                    "totalPrice": 1.69,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.31,
+            "total": 7.03,
+            "receiptDate": "06/24/23",
+            "receiptTime": "15:58",
+            "ITEMS": [
+                {
+                    "description": "CG SPRING WTR",
+                    "quantity": 1,
+                    "unitPrice": 1.67,
+                    "totalPrice": 1.67,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DEP SFTDK SNGL FS",
+                    "quantity": 1,
+                    "unitPrice": 0.05,
+                    "totalPrice": 0.05,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FEE SFTDK SNGL FS",
+                    "quantity": 1,
+                    "unitPrice": 0.01,
+                    "totalPrice": 0.01,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SIG PARCHMENT PAPR",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Minit",
+            "address": "26 Kekela Street",
+            "city": "Hilo",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0,
+            "total": 23.75,
+            "receiptDate": "07/08/2023",
+            "receiptTime": "12:12:18",
+            "ITEMS": [
+                {
+                    "description": "Pump #02 - Self",
+                    "quantity": 1,
+                    "unitPrice": 5.209,
+                    "totalPrice": 23.75,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.14,
+            "total": 3.26,
+            "receiptDate": "02/27/23",
+            "receiptTime": "19:04",
+            "ITEMS": [
+                {
+                    "description": "2 QTY SIG DIET T",
+                    "quantity": 1,
+                    "unitPrice": 3.0,
+                    "totalPrice": 3.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DEP SFTDK SNGL FS",
+                    "quantity": 1,
+                    "unitPrice": 0.1,
+                    "totalPrice": 0.1,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FEE SFTDK SNGL FS",
+                    "quantity": 1,
+                    "unitPrice": 0.02,
+                    "totalPrice": 0.02,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.85,
+            "total": 18.92,
+            "receiptDate": "05/05/22",
+            "receiptTime": "20:18",
+            "ITEMS": [
+                {
+                    "description": "LUC CHESE",
+                    "quantity": 1,
+                    "unitPrice": 4.59,
+                    "totalPrice": 4.59,
+                    "discountAmount": 0.4
+                },
+                {
+                    "description": "HORIZON ORGANIC",
+                    "quantity": 1,
+                    "unitPrice": 7.49,
+                    "totalPrice": 7.49,
+                    "discountAmount": 0.5
+                },
+                {
+                    "description": "BROWN COW YGRT VAN",
+                    "quantity": 1,
+                    "unitPrice": 5.99,
+                    "totalPrice": 5.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Daiso",
+            "address": "1024 Piikoi St.",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 593-4444",
+            "tax": 0.68,
+            "total": 15.18,
+            "receiptDate": "05/21/2022",
+            "receiptTime": "1:04pm RCPT NO.38906",
+            "ITEMS": [
+                {
+                    "description": "Multipurpose Living Box",
+                    "quantity": 1,
+                    "unitPrice": 4.0,
+                    "totalPrice": 4.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Freezer Bag -With Seal - M - 25",
+                    "quantity": 2,
+                    "unitPrice": 1.5,
+                    "totalPrice": 3.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Freezer plastic bag Ssize for freezing",
+                    "quantity": 2,
+                    "unitPrice": 1.5,
+                    "totalPrice": 3.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DAISO GO Alkaline Battery LR03-5PCS",
+                    "quantity": 1,
+                    "unitPrice": 1.5,
+                    "totalPrice": 1.5,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1.50$",
+                    "quantity": 1,
+                    "unitPrice": 1.5,
+                    "totalPrice": 1.5,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.41,
+            "total": 9.1,
+            "receiptDate": "08/19/22",
+            "receiptTime": "13:39",
+            "ITEMS": [
+                {
+                    "description": "PETIT ECOLIR MLK",
+                    "quantity": 1,
+                    "unitPrice": 4.69,
+                    "totalPrice": 4.69,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "MEADOW GOLD ICE",
+                    "quantity": 1,
+                    "unitPrice": 4.0,
+                    "totalPrice": 4.49,
+                    "discountAmount": 0.49
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Kahala",
+            "address": "T/N :298780",
+            "city": "UNKNOWN",
+            "state": "UNKNOWN",
+            "phoneNumber": "N/A",
+            "tax": 1.61,
+            "total": 35.75,
+            "receiptDate": "18:55 Jul",
+            "receiptTime": "Date:18:55 Jul <UNKNOWN>",
+            "ITEMS": [
+                {
+                    "description": "General",
+                    "quantity": 1,
+                    "unitPrice": 19.75,
+                    "totalPrice": 19.75,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Child",
+                    "quantity": 1,
+                    "unitPrice": 16.0,
+                    "totalPrice": 16.0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Dunkin'",
+            "address": "2560 McCarthy Mall",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 956-6728",
+            "tax": 0.24,
+            "total": 5.43,
+            "receiptDate": "9/5/2023",
+            "receiptTime": "8:16 AM",
+            "ITEMS": [
+                {
+                    "description": "1 Md Ice Orig Latte",
+                    "quantity": 1,
+                    "unitPrice": 5.19,
+                    "totalPrice": 5.19,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Dunkin Donuts",
+            "address": "2560 McCarthy Mall",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 956-6728",
+            "tax": 0.47,
+            "total": 10.45,
+            "receiptDate": "9/21/2023",
+            "receiptTime": "12:55 PM",
+            "ITEMS": [
+                {
+                    "description": "1 Md Ice Orig Latte",
+                    "quantity": 1,
+                    "unitPrice": 5.19,
+                    "totalPrice": 5.19,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Chkn RstdPep Wrap",
+                    "quantity": 1,
+                    "unitPrice": 4.79,
+                    "totalPrice": 4.79,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "WHOLE FOODS",
+            "address": "388 Kamakee St Ste 100",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 379-1800",
+            "tax": 0.64,
+            "total": 14.13,
+            "receiptDate": "06/23/2023",
+            "receiptTime": "05:26 PM",
+            "ITEMS": [
+                {
+                    "description": "SWBCO SHR SUNSCREEN SPRY",
+                    "quantity": 1,
+                    "unitPrice": 19.99,
+                    "totalPrice": 19.99,
+                    "discountAmount": 5.0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY O",
+            "address": "1060 Keolu Drive",
+            "city": "Kailua",
+            "state": "HI",
+            "phoneNumber": "(808) 266-5200",
+            "tax": 0.47,
+            "total": 10.94,
+            "receiptDate": "<UNKNOWN>",
+            "receiptTime": "Store 205 Dir Betsy Esposito",
+            "ITEMS": [
+                {
+                    "description": "BODY ARMOR",
+                    "quantity": 1,
+                    "unitPrice": 9.99,
+                    "totalPrice": 9.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DEP SFTDK 8 PK FS",
+                    "quantity": 1,
+                    "unitPrice": 0.4,
+                    "totalPrice": 0.4,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FEE SFTDK 8 PK FS",
+                    "quantity": 1,
+                    "unitPrice": 0.08,
+                    "totalPrice": 0.08,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Grain Exchange",
+            "address": "591 Collaboration Way",
+            "city": "Newark",
+            "state": "DE",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0,
+            "total": 5.0,
+            "receiptDate": "7/12/23",
+            "receiptTime": "9:10 AM",
+            "ITEMS": [
+                {
+                    "description": "1 16oz Iced Latte",
+                    "quantity": 1,
+                    "unitPrice": 5.0,
+                    "totalPrice": 5.0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 1.04,
+            "total": 23.16,
+            "receiptDate": "08/20/23",
+            "receiptTime": "20:04",
+            "ITEMS": [
+                {
+                    "description": "SIG MINI PRETZELS",
+                    "quantity": 1,
+                    "unitPrice": 2.5,
+                    "totalPrice": 2.5,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "VELVETTA",
+                    "quantity": 1,
+                    "unitPrice": 5.49,
+                    "totalPrice": 5.49,
+                    "discountAmount": 1.5
+                },
+                {
+                    "description": "BROWN COW CRM TOP",
+                    "quantity": 1,
+                    "unitPrice": 6.99,
+                    "totalPrice": 6.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SIG TURKEY BREAST",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Dunkin",
+            "address": "2560 McCarthy Mall",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 956-6728",
+            "tax": 0.26,
+            "total": 5.85,
+            "receiptDate": "6/26/2023",
+            "receiptTime": "11:09 AM",
+            "ITEMS": [
+                {
+                    "description": "1 Lg Ice Orig Latte",
+                    "quantity": 1,
+                    "unitPrice": 5.59,
+                    "totalPrice": 5.59,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Longs",
+            "address": "2470 S King St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 947-2651",
+            "tax": 0.31,
+            "total": 14.78,
+            "receiptDate": "OCTOBER 15, 2023",
+            "receiptTime": "11:34 AM",
+            "ITEMS": [
+                {
+                    "description": "F 1 CVS LINER UNSC DB 135S",
+                    "quantity": 1,
+                    "unitPrice": 3.99,
+                    "totalPrice": 3.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "F 1 HALLS COOL BRRY CD 70CT",
+                    "quantity": 1,
+                    "unitPrice": 6.49,
+                    "totalPrice": 6.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "F 1 CVS LINER UNSC DB 135S",
+                    "quantity": 1,
+                    "unitPrice": 3.99,
+                    "totalPrice": 3.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "WHOLE FOODS MARKET",
+            "address": "388 Kamakee St Ste 100",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 379-1800",
+            "tax": 0.9,
+            "total": 19.97,
+            "receiptDate": "04/13/2023",
+            "receiptTime": "07:46 PM",
+            "ITEMS": [
+                {
+                    "description": "365WFM OG ROMAINE BAG",
+                    "quantity": 1,
+                    "unitPrice": 3.99,
+                    "totalPrice": 3.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "KND PCN MAPLE BAR",
+                    "quantity": 1,
+                    "unitPrice": 3.19,
+                    "totalPrice": 3.19,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SPRKO RED WAX GOUDA",
+                    "quantity": 1,
+                    "unitPrice": 0.39,
+                    "totalPrice": 0.39,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "@",
+                    "quantity": 1,
+                    "unitPrice": 9.99,
+                    "totalPrice": 9.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "$3.90 FT",
+                    "quantity": 1,
+                    "unitPrice": 3.9,
+                    "totalPrice": 3.9,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "365WFM BREADED CALAMARI",
+                    "quantity": 1,
+                    "unitPrice": 7.99,
+                    "totalPrice": 7.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Oahu",
+            "address": "1450 Ala Moana Blvd, Ste 2401",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 206-7162",
+            "tax": 2.59,
+            "total": 57.59,
+            "receiptDate": "10/21/2023",
+            "receiptTime": "08:36 PM",
+            "ITEMS": [
+                {
+                    "description": "060160772 TH P llow",
+                    "quantity": 1,
+                    "unitPrice": 35.0,
+                    "totalPrice": 35.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "060160099 RE Pillow",
+                    "quantity": 1,
+                    "unitPrice": 20.0,
+                    "totalPrice": 20.0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
             "merchant": "LEAHI HEALTH MANOA",
             "address": "2752 WOODLAWN DRIVE",
             "city": "HONOLULU",
@@ -88,6 +1456,494 @@
                     "quantity": 1,
                     "unitPrice": 8.0,
                     "totalPrice": 8.0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Sam's Club #6410",
+            "address": "1000 KAMEHAMEHA HWY STE",
+            "city": "PEARL CITY",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0,
+            "total": 64.2,
+            "receiptDate": "07/17/23",
+            "receiptTime": "12:01 PM",
+            "ITEMS": [
+                {
+                    "description": "Pump# 24 UNLEAD (11)",
+                    "quantity": 15.326,
+                    "unitPrice": 4.189,
+                    "totalPrice": 64.2,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "GAP OUTLET",
+            "address": "20 CITY <UNKNOWN> SPACE 1560",
+            "city": "ORANGE",
+            "state": "CA",
+            "phoneNumber": "(714) 938-9970",
+            "tax": 3.04,
+            "total": 42.21,
+            "receiptDate": "03/15/2023",
+            "receiptTime": "02:20:54 PM",
+            "ITEMS": [
+                {
+                    "description": "GapKids <UNKNOWN> Disney Mickey Mouse Graphic T-Shirt",
+                    "quantity": 1,
+                    "unitPrice": 24.99,
+                    "totalPrice": 17.49,
+                    "discountAmount": 7.5
+                },
+                {
+                    "description": "GapKids &#124 Disney Mickey Mouse <UNKNOWN> Graphic T-Shirt",
+                    "quantity": 1,
+                    "unitPrice": 24.99,
+                    "totalPrice": 17.49,
+                    "discountAmount": 7.5
+                },
+                {
+                    "description": "Gap <UNKNOWN> Star Wars&#153 4\" Boxers",
+                    "quantity": 1,
+                    "unitPrice": 6.99,
+                    "totalPrice": 4.19,
+                    "discountAmount": 2.8
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 1.33,
+            "total": 29.65,
+            "receiptDate": "08/10/23",
+            "receiptTime": "21:45",
+            "ITEMS": [
+                {
+                    "description": "LIFEWAY OWM KFR PL.",
+                    "quantity": 1,
+                    "unitPrice": 7.49,
+                    "totalPrice": 7.49,
+                    "discountAmount": 0.5
+                },
+                {
+                    "description": "OPN NT PIZZA",
+                    "quantity": 1,
+                    "unitPrice": 8.49,
+                    "totalPrice": 8.49,
+                    "discountAmount": 1.5
+                },
+                {
+                    "description": "SIG PISTACHIOS",
+                    "quantity": 1,
+                    "unitPrice": 10.99,
+                    "totalPrice": 10.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "APPLES ROYAL GALA",
+                    "quantity": 1,
+                    "unitPrice": 1.35,
+                    "totalPrice": 1.35,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.54,
+            "total": 12.02,
+            "receiptDate": "09/05/22",
+            "receiptTime": "08:46",
+            "ITEMS": [
+                {
+                    "description": "LUC UNSALTD BUTTER",
+                    "quantity": 1,
+                    "unitPrice": 6.49,
+                    "totalPrice": 6.49,
+                    "discountAmount": 1.5
+                },
+                {
+                    "description": "KRYGOLD IRSH BTTR",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 0.77,
+            "total": 17.09,
+            "receiptDate": "06/12/22",
+            "receiptTime": "16:12:16",
+            "ITEMS": [
+                {
+                    "description": "SF CANDY",
+                    "quantity": 3,
+                    "unitPrice": 2.88,
+                    "totalPrice": 8.64,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FC PB 6CT",
+                    "quantity": 1,
+                    "unitPrice": 7.68,
+                    "totalPrice": 7.68,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "WALTER",
+            "address": "700 WALTER ST",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) xxx-xxxx",
+            "tax": 0.36,
+            "total": 7.98,
+            "receiptDate": "09/27/23",
+            "receiptTime": "15:53:09",
+            "ITEMS": [
+                {
+                    "description": "CORKSCREW",
+                    "quantity": 1,
+                    "unitPrice": 0.97,
+                    "totalPrice": 0.97,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "LG PAN",
+                    "quantity": 1,
+                    "unitPrice": 5.68,
+                    "totalPrice": 5.68,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "12 TONGS",
+                    "quantity": 1,
+                    "unitPrice": 0.97,
+                    "totalPrice": 0.97,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Krispy Kreme",
+            "address": "330 City Drive South",
+            "city": "Orange",
+            "state": "CA",
+            "phoneNumber": "(714) 769-4330",
+            "tax": 0,
+            "total": 3.99,
+            "receiptDate": "03/15/2023",
+            "receiptTime": "1:23 PM",
+            "ITEMS": [
+                {
+                    "description": "Latte Iced Medium",
+                    "quantity": 1,
+                    "unitPrice": 3.99,
+                    "totalPrice": 3.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "WHOLE FOODS",
+            "address": "4211 Waialae Ave Ste 2000",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 738-0820",
+            "tax": 0.25,
+            "total": 5.64,
+            "receiptDate": "06/25/2023",
+            "receiptTime": "02:44 PM",
+            "ITEMS": [
+                {
+                    "description": "LTRBK JAPANESE WHIT BREAD",
+                    "quantity": 1,
+                    "unitPrice": 5.39,
+                    "totalPrice": 5.39,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Dunkin",
+            "address": "2560 McCarthy Mall",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 956-6728",
+            "tax": 0.24,
+            "total": 5.23,
+            "receiptDate": "5/5/2022",
+            "receiptTime": "11:06 AM",
+            "ITEMS": [
+                {
+                    "description": "1 Md Ice Orig Latte",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Olive",
+            "address": "1279 New Churchman's Rd",
+            "city": "Christiana",
+            "state": "DE",
+            "phoneNumber": "302-731-5430",
+            "tax": 0,
+            "total": 44.61,
+            "receiptDate": "07/13/2023",
+            "receiptTime": "5:34:20PM",
+            "ITEMS": [
+                {
+                    "description": "Table Games",
+                    "quantity": 1,
+                    "unitPrice": 2.99,
+                    "totalPrice": 2.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Soft Drink",
+                    "quantity": 1,
+                    "unitPrice": 3.49,
+                    "totalPrice": 3.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Calamari",
+                    "quantity": 1,
+                    "unitPrice": 11.79,
+                    "totalPrice": 11.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Soup & Salad",
+                    "quantity": 1,
+                    "unitPrice": 10.99,
+                    "totalPrice": 10.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Gnocchi",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Kids Strawberry",
+                    "quantity": 1,
+                    "unitPrice": 2.99,
+                    "totalPrice": 2.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Kid CYO Meat Sauce",
+                    "quantity": 1,
+                    "unitPrice": 6.99,
+                    "totalPrice": 6.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Spaghetti",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Add Meatball",
+                    "quantity": 1,
+                    "unitPrice": 1.79,
+                    "totalPrice": 1.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "w/1 MB",
+                    "quantity": 2,
+                    "unitPrice": 1.79,
+                    "totalPrice": 3.58,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Fries",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.36,
+            "total": 8.0,
+            "receiptDate": "07/30/22",
+            "receiptTime": "11:46",
+            "ITEMS": [
+                {
+                    "description": "HAAGEN DAZS",
+                    "quantity": 1,
+                    "unitPrice": 7.49,
+                    "totalPrice": 7.49,
+                    "discountAmount": 7.49
+                },
+                {
+                    "description": "HAAGEN DAZS COFFEEAC",
+                    "quantity": 1,
+                    "unitPrice": 7.49,
+                    "totalPrice": 7.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "COSTCO WHOLESALE",
+            "address": "333A Keahole Street",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 5.24,
+            "total": 119.54,
+            "receiptDate": "09/17/2023",
+            "receiptTime": "14:56",
+            "ITEMS": [
+                {
+                    "description": "956752 HI WATER 12P",
+                    "quantity": 1,
+                    "unitPrice": 6.65,
+                    "totalPrice": 6.65,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "2700000000 HI BEVERAGE",
+                    "quantity": 1,
+                    "unitPrice": 0.72,
+                    "totalPrice": 0.72,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "782796 <UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 6.39,
+                    "totalPrice": 6.39,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "9600000000 HI BEVERAGE",
+                    "quantity": 1,
+                    "unitPrice": 2.4,
+                    "totalPrice": 2.4,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "5092 WATERMELON",
+                    "quantity": 1,
+                    "unitPrice": 12.99,
+                    "totalPrice": 12.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1083849 BLACK GRAPE",
+                    "quantity": 1,
+                    "unitPrice": 7.99,
+                    "totalPrice": 7.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1489206 PRINGLES VTY",
+                    "quantity": 1,
+                    "unitPrice": 24.89,
+                    "totalPrice": 24.89,
+                    "discountAmount": 5.0
+                },
+                {
+                    "description": "969786 PANDA COOKIE",
+                    "quantity": 1,
+                    "unitPrice": 9.99,
+                    "totalPrice": 9.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "107699 DUMPLINGS",
+                    "quantity": 1,
+                    "unitPrice": 13.59,
+                    "totalPrice": 13.59,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "30669 <UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 2.39,
+                    "totalPrice": 2.39,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "18600 MANDARINS",
+                    "quantity": 1,
+                    "unitPrice": 8.79,
+                    "totalPrice": 8.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "24311 VAR. MUFFIN",
+                    "quantity": 1,
+                    "unitPrice": 9.99,
+                    "totalPrice": 9.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "38578 SPINSALAD",
+                    "quantity": 1,
+                    "unitPrice": 12.52,
+                    "totalPrice": 12.52,
                     "discountAmount": 0
                 }
             ]
@@ -131,6 +1987,79 @@
     },
     {
         "ReceiptInfo": {
+            "merchant": "Dunkin'",
+            "address": "132 Christiana Mall",
+            "city": "Newark",
+            "state": "DE",
+            "phoneNumber": "(302) 318-0072",
+            "tax": 0,
+            "total": 2.49,
+            "receiptDate": "7/10/2023",
+            "receiptTime": "5:25 PM",
+            "ITEMS": [
+                {
+                    "description": "Donut",
+                    "quantity": 1,
+                    "unitPrice": 2.49,
+                    "totalPrice": 2.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Longs",
+            "address": "4211 WAIALAE AVE",
+            "city": "<UNKNOWN>",
+            "state": "HI",
+            "phoneNumber": "(808) 732-0781",
+            "tax": 0.75,
+            "total": 16.72,
+            "receiptDate": "MAY 11, 2022",
+            "receiptTime": "6:44 PM",
+            "ITEMS": [
+                {
+                    "description": "RAINBOW PLAYBALL EACH",
+                    "quantity": 1,
+                    "unitPrice": 7.99,
+                    "totalPrice": 7.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "CFRIO SF PEG BAG",
+                    "quantity": 2,
+                    "unitPrice": 3.99,
+                    "totalPrice": 7.98,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Hardware Hawaii",
+            "address": "30 Kihapai Street",
+            "city": "Kailua",
+            "state": "Hawaii",
+            "phoneNumber": "(808) 266-1133",
+            "tax": 0.48,
+            "total": 10.73,
+            "receiptDate": "10/07/23",
+            "receiptTime": "10:30AM 1013",
+            "ITEMS": [
+                {
+                    "description": "CONCRETE MIX 60lb QUIKRETE",
+                    "quantity": 1,
+                    "unitPrice": 10.25,
+                    "totalPrice": 10.25,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
             "merchant": "Kozo Sushi",
             "address": "Kozo Sushi - Moilili, 2334 South King Street",
             "city": "Honolulu",
@@ -153,6 +2082,337 @@
                     "quantity": 1,
                     "unitPrice": 3.3,
                     "totalPrice": 3.3,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "KAHEKA STORE",
+            "address": "Ph - # 973-4800",
+            "city": "<UNKNOWN>",
+            "state": "<UNKNOWN>",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.21,
+            "total": 4.7,
+            "receiptDate": "09/27/2023",
+            "receiptTime": "00:11:44",
+            "ITEMS": [
+                {
+                    "description": "JK ALKALINE BATTERY",
+                    "quantity": 1,
+                    "unitPrice": 2.99,
+                    "totalPrice": 2.99,
+                    "discountAmount": 1.5
+                },
+                {
+                    "description": "ORANGE NAVEL <UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 2.49,
+                    "totalPrice": 2.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Whole Foods Market",
+            "address": "388 Kamakee St Ste 100",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 379-1800",
+            "tax": 2.61,
+            "total": 58.22,
+            "receiptDate": "05/04/2022",
+            "receiptTime": "04:24 PM",
+            "ITEMS": [
+                {
+                    "description": "PFD BTRNUT SOUP OG",
+                    "quantity": 2,
+                    "unitPrice": 5.39,
+                    "totalPrice": 10.78,
+                    "discountAmount": 1.8
+                },
+                {
+                    "description": "PFD OG CRMY CARROT SOUP",
+                    "quantity": 1,
+                    "unitPrice": 5.29,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0.8
+                },
+                {
+                    "description": "365WFM BREADED CALAMARI",
+                    "quantity": 2,
+                    "unitPrice": 6.79,
+                    "totalPrice": 13.58,
+                    "discountAmount": 1.9
+                },
+                {
+                    "description": "VTACO CCNUT WT",
+                    "quantity": 1,
+                    "unitPrice": 6.29,
+                    "totalPrice": 4.39,
+                    "discountAmount": 1.9
+                },
+                {
+                    "description": "CARROT GINGER SOUP",
+                    "quantity": 1,
+                    "unitPrice": 8.49,
+                    "totalPrice": 8.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "OG CAULIFLOWER",
+                    "quantity": 2,
+                    "unitPrice": 5.99,
+                    "totalPrice": 11.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "CIABATTA BREAD",
+                    "quantity": 1,
+                    "unitPrice": 3.99,
+                    "totalPrice": 3.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Panda Express #1866",
+            "address": "Aiea, HI",
+            "city": "Aiea",
+            "state": "HI",
+            "phoneNumber": "(808)486-8696",
+            "tax": 0.66,
+            "total": 15.0,
+            "receiptDate": "10/18/2023",
+            "receiptTime": "3:49:49 PM",
+            "ITEMS": [
+                {
+                    "description": "1 Plate",
+                    "quantity": 1,
+                    "unitPrice": 11.0,
+                    "totalPrice": 11.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FRIED RICE-1/2",
+                    "quantity": 2,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "HNY WLT SHRIMP",
+                    "quantity": 1,
+                    "unitPrice": 1.5,
+                    "totalPrice": 1.5,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "BLK PEPPER STEAK",
+                    "quantity": 1,
+                    "unitPrice": 1.5,
+                    "totalPrice": 1.5,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Panda Cares Donation",
+                    "quantity": 1,
+                    "unitPrice": 0.34,
+                    "totalPrice": 0.34,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 0.81,
+            "total": 17.97,
+            "receiptDate": "11/05/23",
+            "receiptTime": "22:30:53",
+            "ITEMS": [
+                {
+                    "description": "SQZ BUF MAYO",
+                    "quantity": 1,
+                    "unitPrice": 11.48,
+                    "totalPrice": 11.48,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "MAND 3# BAG",
+                    "quantity": 1,
+                    "unitPrice": 5.68,
+                    "totalPrice": 5.68,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "McDonald's",
+            "address": "94-212 LEOKU ST",
+            "city": "WAIPAHU",
+            "state": "HI",
+            "phoneNumber": "(808) 671-0881",
+            "tax": 0.32,
+            "total": 7.1,
+            "receiptDate": "11/12/2022",
+            "receiptTime": "06:58 PM",
+            "ITEMS": [
+                {
+                    "description": "1 Double Quarter Pounder",
+                    "quantity": 1,
+                    "unitPrice": 3.59,
+                    "totalPrice": 3.59,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 McDonald's French Fries",
+                    "quantity": 1,
+                    "unitPrice": 3.19,
+                    "totalPrice": 3.19,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "McDonald's Restaurant",
+            "address": "2915 E MANOA RD",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2219",
+            "tax": 0.32,
+            "total": 7.01,
+            "receiptDate": "08/06/2022",
+            "receiptTime": "04:04 PM",
+            "ITEMS": [
+                {
+                    "description": "1 Happy Meal Ch Burger",
+                    "quantity": 1,
+                    "unitPrice": 5.19,
+                    "totalPrice": 5.19,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Cheeseburger",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Extra Kids Fry",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 THOR Love & Thunder",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Apple Juice",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 S Frozen Coke",
+                    "quantity": 1,
+                    "unitPrice": 1.5,
+                    "totalPrice": 1.5,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "377 Keahole Street",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 396-6337",
+            "tax": 0.28,
+            "total": 6.27,
+            "receiptDate": "10/13/23",
+            "receiptTime": "19:33",
+            "ITEMS": [
+                {
+                    "description": "CHEESECAKE SLICE",
+                    "quantity": 1,
+                    "unitPrice": 5.99,
+                    "totalPrice": 5.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Honolulu Intl Airport 0169",
+            "address": "300 RODGERS BLVD UNIT 30",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0,
+            "total": 3.0,
+            "receiptDate": "06/18/2023",
+            "receiptTime": "06/18/2023 (Sun) 15:27",
+            "ITEMS": [
+                {
+                    "description": "Parking Fee",
+                    "quantity": 1,
+                    "unitPrice": 3.0,
+                    "totalPrice": 3.0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Taco Bell 001281",
+            "address": "717 Kapahulu Ave",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808)737-7337",
+            "tax": 0.28,
+            "total": 6.26,
+            "receiptDate": "10/4/2023",
+            "receiptTime": "7:09:19 PM",
+            "ITEMS": [
+                {
+                    "description": "2 Bean Burrito",
+                    "quantity": 2,
+                    "unitPrice": 1.89,
+                    "totalPrice": 3.78,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "2 Add Beef",
+                    "quantity": 2,
+                    "unitPrice": 1.1,
+                    "totalPrice": 2.2,
                     "discountAmount": 0
                 }
             ]
@@ -224,6 +2484,206 @@
                     "quantity": 1,
                     "unitPrice": 0,
                     "totalPrice": 0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Store <UNKNOWN>",
+            "address": "2754 <UNKNOWN> Drive, <UNKNOWN> 7-106",
+            "city": "<UNKNOWN>",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.15,
+            "total": 3.24,
+            "receiptDate": "05/04/22",
+            "receiptTime": "TIME: <UNKNOWN>",
+            "ITEMS": [
+                {
+                    "description": "L <UNKNOWN> LIGHT",
+                    "quantity": 1,
+                    "unitPrice": 3.09,
+                    "totalPrice": 3.09,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Ralphs",
+            "address": "305 W. Imperial Hwy.",
+            "city": "Brea",
+            "state": "CA",
+            "phoneNumber": "(714) 529-4505",
+            "tax": 0.0,
+            "total": 14.97,
+            "receiptDate": "03/15/23",
+            "receiptTime": "04:35pm",
+            "ITEMS": [
+                {
+                    "description": "ADBR COFFEE RIO",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "ADBR COFFEE RIO",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "ADBR COFFEE RIO",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "COSTCO WHOLESALE",
+            "address": "333A Keahole Street",
+            "city": "Hawaii Kai",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 9.76,
+            "total": 216.89,
+            "receiptDate": "09/28/2023",
+            "receiptTime": "17:48",
+            "ITEMS": [
+                {
+                    "description": "18668 CHKN TAQUITO",
+                    "quantity": 1,
+                    "unitPrice": 14.79,
+                    "totalPrice": 14.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "2619 ORG BANANAS",
+                    "quantity": 1,
+                    "unitPrice": 2.99,
+                    "totalPrice": 2.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1669642 ORG BLEND",
+                    "quantity": 1,
+                    "unitPrice": 15.99,
+                    "totalPrice": 15.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1747314 SRDOUGH BRD",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "815544 KS BLUEBERRY",
+                    "quantity": 1,
+                    "unitPrice": 8.99,
+                    "totalPrice": 8.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "647465 AVOCADOS",
+                    "quantity": 1,
+                    "unitPrice": 6.89,
+                    "totalPrice": 6.89,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "4893 CREAM CHEESE",
+                    "quantity": 1,
+                    "unitPrice": 11.99,
+                    "totalPrice": 11.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "7000070 KS BACON",
+                    "quantity": 1,
+                    "unitPrice": 19.99,
+                    "totalPrice": 19.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "29433 SW WRAP",
+                    "quantity": 1,
+                    "unitPrice": 18.1,
+                    "totalPrice": 18.1,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "943649 PIE PUMPKINS",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "3 WHOLE MILK",
+                    "quantity": 1,
+                    "unitPrice": 5.79,
+                    "totalPrice": 5.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "3 WHOLE <UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 5.79,
+                    "totalPrice": 5.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1009806 ALL IN PAN",
+                    "quantity": 1,
+                    "unitPrice": 49.99,
+                    "totalPrice": 49.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "0000312770 <UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 10.0,
+                    "totalPrice": 10.0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "PACSUN",
+            "address": "ALA MOANA CENTER, HI\n1450 ALA MOANA BL #3224",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "808-943-9317",
+            "tax": 1.79,
+            "total": 40.0,
+            "receiptDate": "10/8/23",
+            "receiptTime": "6:50 PM",
+            "ITEMS": [
+                {
+                    "description": "Jg striped brianna sweate",
+                    "quantity": 1,
+                    "unitPrice": 38.0,
+                    "totalPrice": 38.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "ROUND UP CHARITY",
+                    "quantity": 1,
+                    "unitPrice": 0.21,
+                    "totalPrice": 0.21,
                     "discountAmount": 0
                 }
             ]
@@ -359,6 +2819,71 @@
     },
     {
         "ReceiptInfo": {
+            "merchant": "Grove Music",
+            "address": "167 Hamakua Drive, Suite 202",
+            "city": "Kailua",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 7.07,
+            "total": 157.06,
+            "receiptDate": "10/8/2023",
+            "receiptTime": "12:31 PM",
+            "ITEMS": [
+                {
+                    "description": "ACCES0843 - Fender Dreadnought/12-String Case Black",
+                    "quantity": 1,
+                    "unitPrice": 149.99,
+                    "totalPrice": 149.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Taco Bell 002491",
+            "address": "376 Kamehameha Hwy",
+            "city": "Pearl City",
+            "state": "HI",
+            "phoneNumber": "(808)486-9697",
+            "tax": 0.39,
+            "total": 8.65,
+            "receiptDate": "10/13/2023",
+            "receiptTime": "1:12:30 PM",
+            "ITEMS": [
+                {
+                    "description": "1 Beef Crunchy Taco",
+                    "quantity": 1,
+                    "unitPrice": 1.79,
+                    "totalPrice": 1.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Beef Soft Taco",
+                    "quantity": 1,
+                    "unitPrice": 1.79,
+                    "totalPrice": 1.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Chzy Bean Rice Bur",
+                    "quantity": 1,
+                    "unitPrice": 1.89,
+                    "totalPrice": 1.89,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Chips N Cheese",
+                    "quantity": 1,
+                    "unitPrice": 2.79,
+                    "totalPrice": 2.79,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
             "merchant": "Longs",
             "address": "4211 WAIALAE AVE",
             "city": "HONOLULU",
@@ -388,6 +2913,456 @@
                     "quantity": 1,
                     "unitPrice": 2.79,
                     "totalPrice": 2.79,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 0.82,
+            "total": 10.22,
+            "receiptDate": "09/23/23",
+            "receiptTime": "14:13:39",
+            "ITEMS": [
+                {
+                    "description": "SF CANDY",
+                    "quantity": 5,
+                    "unitPrice": 3.48,
+                    "totalPrice": 17.4,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Wet'N'Wild Hawaii",
+            "address": "Regstr 103 Park 10",
+            "city": "Kapolei",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 6.6,
+            "total": 146.58,
+            "receiptDate": "08/06/2023",
+            "receiptTime": "10:36",
+            "ITEMS": [
+                {
+                    "description": "2023 Gold Pass",
+                    "quantity": 1,
+                    "unitPrice": 79.99,
+                    "totalPrice": 79.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "2023 Season Pass",
+                    "quantity": 1,
+                    "unitPrice": 59.99,
+                    "totalPrice": 59.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "ProCat",
+            "address": "1450 Ala Moana Blvd, Ste 2401",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 206-7162",
+            "tax": 2.17,
+            "total": 48.15,
+            "receiptDate": "08/24/2022",
+            "receiptTime": "06:52 PM",
+            "ITEMS": [
+                {
+                    "description": "ProCat",
+                    "quantity": 1,
+                    "unitPrice": 29.99,
+                    "totalPrice": 29.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "ProCat Puna",
+                    "quantity": 1,
+                    "unitPrice": 15.99,
+                    "totalPrice": 15.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "COSTCO",
+            "address": "333A Keahole Street",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 4.23,
+            "total": 94.06,
+            "receiptDate": "04/25/2022",
+            "receiptTime": "18:33",
+            "ITEMS": [
+                {
+                    "description": "677492 KS ORG EGGS",
+                    "quantity": 1,
+                    "unitPrice": 8.89,
+                    "totalPrice": 8.89,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1450796 CHKN CHUNKS",
+                    "quantity": 1,
+                    "unitPrice": 19.99,
+                    "totalPrice": 19.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1582666 ONION GRUYER",
+                    "quantity": 1,
+                    "unitPrice": 7.99,
+                    "totalPrice": 7.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1613499 KEBABS",
+                    "quantity": 2,
+                    "unitPrice": 11.99,
+                    "totalPrice": 23.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "545345 KS PISTACHIO",
+                    "quantity": 1,
+                    "unitPrice": 15.99,
+                    "totalPrice": 15.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "COSTCO WHOLESALE",
+            "address": "<UNKNOWN> Keahole Street",
+            "city": "<UNKNOWN>",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 13.74,
+            "total": 305.28,
+            "receiptDate": "11/07/2023",
+            "receiptTime": "18:10 120 205 239 705",
+            "ITEMS": [
+                {
+                    "description": "1125156 ORG LATE JUL",
+                    "quantity": 1,
+                    "unitPrice": 16.99,
+                    "totalPrice": 16.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "222464 MOZZ STICKS",
+                    "quantity": 1,
+                    "unitPrice": 3.2,
+                    "totalPrice": 3.2,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "169730 FR <UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 0.99,
+                    "totalPrice": 0.99,
+                    "discountAmount": 3.2
+                },
+                {
+                    "description": "1678104 ORG AVO OIL.",
+                    "quantity": 1,
+                    "unitPrice": 15.99,
+                    "totalPrice": 15.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "155138 SHAVED PARM",
+                    "quantity": 1,
+                    "unitPrice": 16.69,
+                    "totalPrice": 16.69,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "737160 KIMCHI",
+                    "quantity": 1,
+                    "unitPrice": 6.99,
+                    "totalPrice": 6.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1620336 GUACAMOLE",
+                    "quantity": 1,
+                    "unitPrice": 9.99,
+                    "totalPrice": 9.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1036732 ORG CELERY",
+                    "quantity": 1,
+                    "unitPrice": 5.99,
+                    "totalPrice": 5.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1487676 MINI LIGHTS",
+                    "quantity": 1,
+                    "unitPrice": 24.99,
+                    "totalPrice": 24.99,
+                    "discountAmount": 10.0
+                },
+                {
+                    "description": "47825 GREEN <UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 6.59,
+                    "totalPrice": 6.59,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "2955509 DIAPERS SZ 4",
+                    "quantity": 1,
+                    "unitPrice": 52.49,
+                    "totalPrice": 52.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1344105 BLUE DOGFOOD",
+                    "quantity": 1,
+                    "unitPrice": 65.89,
+                    "totalPrice": 65.89,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "33605 FILET STEAK",
+                    "quantity": 1,
+                    "unitPrice": 57.77,
+                    "totalPrice": 57.77,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "27003 STRAWBERRIES",
+                    "quantity": 1,
+                    "unitPrice": 5.39,
+                    "totalPrice": 5.39,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Sam's Club",
+            "address": "Self Checkout",
+            "city": "Unknown",
+            "state": "Unknown",
+            "phoneNumber": "(808) 945-9841",
+            "tax": 3.07,
+            "total": 68.17,
+            "receiptDate": "10/24/23",
+            "receiptTime": "19:15 6265 04755 069",
+            "ITEMS": [
+                {
+                    "description": "SAMURAI",
+                    "quantity": 1,
+                    "unitPrice": 8.98,
+                    "totalPrice": 8.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "WHOLE MILK",
+                    "quantity": 1,
+                    "unitPrice": 5.92,
+                    "totalPrice": 5.92,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "REVOL",
+                    "quantity": 1,
+                    "unitPrice": 3.88,
+                    "totalPrice": 3.88,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "GOUDAHAVARTF",
+                    "quantity": 3,
+                    "unitPrice": 8.98,
+                    "totalPrice": 26.94,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "VOID",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "CREST PASTE",
+                    "quantity": 1,
+                    "unitPrice": 16.38,
+                    "totalPrice": 16.38,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "TAMPAX RAD",
+                    "quantity": 1,
+                    "unitPrice": 17.38,
+                    "totalPrice": 17.38,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "BANANAS",
+                    "quantity": 1,
+                    "unitPrice": 3.58,
+                    "totalPrice": 3.58,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "KAHEKA STORE",
+            "address": "SELF CHECKOUT",
+            "city": "UNKNOWN",
+            "state": "UNKNOWN",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.57,
+            "total": 12.68,
+            "receiptDate": "09/30/2023",
+            "receiptTime": "14:17:04",
+            "ITEMS": [
+                {
+                    "description": "ORANGE NAVEL",
+                    "quantity": 3.48,
+                    "unitPrice": 1.99,
+                    "totalPrice": 6.93,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "CHINESE PARSLEY CILA",
+                    "quantity": 1,
+                    "unitPrice": 2.69,
+                    "totalPrice": 2.69,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "CARROTS-CELLO 2# BH! W",
+                    "quantity": 1,
+                    "unitPrice": 2.49,
+                    "totalPrice": 2.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "KAHEKA STORE",
+            "address": "SELF CHECKOUT",
+            "city": "KAHEKA",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.61,
+            "total": 13.55,
+            "receiptDate": "08/13/2022",
+            "receiptTime": "20:18:17",
+            "ITEMS": [
+                {
+                    "description": "JK NET SPONGE",
+                    "quantity": 1,
+                    "unitPrice": 1.79,
+                    "totalPrice": 1.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "PLS FRIDGE TRAY WIDE",
+                    "quantity": 1,
+                    "unitPrice": 1.99,
+                    "totalPrice": 1.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "REFRIGERATER SLIM",
+                    "quantity": 1,
+                    "unitPrice": 1.99,
+                    "totalPrice": 1.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "PLASTIC KIREI STOCKE",
+                    "quantity": 1,
+                    "unitPrice": 1.99,
+                    "totalPrice": 1.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "AVOCADO",
+                    "quantity": 2,
+                    "unitPrice": 2.59,
+                    "totalPrice": 5.18,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "WHOLE FOODS MARKET",
+            "address": "388 Kamakee St Ste 100",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 379-1800",
+            "tax": 1.47,
+            "total": 29.43,
+            "receiptDate": "05/01/2022",
+            "receiptTime": "06:15 PM",
+            "ITEMS": [
+                {
+                    "description": "BC PLAIN CRM TOP YGRT",
+                    "quantity": 1,
+                    "unitPrice": 5.99,
+                    "totalPrice": 5.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "365WFM RBST FREE CRM CHS",
+                    "quantity": 2,
+                    "unitPrice": 2.69,
+                    "totalPrice": 5.38,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "365WFM BREADED CALAMARI",
+                    "quantity": 2,
+                    "unitPrice": 6.79,
+                    "totalPrice": 13.58,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "PINEAPPLE SMALL",
+                    "quantity": 1,
+                    "unitPrice": 5.79,
+                    "totalPrice": 5.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "BAG FEE",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
                     "discountAmount": 0
                 }
             ]
@@ -466,6 +3441,79 @@
     },
     {
         "ReceiptInfo": {
+            "merchant": "See's Candies, Inc",
+            "address": "4211 Waialae Ave",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 737-9592",
+            "tax": 0.47,
+            "total": 10.55,
+            "receiptDate": "4/25/22",
+            "receiptTime": "6:50 PM",
+            "ITEMS": [
+                {
+                    "description": "BULK CANDY",
+                    "quantity": 0.32,
+                    "unitPrice": 31.5,
+                    "totalPrice": 10.08,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "HI1 Candy",
+                    "quantity": 0.47,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Dunkin'",
+            "address": "2560 McCarthy Mall",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.26,
+            "total": 5.85,
+            "receiptDate": "9/25/2023",
+            "receiptTime": "8:18 AM",
+            "ITEMS": [
+                {
+                    "description": "1 Lg Ice Orig Latte",
+                    "quantity": 1,
+                    "unitPrice": 5.59,
+                    "totalPrice": 5.59,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "1234 South Beretania",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 535-1785",
+            "tax": 0.22,
+            "total": 4.91,
+            "receiptDate": "05/07/22",
+            "receiptTime": "14:22",
+            "ITEMS": [
+                {
+                    "description": "PETIT ECOLIR MLK",
+                    "quantity": 1,
+                    "unitPrice": 4.69,
+                    "totalPrice": 4.69,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
             "merchant": "Walmart",
             "address": "3549 RUSSETT GRN",
             "city": "LAUREL",
@@ -488,6 +3536,365 @@
                     "quantity": 1,
                     "unitPrice": 19.98,
                     "totalPrice": 19.98,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Target",
+            "address": "1450 Ala Moana Blvd, Ste 2401",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 206-7162",
+            "tax": 6.83,
+            "total": 151.73,
+            "receiptDate": "10/20/2023",
+            "receiptTime": "08:15 PM",
+            "ITEMS": [
+                {
+                    "description": "Reusble Bags",
+                    "quantity": 1,
+                    "unitPrice": 0.99,
+                    "totalPrice": 0.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "PAJAMA BOTTOM",
+                    "quantity": 1,
+                    "unitPrice": 12.99,
+                    "totalPrice": 12.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Stars Above",
+                    "quantity": 1,
+                    "unitPrice": 15.0,
+                    "totalPrice": 15.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SHOE RACKS",
+                    "quantity": 1,
+                    "unitPrice": 17.0,
+                    "totalPrice": 17.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Therabreath",
+                    "quantity": 1,
+                    "unitPrice": 8.49,
+                    "totalPrice": 8.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Raw Sugar",
+                    "quantity": 1,
+                    "unitPrice": 9.99,
+                    "totalPrice": 9.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Native",
+                    "quantity": 2,
+                    "unitPrice": 8.74,
+                    "totalPrice": 17.48,
+                    "discountAmount": 2.5
+                },
+                {
+                    "description": "Raw Sugar",
+                    "quantity": 2,
+                    "unitPrice": 9.99,
+                    "totalPrice": 19.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "AIM",
+                    "quantity": 1,
+                    "unitPrice": 9.99,
+                    "totalPrice": 9.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "All in Motion",
+                    "quantity": 1,
+                    "unitPrice": 12.99,
+                    "totalPrice": 12.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "UNITED STATES POSTAL SERVICE",
+            "address": "335 MERCHANT ST FL GROUND",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(800)275-8777",
+            "tax": 0,
+            "total": 8.5,
+            "receiptDate": "11/03/2023",
+            "receiptTime": "02:37 PM",
+            "ITEMS": [
+                {
+                    "description": "USPS Grnd Advtg",
+                    "quantity": 1,
+                    "unitPrice": 8.5,
+                    "totalPrice": 8.5,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "ABC STORES",
+            "address": "1450 ALA MOANA BLVD",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 952-5334",
+            "tax": 0.16,
+            "total": 3.71,
+            "receiptDate": "7/22/2023",
+            "receiptTime": "20:02:54 Oper : 48322",
+            "ITEMS": [
+                {
+                    "description": "EVIAN WATER LTR",
+                    "quantity": 1,
+                    "unitPrice": 3.49,
+                    "totalPrice": 3.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Raising Cane's",
+            "address": "Hawaii Kai Town Center",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 1.68,
+            "total": 37.35,
+            "receiptDate": "9/17/2023",
+            "receiptTime": "3:07:16 PM",
+            "ITEMS": [
+                {
+                    "description": "3 FINGER COMBO",
+                    "quantity": 1,
+                    "unitPrice": 10.89,
+                    "totalPrice": 10.89,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 BOX COMBO",
+                    "quantity": 2,
+                    "unitPrice": 12.39,
+                    "totalPrice": 24.78,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SWEET TEA",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 1.6,
+            "total": 35.62,
+            "receiptDate": "07/31/22",
+            "receiptTime": "20:24:22",
+            "ITEMS": [
+                {
+                    "description": "JELLO",
+                    "quantity": 1,
+                    "unitPrice": 2.9,
+                    "totalPrice": 2.9,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FIESTA SH 16",
+                    "quantity": 1,
+                    "unitPrice": 4.78,
+                    "totalPrice": 4.78,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "GAR ULT BF",
+                    "quantity": 1,
+                    "unitPrice": 6.34,
+                    "totalPrice": 6.34,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "JOSEPH BREAD",
+                    "quantity": 1,
+                    "unitPrice": 4.52,
+                    "totalPrice": 4.52,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "AVOCADO",
+                    "quantity": 1,
+                    "unitPrice": 0.92,
+                    "totalPrice": 0.92,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SNFLWR SEEDS",
+                    "quantity": 1,
+                    "unitPrice": 1.84,
+                    "totalPrice": 1.84,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SF CANDY",
+                    "quantity": 4,
+                    "unitPrice": 3.18,
+                    "totalPrice": 12.72,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "COSTCO WHOLESALE",
+            "address": "333A Keahole Street",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.47,
+            "total": 10.43,
+            "receiptDate": "10/10/2023",
+            "receiptTime": "17:56",
+            "ITEMS": [
+                {
+                    "description": "SLICE CHEESE",
+                    "quantity": 1,
+                    "unitPrice": 1.99,
+                    "totalPrice": 1.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SLICE PEP",
+                    "quantity": 1,
+                    "unitPrice": 1.99,
+                    "totalPrice": 1.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "CB MCHA FRZE",
+                    "quantity": 1,
+                    "unitPrice": 2.99,
+                    "totalPrice": 2.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FC MANGO",
+                    "quantity": 1,
+                    "unitPrice": 2.99,
+                    "totalPrice": 2.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Wal-Mart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 0.45,
+            "total": 10.03,
+            "receiptDate": "10/31/23",
+            "receiptTime": "12:23:50",
+            "ITEMS": [
+                {
+                    "description": "OV UH RF JUG",
+                    "quantity": 1,
+                    "unitPrice": 9.58,
+                    "totalPrice": 9.58,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Baskin Robbins",
+            "address": "1618 South King Street",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 947-7300",
+            "tax": 0.26,
+            "total": 6.73,
+            "receiptDate": "9/1/2023",
+            "receiptTime": "5:15 PM",
+            "ITEMS": [
+                {
+                    "description": "1 Single Scoop",
+                    "quantity": 1,
+                    "unitPrice": 4.39,
+                    "totalPrice": 4.39,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Dip Sugar Cone",
+                    "quantity": 1,
+                    "unitPrice": 1.2,
+                    "totalPrice": 1.2,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.63,
+            "total": 13.9,
+            "receiptDate": "08/27/23",
+            "receiptTime": "10:57",
+            "ITEMS": [
+                {
+                    "description": "SIG PARCHMENT PAPR",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SIG ALUMINUM FOIL",
+                    "quantity": 1,
+                    "unitPrice": 3.49,
+                    "totalPrice": 3.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "LUCERNE MILK WHOLE",
+                    "quantity": 1,
+                    "unitPrice": 4.79,
+                    "totalPrice": 4.79,
                     "discountAmount": 0
                 }
             ]
@@ -566,6 +3973,28 @@
     },
     {
         "ReceiptInfo": {
+            "merchant": "University of Hawaii - Manoa Bookstore",
+            "address": "2465 Campus Road",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 956-9645",
+            "tax": 0,
+            "total": 5.95,
+            "receiptDate": "05/22/2023",
+            "receiptTime": "22:40",
+            "ITEMS": [
+                {
+                    "description": "PAD TRACING 11X14",
+                    "quantity": 1,
+                    "unitPrice": 5.95,
+                    "totalPrice": 5.95,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
             "merchant": "H Mart",
             "address": "458 Keawe st",
             "city": "Honolulu",
@@ -609,6 +4038,221 @@
     },
     {
         "ReceiptInfo": {
+            "merchant": "How doers",
+            "address": "421 ALAKAWA STREET",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808)521-7355",
+            "tax": 3.07,
+            "total": 68.21,
+            "receiptDate": "09/30/23",
+            "receiptTime": "01:11 PM",
+            "ITEMS": [
+                {
+                    "description": "TAPCON BIT <A>",
+                    "quantity": 1,
+                    "unitPrice": 7.94,
+                    "totalPrice": 7.94,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "TAPCON DRILL BIT 5/32X3-1/2, SGL CT",
+                    "quantity": 1,
+                    "unitPrice": 5.91,
+                    "totalPrice": 5.91,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "TAPCON 3/16 <A>",
+                    "quantity": 1,
+                    "unitPrice": 5.91,
+                    "totalPrice": 5.91,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "TAPCON 3/16X1-3/4 STAR FLAT <UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 12.62,
+                    "totalPrice": 12.62,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "KDSFEPICHNGR <A>",
+                    "quantity": 1,
+                    "unitPrice": 5.48,
+                    "totalPrice": 5.48,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DC TOWEL 3PK <A, U>",
+                    "quantity": 1,
+                    "unitPrice": 5.48,
+                    "totalPrice": 5.48,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "10-PIECE BRA <A>",
+                    "quantity": 1,
+                    "unitPrice": 8.22,
+                    "totalPrice": 8.22,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DWAMI30 <A>",
+                    "quantity": 1,
+                    "unitPrice": 24.97,
+                    "totalPrice": 24.97,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "377 Keahole Street",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 396-6337",
+            "tax": 1.64,
+            "total": 36.38,
+            "receiptDate": "10/13/23",
+            "receiptTime": "19:27",
+            "ITEMS": [
+                {
+                    "description": "OYSTER SAUCE 180Z",
+                    "quantity": 1,
+                    "unitPrice": 6.79,
+                    "totalPrice": 6.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "QRT CK LEMON",
+                    "quantity": 1,
+                    "unitPrice": 8.99,
+                    "totalPrice": 8.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "NY STYLE GRND PORK",
+                    "quantity": 1,
+                    "unitPrice": 6.49,
+                    "totalPrice": 6.49,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "GREEN CABBAGE",
+                    "quantity": 1,
+                    "unitPrice": 7.98,
+                    "totalPrice": 7.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "REDUCED BANANAS",
+                    "quantity": 1,
+                    "unitPrice": 4.49,
+                    "totalPrice": 4.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "WHOLE FOODS MARKET",
+            "address": "629 Kailua Rd",
+            "city": "Kailua",
+            "state": "HI",
+            "phoneNumber": "(808) 263-6800",
+            "tax": 1.27,
+            "total": 28.27,
+            "receiptDate": "11/27/2022",
+            "receiptTime": "11:17 AM",
+            "ITEMS": [
+                {
+                    "description": "CRISPY CAULIFLOWER BITES",
+                    "quantity": 1,
+                    "unitPrice": 11.0,
+                    "totalPrice": 11.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "THE MARKET PUB BURGER",
+                    "quantity": 1,
+                    "unitPrice": 14.0,
+                    "totalPrice": 14.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "MIXER",
+                    "quantity": 1,
+                    "unitPrice": 2.0,
+                    "totalPrice": 2.0,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East Manoa Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 988-2058",
+            "tax": 0.14,
+            "total": 3.13,
+            "receiptDate": "06/05/22",
+            "receiptTime": "15:28",
+            "ITEMS": [
+                {
+                    "description": "SIG ICE CREAM BAR",
+                    "quantity": 1,
+                    "unitPrice": 2.99,
+                    "totalPrice": 3.99,
+                    "discountAmount": 1.0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "The Counter",
+            "address": "4211 Waialae Ave",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 1.74,
+            "total": 38.74,
+            "receiptDate": "Mar27'23",
+            "receiptTime": "07:00PM",
+            "ITEMS": [
+                {
+                    "description": "1 Fries & Sweets",
+                    "quantity": 1,
+                    "unitPrice": 10.0,
+                    "totalPrice": 10.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Purist",
+                    "quantity": 1,
+                    "unitPrice": 12.5,
+                    "totalPrice": 12.5,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Beef 1/3",
+                    "quantity": 1,
+                    "unitPrice": 14.5,
+                    "totalPrice": 14.5,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
             "merchant": "See's Candies",
             "address": "4211 Waialae Ave",
             "city": "Honolulu",
@@ -624,6 +4268,411 @@
                     "quantity": 4,
                     "unitPrice": 1.35,
                     "totalPrice": 5.4,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "T.J.MAXX",
+            "address": "PEARL CITY GATEWAY, 1120 KUALA ST",
+            "city": "PEARL CITY",
+            "state": "HI",
+            "phoneNumber": "(808) 456-2870",
+            "tax": 1.18,
+            "total": 26.15,
+            "receiptDate": "07-17-2023",
+            "receiptTime": "13:25:59",
+            "ITEMS": [
+                {
+                    "description": "90 - HAIRCARE",
+                    "quantity": 1,
+                    "unitPrice": 14.99,
+                    "totalPrice": 14.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "73 - BATH & BODY/WE",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "45 - CHILDRENS TOYS",
+                    "quantity": 1,
+                    "unitPrice": 4.99,
+                    "totalPrice": 4.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "2855 East <UNKNOWN> Road",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.28,
+            "total": 5.93,
+            "receiptDate": "08/29/23",
+            "receiptTime": "19:16",
+            "ITEMS": [
+                {
+                    "description": "BH CHORIZO SAUSAGE",
+                    "quantity": 1,
+                    "unitPrice": 5.94,
+                    "totalPrice": 5.94,
+                    "discountAmount": 1.0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "SAFEWAY",
+            "address": "377 Keahole Street",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 396-6337",
+            "tax": 0.66,
+            "total": 14.64,
+            "receiptDate": "10/21/23",
+            "receiptTime": "16:34",
+            "ITEMS": [
+                {
+                    "description": "WAIALUA FRESH CAGE",
+                    "quantity": 1,
+                    "unitPrice": 6.99,
+                    "totalPrice": 6.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "DANISH VARIETY FRT",
+                    "quantity": 1,
+                    "unitPrice": 6.99,
+                    "totalPrice": 6.99,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "KOZO SUSHI MOILIILI",
+            "address": "2334 S KING ST",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 951-5698",
+            "tax": 0,
+            "total": 14.55,
+            "receiptDate": "05/14/22",
+            "receiptTime": "11:50:15",
+            "ITEMS": [
+                {
+                    "description": "<UNKNOWN>",
+                    "quantity": 1,
+                    "unitPrice": 14.55,
+                    "totalPrice": 14.55,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Walmart",
+            "address": "700 Keeaumoku St",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 955-8441",
+            "tax": 1.2,
+            "total": 26.68,
+            "receiptDate": "08/12/23",
+            "receiptTime": "20:08:57",
+            "ITEMS": [
+                {
+                    "description": "CALAMARI RNG",
+                    "quantity": 1,
+                    "unitPrice": 6.34,
+                    "totalPrice": 6.34,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "ALMOND MILK",
+                    "quantity": 1,
+                    "unitPrice": 3.58,
+                    "totalPrice": 3.58,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "SF CANDY",
+                    "quantity": 4,
+                    "unitPrice": 3.48,
+                    "totalPrice": 13.92,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "COCONUT MILK",
+                    "quantity": 1,
+                    "unitPrice": 1.64,
+                    "totalPrice": 1.64,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "KAHEKA STORE",
+            "address": "SELF CHECKOUT",
+            "city": "<UNKNOWN>",
+            "state": "<UNKNOWN>",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.34,
+            "total": 7.62,
+            "receiptDate": "09/29/2023",
+            "receiptTime": "22:20:44",
+            "ITEMS": [
+                {
+                    "description": "JOLLYTIME POPCORN",
+                    "quantity": 1,
+                    "unitPrice": 3.79,
+                    "totalPrice": 3.79,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "POPCORN BAGS 10 PK",
+                    "quantity": 1,
+                    "unitPrice": 3.49,
+                    "totalPrice": 3.49,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "WHOLE FOODS",
+            "address": "629 Kailua Rd",
+            "city": "Kailua",
+            "state": "HI",
+            "phoneNumber": "(808) 263-6800",
+            "tax": 0.64,
+            "total": 14.14,
+            "receiptDate": "11/06/2022",
+            "receiptTime": "09:52 AM",
+            "ITEMS": [
+                {
+                    "description": "MANGO TANGO SMOOTHIE",
+                    "quantity": 1,
+                    "unitPrice": 9.0,
+                    "totalPrice": 9.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "RG ICED LATTE",
+                    "quantity": 1,
+                    "unitPrice": 4.5,
+                    "totalPrice": 4.5,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Kozo Sushi",
+            "address": "Kozo Sushi - Moilili, 2334 South King Street",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 0.33,
+            "total": 7.61,
+            "receiptDate": "4/7/23",
+            "receiptTime": "3:36 PM",
+            "ITEMS": [
+                {
+                    "description": "2 Cucumber Maki",
+                    "quantity": 2,
+                    "unitPrice": 1.99,
+                    "totalPrice": 3.98,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "1 Shrimp Tempura Hr",
+                    "quantity": 1,
+                    "unitPrice": 3.3,
+                    "totalPrice": 3.3,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "WHOLE FOODS MARKET",
+            "address": "388 Kamakee St Ste 100",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 379-1800",
+            "tax": 1.22,
+            "total": 27.08,
+            "receiptDate": "04/12/2022",
+            "receiptTime": "07:31 PM",
+            "ITEMS": [
+                {
+                    "description": "365WFM PASTA SAUCE",
+                    "quantity": 1,
+                    "unitPrice": 2.29,
+                    "totalPrice": 2.29,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "365WFM RSTD SLTD ALMDS",
+                    "quantity": 1,
+                    "unitPrice": 9.99,
+                    "totalPrice": 9.99,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "365WFM BREADED CALAMARI",
+                    "quantity": 2,
+                    "unitPrice": 6.79,
+                    "totalPrice": 13.58,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "KAHEKA STORE",
+            "address": "Ph <UNKNOWN> # 973-4800",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(xxx) xxx-xxxx",
+            "tax": 2.84,
+            "total": 2.97,
+            "receiptDate": "09/21/2023",
+            "receiptTime": "00:44:40",
+            "ITEMS": [
+                {
+                    "description": "CHINESE PARSLEY CILA",
+                    "quantity": 1,
+                    "unitPrice": 2.69,
+                    "totalPrice": 2.69,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "PAPER BAG TIMES",
+                    "quantity": 1,
+                    "unitPrice": 0.15,
+                    "totalPrice": 0.15,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "T&C Surf Designs Ala Moana",
+            "address": "Ala Moana Shopping Center, 1450 Ala Moana Blvd",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 973-5199",
+            "tax": 2.6,
+            "total": 57.75,
+            "receiptDate": "10/15/2023",
+            "receiptTime": "12:20:46 PM",
+            "ITEMS": [
+                {
+                    "description": "FT CUSHION VISTA VINTAGE",
+                    "quantity": 1,
+                    "unitPrice": 55.0,
+                    "totalPrice": 55.0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "BAG FEE",
+                    "quantity": 1,
+                    "unitPrice": 0.15,
+                    "totalPrice": 0.15,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "Taste Tea",
+            "address": "3221 Waialae Ave, unit A5",
+            "city": "Honolulu",
+            "state": "HI",
+            "phoneNumber": "(808) 732-9888",
+            "tax": 0.31,
+            "total": 7.81,
+            "receiptDate": "October 23, 2023",
+            "receiptTime": "3:52 PM",
+            "ITEMS": [
+                {
+                    "description": "Blended Milk Tea",
+                    "quantity": 1,
+                    "unitPrice": 6.5,
+                    "totalPrice": 6.5,
+                    "discountAmount": 0
+                }
+            ]
+        }
+    },
+    {
+        "ReceiptInfo": {
+            "merchant": "McDonald's Restaurant #2331",
+            "address": "2121 S KING STREET",
+            "city": "HONOLULU",
+            "state": "HI",
+            "phoneNumber": "(808) 973-2357",
+            "tax": 0.33,
+            "total": 7.31,
+            "receiptDate": "10/30/2022",
+            "receiptTime": "06:43 PM",
+            "ITEMS": [
+                {
+                    "description": "Happy Meal Ch Burger",
+                    "quantity": 1,
+                    "unitPrice": 4.69,
+                    "totalPrice": 4.69,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Cheeseburger",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Extra Kids Fry",
+                    "quantity": 1,
+                    "unitPrice": 0.8,
+                    "totalPrice": 0.8,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "Apple Juice",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "M Diet Coke",
+                    "quantity": 1,
+                    "unitPrice": 1.49,
+                    "totalPrice": 1.49,
                     "discountAmount": 0
                 }
             ]
