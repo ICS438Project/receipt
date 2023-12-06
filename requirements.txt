@@ -3,4 +3,5 @@ openai
 langchain
 transformers
 torch
-matplotlib
+chardet
+plotly
