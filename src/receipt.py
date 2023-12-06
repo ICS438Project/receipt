@@ -10,9 +10,15 @@ import base64
 import chardet
 import plotly.express as px
 
+# Check if the app is running on Streamlit Cloud
+if os.environ.get('ON_STREAMLIT_CLOUD') == 'True':
+    # Path when running on Streamlit Cloud
+    data_path = '/mount/src/receipt/'
+else:
+    # Path when running locally
+    data_path = '../'
 
 # Function to count rows in CSV files of a folder
-# Function to detect file encoding
 def find_encoding(file_path):
     with open(file_path, 'rb') as file:
         result = chardet.detect(file.read())
@@ -80,7 +86,7 @@ elif st.session_state['active_dashboard'] == 'Database':
         st.subheader("Vender Database")
 
         # Path to the vendor database directory
-        vendor_db_path = "/mount/src/receipt/vendor database"  # Update with the actual path
+        vendor_db_path = f"{data_path}vendor database"  # Update with the actual path
 
         # List CSV files in the vendor database directory
         vendor_csv_files = [file for file in os.listdir(vendor_db_path) if file.endswith('.csv')]
@@ -120,7 +126,7 @@ elif st.session_state['active_dashboard'] == 'Database':
     if selected_database == "Product Database":
         # Product Database
         st.subheader("Product Database")
-        product_db_path = "/mount/src/receipt/product database"  # Update with actual path
+        product_db_path = f"{data_path}product database"  # Update with actual path
 
         # Plot total row count per folder
         folder_row_counts = {folder: count_rows_in_folder(os.path.join(product_db_path, folder)) for folder in
