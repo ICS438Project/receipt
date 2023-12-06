@@ -23,36 +23,49 @@ for file in current_directory.iterdir():
 
 st.write(Path(__file__).parents[0])'''
 
-st.title('Receipt Dashboard')
-st.write('Distribution of Receipts Across Vendor Categories')
-data = {
-    'ReceiptID': [1, 2, 3, 4, 5],
-    'Vendor Category': ['Grocery', 'Health and Beauty', 'Clothing and Apparel', 'Grocery', 'Electronics and Appliances']
-}
-df = pd.DataFrame(data)
+def display_receipt_dashboard():
+    st.title('Receipt Dashboard')
+    st.write('Distribution of Receipts Across Vendor Categories')
+    data = {
+        'ReceiptID': [1, 2, 3, 4, 5],
+        'Vendor Category': ['Grocery', 'Health and Beauty', 'Clothing and Apparel', 'Grocery',
+                            'Electronics and Appliances']
+    }
+    df = pd.DataFrame(data)
 
-vendor_counts = df['Vendor Category'].value_counts()
-fig, ax = plt.subplots()
-ax.bar(vendor_counts.index, vendor_counts.values)
-ax.set_xlabel('Vendor Categories')
-ax.set_ylabel('Number of Receipts')
-plt.xticks(rotation=45)
+    vendor_counts = df['Vendor Category'].value_counts()
+    fig, ax = plt.subplots()
+    ax.bar(vendor_counts.index, vendor_counts.values)
+    ax.set_xlabel('Vendor Categories')
+    ax.set_ylabel('Number of Receipts')
+    plt.xticks(rotation=45)
 
-st.pyplot(fig)
+    st.pyplot(fig)
 
 
-df = pd.read_csv('/mount/src/receipt/src/database.csv')
-column_counts = df.count()
-st.title('Vendor Categories Distribution Dashboard')
-st.write('Distribution of Items in Each Vendor Category')
+def display_database_dashboard():
+    df = pd.read_csv('/mount/src/receipt/src/database.csv')  # cloud path: '/mount/src/receipt/src/database.csv'
+    column_counts = df.count()
+    st.title('Vendor Categories Distribution Dashboard')
+    st.write('Distribution of Items in Each Vendor Category')
 
-fig, ax = plt.subplots(figsize=(10, 6))
-ax.bar(column_counts.index, column_counts.values)
-ax.set_xlabel('Vendor Categories')
-ax.set_ylabel('Count')
-ax.set_xticklabels(column_counts.index, rotation=45)
+    fig, ax = plt.subplots(figsize=(10, 6))
+    ax.bar(column_counts.index, column_counts.values)
+    ax.set_xlabel('Vendor Categories')
+    ax.set_ylabel('Count')
+    ax.set_xticklabels(column_counts.index, rotation=45)
 
-st.pyplot(fig)
+    st.pyplot(fig)
+
+
+# Main Streamlit app
+st.sidebar.title('Navigation')
+selected_page = st.sidebar.radio('Go to', ['Receipt', 'Database'])
+
+if selected_page == 'Receipt':
+    display_receipt_dashboard()
+elif selected_page == 'Database':
+    display_database_dashboard()
 
 _ = '''
 openai_api_key = ''
