@@ -2,6 +2,7 @@
 
 import streamlit as st
 import os
+import platform
 from pathlib import Path
 from langchain.llms import OpenAI
 import pandas as pd
@@ -11,12 +12,12 @@ import chardet
 import plotly.express as px
 
 # Check if the app is running on Streamlit Cloud
-if os.environ.get('ON_STREAMLIT_CLOUD') == 'True':
+if platform.processor():
     # Path when running on Streamlit Cloud
-    data_path = '/mount/src/receipt/'
+    data_path = '../'
 else:
     # Path when running locally
-    data_path = '../'
+    data_path = '/mount/src/receipt/'
 
 # Function to count rows in CSV files of a folder
 def find_encoding(file_path):
