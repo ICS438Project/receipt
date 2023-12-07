@@ -88,35 +88,36 @@ def getProductEmbeddedDatabase():
 
     return productDatabase
 
-def getEmbeddedDatabase(filePath):
-    def getEmbeddedDatabase(zip_file_path, csv_file_name):
-        # Check if the zip file exists
-        if not os.path.isfile(zip_file_path):
-            print(f"File not found: {zip_file_path}")
-            return None, None
 
-        # Extract the CSV file from the ZIP archive
-        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-            # Extract all the contents into the directory of the ZIP file
-            zip_ref.extractall(os.path.dirname(zip_file_path))
+def getEmbeddedDatabase(zip_file_path, csv_file_name):
+    # Check if the zip file exists
+    if not os.path.isfile(zip_file_path):
+        print(f"File not found: {zip_file_path}")
+        return None, None
 
-        # Path to the extracted CSV file
-        extracted_csv_path = os.path.join(os.path.dirname(zip_file_path), csv_file_name)
+    # Extract the CSV file from the ZIP archive
+    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+        # Extract all the contents into the directory of the ZIP file
+        zip_ref.extractall(os.path.dirname(zip_file_path))
 
-        # Check if the extracted CSV file exists
-        if not os.path.isfile(extracted_csv_path):
-            print(f"Extracted file not found: {extracted_csv_path}")
-            return None, None
+    # Path to the extracted CSV file
+    extracted_csv_path = os.path.join(os.path.dirname(zip_file_path), csv_file_name)
 
-        # Read the CSV file
-        df = pd.read_csv(filePath)
-        df = df.drop('Unnamed: 0', axis=1)
+    # Check if the extracted CSV file exists
+    if not os.path.isfile(extracted_csv_path):
+        print(f"Extracted file not found: {extracted_csv_path}")
+        return None, None
 
-        # Creating variables from database values
-        X = df.drop('Category', axis=1)
-        y = df['Category']
+    # Read the CSV file
+    df = pd.read_csv(zip_file_path)
+    df = df.drop('Unnamed: 0', axis=1)
 
-        return X, y
+    # Creating variables from database values
+    X = df.drop('Category', axis=1)
+    y = df['Category']
+
+    return X, y
+
 
 def getReceiptTestData():
     # Read and parse the JSON file
@@ -170,7 +171,7 @@ categories = ["Grocery/Supermarkets", "Restaurants/Food Services", "Clothing/App
 
 
 def getVendorCategory(merchants):  # listOfItems, Title):
-    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedVendorDatabase.csv')
+    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedVendorDatabase.csv', "embeddedVendorDatabase.csv")
     # Convert the list of merchants to the format expected by your model
     # Assuming convert_to_embeddings_df can handle a list of strings
     merchants_df = pd.DataFrame({'Merchants': merchants})
@@ -185,7 +186,7 @@ def getVendorCategory(merchants):  # listOfItems, Title):
 
 def getProductCategory(descriptions):
     # Load the embedded product database
-    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedProductDatabase.csv')
+    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedProductDatabase.csv', "embeddedProductDatabase.csv")
 
     # Convert descriptions to DataFrame
     descriptions_df = pd.DataFrame({'Descriptions': descriptions})
