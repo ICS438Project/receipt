@@ -1,4 +1,5 @@
 # pip install streamlit openai langchain
+import zipfile
 
 import streamlit as st
 import os
@@ -88,14 +89,34 @@ def getProductEmbeddedDatabase():
     return productDatabase
 
 def getEmbeddedDatabase(filePath):
-    df = pd.read_csv(filePath)
-    df = df.drop('Unnamed: 0', axis=1)
+    def getEmbeddedDatabase(zip_file_path, csv_file_name):
+        # Check if the zip file exists
+        if not os.path.isfile(zip_file_path):
+            print(f"File not found: {zip_file_path}")
+            return None, None
 
-    # Creating variables from database values
-    X = df.drop('Category', axis=1)
-    y = df['Category']
+        # Extract the CSV file from the ZIP archive
+        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+            # Extract all the contents into the directory of the ZIP file
+            zip_ref.extractall(os.path.dirname(zip_file_path))
 
-    return X, y
+        # Path to the extracted CSV file
+        extracted_csv_path = os.path.join(os.path.dirname(zip_file_path), csv_file_name)
+
+        # Check if the extracted CSV file exists
+        if not os.path.isfile(extracted_csv_path):
+            print(f"Extracted file not found: {extracted_csv_path}")
+            return None, None
+
+        # Read the CSV file
+        df = pd.read_csv(filePath)
+        df = df.drop('Unnamed: 0', axis=1)
+
+        # Creating variables from database values
+        X = df.drop('Category', axis=1)
+        y = df['Category']
+
+        return X, y
 
 def getReceiptTestData():
     # Read and parse the JSON file
