@@ -2,7 +2,4 @@
 .idea/
 .devcontainer
 embeddedProductDatabase.csv
-embeddedProductDatabase.csv
-embeddedProductDatabase.csv
-embeddedProductDatabase.csv
-embeddedProductDatabase.csv
+/src/embeddedProductDatabase.csv

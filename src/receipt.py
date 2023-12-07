@@ -18,6 +18,7 @@ import torch
 import base64
 import chardet
 import plotly.express as px
+import glob
 
 # Check if the app is running on Streamlit Cloud
 if platform.processor():
@@ -26,6 +27,153 @@ if platform.processor():
 else:
     # Path when running locally
     data_path = '/mount/src/receipt/'
+
+UPDATEVENDOREMBEDDATABASE = False
+UPDATEPRODUCTEMBEDDATABASE = False
+
+model_name = "BAAI/bge-large-en"
+tokenizer = BertTokenizer.from_pretrained(model_name)
+model = BertModel.from_pretrained(model_name)
+
+
+def generate_embeddings(word):
+    inputs = tokenizer(word, return_tensors="pt")
+    with torch.no_grad():
+        outputs = model(**inputs)
+    embeddings = outputs.last_hidden_state.mean(dim=1)  # Mean pooling of token embeddings
+    return embeddings
+
+# Function to convert words in a DataFrame column to embeddings
+def convert_to_embeddings_df(df):
+    embeddings = [generate_embeddings(x) for x in df.iloc[:, 0]]
+    dfs = []
+    for embedding in embeddings:
+        dfs.append(pd.DataFrame(embedding))
+    return pd.concat(dfs)
+
+def getVendorEmbeddedDatabase():
+    folder_path = f'{data_path}vendor database/'
+    vendorDatabase = pd.DataFrame()
+    csv_files = glob.glob(os.path.join(folder_path, '*.csv'))
+    for file in csv_files:
+        category = file.split('/')[-1]
+        category_name = category.split('_')[0]
+        newCategory = pd.read_csv(file, encoding='latin-1')
+        newColumn = convert_to_embeddings_df(newCategory)
+        newColumn['Category'] = category_name
+        vendorDatabase = pd.concat([vendorDatabase, newColumn], ignore_index=True, axis=0)
+    vendorDatabase.to_csv(f'{data_path}src/embeddedVendorDatabase.csv')
+
+    return vendorDatabase
+
+def getProductEmbeddedDatabase():
+    # Directory path containing subfolders with product CSV files
+    root_folder = f'{data_path}product database/'
+    productDatabase = pd.DataFrame()
+
+    for root, dirs, files in os.walk(root_folder):
+        for file in files:
+            if file.endswith('.csv'):
+                # Get the absolute path of the CSV file
+                csv_file_path = os.path.join(root, file)
+                category = csv_file_path.split('/')[-2]
+                category_name = category.split('_')[0]
+                # print(csv_file_path)
+                newCategory = pd.read_csv(csv_file_path, encoding='latin-1')
+                newColumn = convert_to_embeddings_df(newCategory)
+                newColumn['Category'] = category_name
+                productDatabase = pd.concat([productDatabase, newColumn], ignore_index=True, axis=0)
+    productDatabase.to_csv(f'{data_path}src/embeddedProductDatabase.csv')
+
+    return productDatabase
+
+def getEmbeddedDatabase(filePath):
+    df = pd.read_csv(filePath)
+    df = df.drop('Unnamed: 0', axis=1)
+
+    # Creating variables from database values
+    X = df.drop('Category', axis=1)
+    y = df['Category']
+
+    return X, y
+
+def getReceiptTestData():
+    # Read and parse the JSON file
+    with open(f'{data_path}src/entities.json', 'r') as file:
+        data = json.load(file)
+
+    entry_number = 0
+
+    # Initialize lists to store data
+    merchants = []
+    descriptions = []
+
+    # Iterate through the data
+    for entry in data:
+        entry_number += 1
+        merchant = entry["ReceiptInfo"]["merchant"]
+        items = entry["ReceiptInfo"]["ITEMS"]
+
+        # Initialize a list to store cleaned descriptions for this entry
+        cleaned_descriptions = []
+
+        # Remove "number+space" occurrences in the descriptions and add to the list
+        for item in items:
+            description = item.get('description', 'No Description')
+            cleaned_description = ' '.join(word for word in description.split() if not word.isdigit())
+            cleaned_descriptions.append(cleaned_description)
+
+        # Remove "UNKNOWN," "<UNKNOWN>," and "unknown" from the merchant field
+        merchant = merchant.replace("UNKNOWN", "").replace("<UNKNOWN>", "").replace("unknown", "").replace("<>", "")
+
+        # Add the merchant and descriptions to the respective lists
+        merchants.append(merchant)
+        descriptions.append(cleaned_descriptions)
+
+    # Create a DataFrame and save as CSV
+    entities_df = pd.DataFrame({
+        'Merchants': merchants,
+        'Descriptions': descriptions
+    })
+    entities_df.to_csv(f'{data_path}src/entities_database.csv', index=0)
+
+def KNN(X_train, y_train, X_test):
+    clf = KNeighborsClassifier(n_neighbors=20)
+    clf.fit(X_train, y_train)
+
+    return (clf.predict(X_test))
+
+
+categories = ["Grocery/Supermarkets", "Restaurants/Food Services", "Clothing/Apparel", "Health/Beauty",
+              "Electronics/Appliances", "Home/Garden", "Entertainment/Leisure"]
+
+
+def getVendorCategory(merchants):  # listOfItems, Title):
+    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedVendorDatabase.csv')
+    # Convert the list of merchants to the format expected by your model
+    # Assuming convert_to_embeddings_df can handle a list of strings
+    merchants_df = pd.DataFrame({'Merchants': merchants})
+    merchants_embeddings = convert_to_embeddings_df(merchants_df)
+    X_test = merchants_embeddings.values
+
+    # Run the prediction model
+    results = pd.DataFrame(KNN(X_train, y_train, X_test), columns=['KNN Prediction'])
+    result_df = pd.concat([merchants_df, results], axis=1)
+    return result_df
+
+
+def getProductCategory(items):  # jsonObject, listOfItems, Title):
+    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedProductDatabase.csv')
+    # Convert the list of item descriptions to the format expected by your model
+    items_df = pd.DataFrame({'Items': items})
+    items_embeddings = convert_to_embeddings_df(items_df)
+    X_test = items_embeddings.values
+
+    # Run the prediction model
+    results = pd.DataFrame(KNN(X_train, y_train, X_test), columns=['KNN Prediction'])
+    result_df = pd.concat([items_df, results], axis=1)
+    return result_df
+
 
 #show file path in cloud
 _ = '''
@@ -67,10 +215,32 @@ if st.session_state['active_dashboard'] == 'Receipt':
 
     if selected_database == "Vendor Database(Receipts)":
         st.subheader("Vender Database(Receipts)")
-
         # Path to the vendor database directory
-        vendor_db_path = f"{data_path}vendor database"  # Update with the actual path
+        vendor_db_path = f"{data_path}VendorCategoryPredictions.csv"  # Update with the actual path
+        df = pd.read_csv(vendor_db_path)
 
+        # Count the frequency of unique values in the 'KNN Prediction' column
+        knn_counts = df['KNN Prediction'].value_counts()
+
+        # Create a bar chart using Plotly
+        fig = px.bar(knn_counts, x=knn_counts.index, y=knn_counts.values,
+                     labels={'x': 'KNN Prediction', 'y': 'Number of Data'},
+                     title='Distribution of KNN Predictions(Vendor Category)')
+
+        fig.update_layout(
+            autosize=False,
+            width=1000,
+            height=600,
+            title_font_size=24,
+            font=dict(size=18),
+            xaxis_title_font_size=20,
+            yaxis_title_font_size=20,
+            xaxis_tickfont_size=16,
+            yaxis_tickfont_size=16
+        )
+
+        # Display the plot in Streamlit
+        st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
 
     if selected_database == "Product Database(Receipts)":
@@ -381,7 +551,6 @@ if st.session_state['active_dashboard'] == None or st.session_state['active_dash
 
         return validate(instance=json.loads(entities), schema=schema)
 
-
     def ensure_starts_with_brace(response):
         # Find the index of the first '{'
         brace_index = response.find('{')
@@ -423,88 +592,68 @@ if st.session_state['active_dashboard'] == None or st.session_state['active_dash
 
     text_list = []
 
+    receipt_json = ""
+
     # Process each uploaded file
     for uploaded_file in uploaded_files:
         # Read file content as a string and append to the list
         string_data = uploaded_file.read().decode("utf-8")
         text_list.append(string_data)
 
-    st.text_area("Receipt Content", text_list, height=500)
+    if text_list:
+        st.text_area("Receipt Content", text_list, height=500)
     submitted = st.button('Submit')
 
-    receipts = text_list
-
-    file_path = f'{data_path}/src/user_entities.json'
-
-    confirmed = False
-    receipts_json = []
-    errorReceipts = []
-    files_processed = 0
-
     if submitted and openai_api_key.startswith('sk-'):
-        for receipt in receipts:
+        file_path = f'{data_path}src/entities.json'
+
+        existing_data = []
+
+        if os.path.isfile(file_path):
+            with open(file_path, 'r') as file:
+                existing_data = json.load(file)
+
+        for receipt in text_list:
             try:
                 receipt_json = json.loads(generate_response(prompt + receipt))
-                receipts_json.append(receipt_json)
-                files_processed += 1
-
-
+                if receipt_json not in existing_data:
+                    existing_data.append(receipt_json)
+                    st.success(f"New receipt added: {receipt_json['ReceiptInfo']['merchant']}")
+                else:
+                    st.info(f"Receipt already exists: {receipt_json['ReceiptInfo']['merchant']}")
             except json.JSONDecodeError as e:
-                st.write("JSON Decode Error:", e, icon='⚠')
-                errorReceipts.append(receipt)
-
-        st.text_area("Generated json", receipts_json, height=300)
-
-        if os.path.exists(file_path):
-            st.write("File exists and will be overwritten.")
+                st.error(f"JSON Decode Error for receipt: {e}")
 
         with open(file_path, 'w') as file:
-            json.dump(receipts_json, file, indent=4)
-        st.write(f"Data written to {file_path}")
+            json.dump(existing_data, file, indent=4)
+            st.success(f"Data written to {file_path}")
 
-
-    st.subheader("Step 3: ")
-
+    st.write(receipt_json)
 
 
 
-_ = '''
-openai_api_key = ''
+    st.subheader("Step 3: Run Predictions")
+    def get_and_display_predictions(receipt_json):
+        # Extract merchant and items from receipt_json
+        merchant = receipt_json['ReceiptInfo']['merchant']
+        items = receipt_json['ReceiptInfo']['ITEMS']
 
-def generate_response(input_text):
-  llm = OpenAI(model="gpt-3.5-turbo-instruct", temperature=0.3, max_tokens=800, openai_api_key=openai_api_key, top_p=1, frequency_penalty=0, presence_penalty=0)
-  st.info(llm(input_text))
+        # Get predictions
+        vendor_prediction = getVendorCategory([merchant])
+        product_predictions = getProductCategory([item['description'] for item in items])
 
-with st.form('my_form'):
-  prompt = 'fill all info into this json data structure, and correct all the spelling'
-  structure = """
-  {
-  "ReceiptInfo": {
-    "merchant": "(string value)",
-    "address": "(string value)",
-    "city": "(string value)",
-    "state": "(string value)",
-    "phoneNumber": "(string value)",
-    "tax": "(float value)",
-    "total": "(float value)",
-    "receiptDate": "(string value)",
-    "receiptTime": "(string value)",
-    "ITEMS": [
-      {
-        "description": "(string value)",
-        "quantity": "(integer value)",
-        "unitPrice": "(float value)",
-        "totalPrice": "(float value)",
-        "discountAmount": "(float value)"
-      }, ...
-    ]
-  }
-}"""
+        # Display Vendor Category Prediction
+        st.subheader("Vendor Category Prediction")
+        if not vendor_prediction.empty:
+            st.write(vendor_prediction)
 
-  text = st.text_area('Enter your scanned receipt:', '')
-  submitted = st.form_submit_button('Submit')
-  if submitted and openai_api_key.startswith('sk-'):
-    generate_response(prompt + text + structure)
+        # Display Product Category Predictions
+        st.subheader("Product Category Predictions")
+        if not product_predictions.empty:
+            st.write(product_predictions)
 
-st.write(data)
-'''
+
+    if receipt_json and isinstance(receipt_json, dict):
+        get_and_display_predictions(receipt_json)
+    else:
+        st.write("No receipt data available for prediction.")
