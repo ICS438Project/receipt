@@ -618,6 +618,7 @@ if st.session_state['active_dashboard'] == None or st.session_state['active_dash
             if os.path.isfile(file_path) and filename.endswith('.txt'):
                 with open(file_path, 'r') as file:
                     file_content = file.read()
+                    file_content = file_content.replace("<UNKNOWN>", "")
                     text_list.append(file_content)  # Append file content as a string to the list
 
         return text_list
