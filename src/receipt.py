@@ -5,8 +5,16 @@ import os
 import platform
 from pathlib import Path
 from langchain.llms import OpenAI
+from transformers import BertModel, BertTokenizer
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score
+from jsonschema import validate
 import pandas as pd
 import io
+import time
+import json
+import numpy as np
+import torch
 import base64
 import chardet
 import plotly.express as px
@@ -19,41 +27,17 @@ else:
     # Path when running locally
     data_path = '/mount/src/receipt/'
 
-# Function to count rows in CSV files of a folder
-def find_encoding(file_path):
-    with open(file_path, 'rb') as file:
-        result = chardet.detect(file.read())
-        return result['encoding']
+#show file path in cloud
+_ = '''
+current_directory = Path(__file__).resolve().parent
 
-# Modified function to count rows in CSV files of a folder
-def count_rows_in_folder(folder_path):
-    total_rows = 0
-    for file in os.listdir(folder_path):
-        if file.endswith('.csv'):
-            file_path = os.path.join(folder_path, file)
-            encoding = find_encoding(file_path)
-            df = pd.read_csv(file_path, encoding=encoding)
-            total_rows += len(df)
-    return total_rows
+# List all files in the directory
+for file in current_directory.iterdir():
+    if file.is_file():
+        st.write(file.name)
 
-# Function to get row counts for each CSV in a folder
-def row_counts_per_csv(folder_path):
-    counts = {}
-    for file in os.listdir(folder_path):
-        if file.endswith('.csv'):
-            try:
-                # Try reading with utf-8 encoding
-                df = pd.read_csv(os.path.join(folder_path, file), encoding='utf-8')
-            except UnicodeDecodeError:
-                # If utf-8 fails, try a different encoding
-                df = pd.read_csv(os.path.join(folder_path, file), encoding='ISO-8859-1')
-            counts[file] = len(df)
-    return counts
+st.write(Path(__file__).parents[0])'''
 
-# Function to count rows in a CSV file
-def count_rows(csv_file_path):
-    df = pd.read_csv(csv_file_path)
-    return len(df)
 
 st.title("Receipt Parsing and Analytics System Dashboard")
 
@@ -61,6 +45,9 @@ st.sidebar.title("Navigator")
 # Initialize a session state variable to track the active dashboard
 if 'active_dashboard' not in st.session_state:
     st.session_state['active_dashboard'] = None
+
+if st.sidebar.button('Receipt Parsing'):
+    st.session_state['active_dashboard'] = 'Receipt Parsing'
 
 # Sidebar with buttons for navigation
 if st.sidebar.button('Receipt Dashboard'):
@@ -73,17 +60,51 @@ if st.sidebar.button('Database Dashboard'):
 # Display content based on the active dashboard
 if st.session_state['active_dashboard'] == 'Receipt':
     st.title("Receipt Dashboard")
-    # [Add components of Receipt Dashboard here]
+    selected_database = st.selectbox(
+        "Select Database",
+        ["Select a Database", "Vendor Database(Receipts)", "Product Database(Receipts)"]
+    )
+
+    if selected_database == "Vendor Database(Receipts)":
+        st.subheader("Vender Database(Receipts)")
+
+        # Path to the vendor database directory
+        vendor_db_path = f"{data_path}vendor database"  # Update with the actual path
+
+
+
+    if selected_database == "Product Database(Receipts)":
+        st.subheader("Product Database(Receipts)")
+        product_db_path = f"{data_path}product database"  # Update with actual path
+
+
+
+        # SelectBox for selecting a folder
+        selected_folder = st.selectbox("Select a Product Category", os.listdir(product_db_path))
+
+
+
+
+
+
+
+
+
 
 elif st.session_state['active_dashboard'] == 'Database':
     st.title("Database Dashboard")
 
     selected_database = st.selectbox(
         "Select Database",
-        ["Select a Database", "Product Database", "Vendor Database"]
+        ["Select a Database", "Vendor Database", "Product Database"]
     )
 
     if selected_database == "Vendor Database":
+        # Function to count rows in a CSV file
+        def count_rows(csv_file_path):
+            df = pd.read_csv(csv_file_path)
+            return len(df)
+
         st.subheader("Vender Database")
 
         # Path to the vendor database directory
@@ -125,6 +146,40 @@ elif st.session_state['active_dashboard'] == 'Database':
 
 
     if selected_database == "Product Database":
+        # Function to count rows in CSV files of a folder
+        def find_encoding(file_path):
+            with open(file_path, 'rb') as file:
+                result = chardet.detect(file.read())
+                return result['encoding']
+
+
+        # Modified function to count rows in CSV files of a folder
+        def count_rows_in_folder(folder_path):
+            total_rows = 0
+            for file in os.listdir(folder_path):
+                if file.endswith('.csv'):
+                    file_path = os.path.join(folder_path, file)
+                    encoding = find_encoding(file_path)
+                    df = pd.read_csv(file_path, encoding=encoding)
+                    total_rows += len(df)
+            return total_rows
+
+
+        # Function to get row counts for each CSV in a folder
+        def row_counts_per_csv(folder_path):
+            counts = {}
+            for file in os.listdir(folder_path):
+                if file.endswith('.csv'):
+                    try:
+                        # Try reading with utf-8 encoding
+                        df = pd.read_csv(os.path.join(folder_path, file), encoding='utf-8')
+                    except UnicodeDecodeError:
+                        # If utf-8 fails, try a different encoding
+                        df = pd.read_csv(os.path.join(folder_path, file), encoding='ISO-8859-1')
+                    counts[file] = len(df)
+            return counts
+
+
         # Product Database
         st.subheader("Product Database")
         product_db_path = f"{data_path}product database"  # Update with actual path
@@ -191,16 +246,226 @@ elif st.session_state['active_dashboard'] == 'Database':
 
 
 
-#show file path in cloud
-_ = '''
-current_directory = Path(__file__).resolve().parent
 
-# List all files in the directory
-for file in current_directory.iterdir():
-    if file.is_file():
-        st.write(file.name)
 
-st.write(Path(__file__).parents[0])'''
+
+if st.session_state['active_dashboard'] == None or st.session_state['active_dashboard'] == 'Receipt Parsing':
+    st.title("Receipt Parsing")
+
+    st.subheader("Step 1: Get your own OpenAI API key")
+    openai_api_key = "your_actual_openai_api_key"
+    openai_api_key = st.text_input("Enter your OpenAI API key", type='password')
+    if not openai_api_key.startswith('sk-'):
+        st.warning('Please enter your OpenAI API key!', icon='⚠')
+
+
+    st.subheader("Step 2: Input Receipt Text")
+
+    prompt = '''Please analyze the provided receipt and extract relevant information to fill in the following structured format:
+    {
+      "ReceiptInfo": {
+        "merchant": "(string value)",
+        "address": "(string value)", (split into street address, city, and state)
+        "city": "(string value)",
+        "state": "(string value)",
+        "phoneNumber": "(string value)",
+        "tax": "(float value)", (in dollars)
+        "total": "(float value)", (in dollars)
+        "receiptDate": "(string value)",
+        "receiptTime": "(string value)", (if available)
+        "ITEMS": [
+          {
+            "description": "(string value)",
+            "quantity": "(integer value)",
+            "unitPrice": "(float value)",
+            "totalPrice": "(float value)",
+            "discountAmount": "(float value)" if any
+          }, ...
+        ]
+      }
+    }
+    Remember to check for any discounts or special offers applied to the items and reflect these in the item details. Make sure to end the json object and make sure it's in json format.
+
+
+    example: """Marley's Shop
+    123 Long Rd
+    Kailua, HI 67530
+    (808) 555-1234
+    CASHIER: JOHN
+    REGISTER #: 6
+    04/12/2023
+    Transaction ID: 5769009
+    PRICE   QTY  TOTAL
+    APPLES (1 lb)
+    2.99 2 5.98  1001
+    -1.00  999
+    Choco Dream Cookies
+    7.59 1 7.59   1001
+    SUBTOTAL
+    13.57
+    SALES TAX 8.5%
+    1.15
+    TOTAL
+    -14.72
+    VISA CARD            14.72
+    CARD#: **1234
+    REFERENCE#: 6789
+    THANK YOU FOR SHOPPING WITH US!
+    """
+
+    from example should get:
+    {
+      "ReceiptInfo": {
+        "merchant": "Marley's Shop",
+        "address": "123 Long Rd",
+        "city": "Kailua",
+        "state": "HI",
+        "phoneNumber": "(xxx) xxx-xxxx",
+        "tax": 1.15,
+        "total": 14.72,
+        "receiptDate": "04/12/2023",
+        "receiptTime": "Transaction ID: 5769009",
+        "ITEMS": [
+          {
+            "description": "APPLES (1 lb)",
+            "quantity": 2,
+            "unitPrice": 2.99,
+            "totalPrice": 5.98,
+            "discountAmount": 1.00
+          },
+          {
+            "description": "Choco Dream Cookies",
+            "quantity": 1,
+            "unitPrice": 7.59,
+            "totalPrice": 7.59,
+            "discountAmount": 0
+          }
+        ]
+      }
+    }
+    '''
+
+
+    def validate_json(entities):
+        schema = {
+            "type": "object",
+            "properties": {
+                "ReceiptInfo": {
+                    "type": "object",
+                    "properties": {
+                        "merchant": {"type": "string"},
+                        "address": {"type": "string"},
+                        "city": {"type": "string"},
+                        "state": {"type": "string"},
+                        "phoneNumber": {"type": "string"},
+                        "tax": {"type": "number"},
+                        "total": {"type": "number"},
+                        "receiptDate": {"type": "string"},
+                        "ITEMS": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "description": {"type": "string"},
+                                    "quantity": {"type": "number"},
+                                    "unitPrice": {"type": "number"},
+                                    "totalPrice": {"type": "number"},
+                                    "discountAmount": {"type": "number"}
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        }
+
+        return validate(instance=json.loads(entities), schema=schema)
+
+
+    def ensure_starts_with_brace(response):
+        # Find the index of the first '{'
+        brace_index = response.find('{')
+
+        # If '{' is found and it's not the first character
+        if brace_index != -1:
+            # Return the substring starting from the first '{'
+            return response[brace_index:]
+
+        # Return the original response if '{' is not found
+        return response
+
+    def generate_response(input_text):
+        llm = OpenAI(model="gpt-3.5-turbo-instruct", temperature=0, openai_api_key=openai_api_key, max_tokens=1056)
+        response = llm(input_text)
+        response = ensure_starts_with_brace(response)
+        validate_json(response)
+        return response
+
+    def read_text_files(folder_path):
+        text_list = []
+
+        if not os.path.isdir(folder_path):
+            print("Invalid folder path.")
+            return None
+
+        for filename in os.listdir(folder_path):
+            file_path = os.path.join(folder_path, filename)
+
+            if os.path.isfile(file_path) and filename.endswith('.txt'):
+                with open(file_path, 'r') as file:
+                    file_content = file.read()
+                    text_list.append(file_content)  # Append file content as a string to the list
+
+        return text_list
+
+
+    uploaded_files = st.file_uploader("Upload receipts", type=['txt'], accept_multiple_files=True)
+
+    text_list = []
+
+    # Process each uploaded file
+    for uploaded_file in uploaded_files:
+        # Read file content as a string and append to the list
+        string_data = uploaded_file.read().decode("utf-8")
+        text_list.append(string_data)
+
+    st.text_area("Receipt Content", text_list, height=500)
+    submitted = st.button('Submit')
+
+    receipts = text_list
+
+    file_path = f'{data_path}/src/user_entities.json'
+
+    confirmed = False
+    receipts_json = []
+    errorReceipts = []
+    files_processed = 0
+
+    if submitted and openai_api_key.startswith('sk-'):
+        for receipt in receipts:
+            try:
+                receipt_json = json.loads(generate_response(prompt + receipt))
+                receipts_json.append(receipt_json)
+                files_processed += 1
+
+
+            except json.JSONDecodeError as e:
+                st.write("JSON Decode Error:", e, icon='⚠')
+                errorReceipts.append(receipt)
+
+        st.text_area("Generated json", receipts_json, height=300)
+
+        if os.path.exists(file_path):
+            st.write("File exists and will be overwritten.")
+
+        with open(file_path, 'w') as file:
+            json.dump(receipts_json, file, indent=4)
+        st.write(f"Data written to {file_path}")
+
+
+    st.subheader("Step 3: ")
+
+
 
 
 _ = '''
