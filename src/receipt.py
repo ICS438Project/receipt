@@ -171,7 +171,7 @@ categories = ["Grocery/Supermarkets", "Restaurants/Food Services", "Clothing/App
 
 
 def getVendorCategory(merchants):  # listOfItems, Title):
-    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedVendorDatabase.csv', "embeddedVendorDatabase.csv")
+    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedVendorDatabase.zip', "embeddedVendorDatabase.csv")
     # Convert the list of merchants to the format expected by your model
     # Assuming convert_to_embeddings_df can handle a list of strings
     merchants_df = pd.DataFrame({'Merchants': merchants})
@@ -186,7 +186,7 @@ def getVendorCategory(merchants):  # listOfItems, Title):
 
 def getProductCategory(descriptions):
     # Load the embedded product database
-    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedProductDatabase.csv', "embeddedProductDatabase.csv")
+    X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedProductDatabase.zip', "embeddedProductDatabase.csv")
 
     # Convert descriptions to DataFrame
     descriptions_df = pd.DataFrame({'Descriptions': descriptions})
