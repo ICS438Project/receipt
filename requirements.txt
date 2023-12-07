@@ -5,4 +5,4 @@ transformers
 torch
 chardet
 plotly
-sklearn
+scikit-learn
