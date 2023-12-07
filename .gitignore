@@ -3,3 +3,4 @@
 .devcontainer
 embeddedProductDatabase.csv
 /src/embeddedProductDatabase.csv
+.DS_Store
