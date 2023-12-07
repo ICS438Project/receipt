@@ -6,4 +6,3 @@ torch
 chardet
 plotly
 scikit-learn
-zipfile
