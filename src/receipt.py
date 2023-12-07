@@ -24,7 +24,7 @@ import glob
 # Check if the app is running on Streamlit Cloud
 if platform.processor():
     # Path when running on Streamlit Cloud
-    data_path = './'
+    data_path = '../'
 else:
     # Path when running locally
     data_path = '/mount/src/receipt/'
