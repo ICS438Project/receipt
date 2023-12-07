@@ -162,16 +162,18 @@ def getVendorCategory(merchants):  # listOfItems, Title):
     return result_df
 
 
-def getProductCategory(items):  # jsonObject, listOfItems, Title):
+def getProductCategory(descriptions):
+    # Load the embedded product database
     X_train, y_train = getEmbeddedDatabase(f'{data_path}src/embeddedProductDatabase.csv')
-    # Convert the list of item descriptions to the format expected by your model
-    items_df = pd.DataFrame({'Items': items})
-    items_embeddings = convert_to_embeddings_df(items_df)
-    X_test = items_embeddings.values
+
+    # Convert descriptions to DataFrame
+    descriptions_df = pd.DataFrame({'Descriptions': descriptions})
+    descriptions_embeddings = convert_to_embeddings_df(descriptions_df)
+    X_test = descriptions_embeddings.values
 
     # Run the prediction model
     results = pd.DataFrame(KNN(X_train, y_train, X_test), columns=['KNN Prediction'])
-    result_df = pd.concat([items_df, results], axis=1)
+    result_df = pd.concat([descriptions_df, results], axis=1)
     return result_df
 
 
@@ -208,51 +210,62 @@ if st.sidebar.button('Database Dashboard'):
 # Display content based on the active dashboard
 if st.session_state['active_dashboard'] == 'Receipt':
     st.title("Receipt Dashboard")
-    selected_database = st.selectbox(
-        "Select Database",
-        ["Select a Database", "Vendor Database(Receipts)", "Product Database(Receipts)"]
+    st.subheader("Vender Database(Receipts)")
+    # Path to the vendor database directory
+    vendor_db_path = f"{data_path}VendorCategoryPredictions.csv"  # Update with the actual path
+    df = pd.read_csv(vendor_db_path)
+
+    # Count the frequency of unique values in the 'KNN Prediction' column
+    knn_counts = df['KNN Prediction'].value_counts()
+
+    # Create a bar chart using Plotly
+    fig = px.bar(knn_counts, x=knn_counts.index, y=knn_counts.values,
+                 labels={'x': 'KNN Prediction', 'y': 'Number of Data'},
+                 title='Distribution of KNN Predictions(Vendor Category)')
+
+    fig.update_layout(
+        autosize=False,
+        width=1000,
+        height=600,
+        title_font_size=24,
+        font=dict(size=18),
+        xaxis_title_font_size=20,
+        yaxis_title_font_size=20,
+        xaxis_tickfont_size=16,
+        yaxis_tickfont_size=16
     )
 
-    if selected_database == "Vendor Database(Receipts)":
-        st.subheader("Vender Database(Receipts)")
-        # Path to the vendor database directory
-        vendor_db_path = f"{data_path}VendorCategoryPredictions.csv"  # Update with the actual path
-        df = pd.read_csv(vendor_db_path)
+    # Display the plot in Streamlit
+    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
-        # Count the frequency of unique values in the 'KNN Prediction' column
-        knn_counts = df['KNN Prediction'].value_counts()
+    st.subheader("Product Database(Receipts)")
+    product_db_path = f"{data_path}ProductCategoryPredictions.csv"  # Update with actual path
 
-        # Create a bar chart using Plotly
-        fig = px.bar(knn_counts, x=knn_counts.index, y=knn_counts.values,
-                     labels={'x': 'KNN Prediction', 'y': 'Number of Data'},
-                     title='Distribution of KNN Predictions(Vendor Category)')
+    df = pd.read_csv(product_db_path)
 
-        fig.update_layout(
-            autosize=False,
-            width=1000,
-            height=600,
-            title_font_size=24,
-            font=dict(size=18),
-            xaxis_title_font_size=20,
-            yaxis_title_font_size=20,
-            xaxis_tickfont_size=16,
-            yaxis_tickfont_size=16
-        )
+    # Count the frequency of unique values in the 'KNN Prediction' column
+    knn_counts = df['KNN Prediction'].value_counts()
 
-        # Display the plot in Streamlit
-        st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
+    # Create a bar chart using Plotly
+    fig = px.bar(knn_counts, x=knn_counts.index, y=knn_counts.values,
+                 labels={'x': 'KNN Prediction', 'y': 'Number of Data'},
+                 title='Distribution of KNN Predictions(Product Category)')
 
+    fig.update_layout(
+        xaxis_tickangle=45,
+        autosize=False,
+        width=1000,
+        height=600,
+        title_font_size=24,
+        font=dict(size=18),
+        xaxis_title_font_size=20,
+        yaxis_title_font_size=20,
+        xaxis_tickfont_size=16,
+        yaxis_tickfont_size=16
+    )
 
-    if selected_database == "Product Database(Receipts)":
-        st.subheader("Product Database(Receipts)")
-        product_db_path = f"{data_path}product database"  # Update with actual path
-
-
-
-        # SelectBox for selecting a folder
-        selected_folder = st.selectbox("Select a Product Category", os.listdir(product_db_path))
-
-
+    # Display the plot in Streamlit
+    st.plotly_chart(fig, use_container_width=True, config={"displayModeBar": False})
 
 
 
@@ -640,7 +653,10 @@ if st.session_state['active_dashboard'] == None or st.session_state['active_dash
 
         # Get predictions
         vendor_prediction = getVendorCategory([merchant])
-        product_predictions = getProductCategory([item['description'] for item in items])
+
+        descriptions = [item['description'] for item in items]
+        product_predictions = getProductCategory(descriptions)
+
 
         # Display Vendor Category Prediction
         st.subheader("Vendor Category Prediction")

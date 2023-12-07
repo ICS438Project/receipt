@@ -1,135 +1,481 @@
-,Merchants,KNN Prediction
-0,SAFEWAY,Groceries
-1,Sugar Sugar Hawaii,Groceries
-2,Foodland,Groceries
-3,Halal Gyro Kabob House,Food Services
-4,Walmart,Clothing
-5,LILIHA BAKERY PEARL CITY,Food Services
-6,Walmart,Clothing
-7,Walmart,Clothing
-8,Walmart,Clothing
-9,DRIVER LICENSE HAWAII KA,Travel Accommodation(optional)
-10,Walmart,Clothing
-11,BEN FRANKLIN CRAFTS #05575,Entertainment Leisure
-12,COSTCO WHOLESALE,Groceries
-13,Walmart,Clothing
-14,WHOLE FOODS,Groceries
-15,The Counter,Home Garden
-16,PHO 777,Groceries
-17,Foodland,Groceries
-18,ROSS DRESS FOR LESS,Clothing
-19,BEN FRANKLIN CRAFTS #05614 (3),Entertainment Leisure
-20,H MART,Electronics
-21,Store 215 Dir Dane Elder,Alcohol Tobacco
-22,Store  Jamie DePrizio,Clothing
-23,Dunkin',Food Services
-24,University of Hawaii - Manoa Bookstore,Home Garden
-25,Foodland,Groceries
-26,SAFEWAY,Groceries
-27,Minit,Groceries
-28,SAFEWAY,Groceries
-29,SAFEWAY,Groceries
-30,Daiso,Groceries
-31,SAFEWAY,Groceries
-32,Kahala,Groceries
-33,Dunkin',Food Services
-34,Dunkin Donuts,Food Services
-35,WHOLE FOODS,Groceries
-36,SAFEWAY O,Groceries
-37,Grain Exchange,Groceries
-38,SAFEWAY,Groceries
-39,Dunkin,Food Services
-40,Longs,Groceries
-41,WHOLE FOODS,Groceries
-42,ROSS DRESS FOR LESS,Clothing
-43,Target,Groceries
-44,LEAHI HEALTH MANOA,Groceries
-45,Sam's Club #6410,Groceries
-46,GAP OUTLET,Education Office Supplies(optional)
-47,SAFEWAY,Groceries
-48,SAFEWAY,Groceries
-49,Walmart,Clothing
-50,WALTER,Groceries
-51,Krispy Kreme,Groceries
-52,Whole Foods Market,Groceries
-53,Dunkin,Food Services
-54,Olive,Groceries
-55,SAFEWAY,Groceries
-56,COSTCO WHOLESALE,Groceries
-57,Longs Drugs,Health Beauty
-58,Dunkin',Food Services
-59,Longs,Groceries
-60,Hardware Hawaii,Electronics
-61,Kozo Sushi,Groceries
-62,KAHEKA STORE,Groceries
-63,WHOLE FOODS,Groceries
-64,Panda Express #1866,Groceries
-65,Walmart,Clothing
-66,McDonald's Restaurant,Food Services
-67,CVS Drugs,Health Beauty
-68,McDonald's Restaurant,Food Services
-69,Oahu Honolulu Ala Moana,Groceries
-70,SAFEWAY,Groceries
-71,Honolulu Intl Airport 0169,Travel Accommodation(optional)
-72,Taco Bell 001281,Food Services
-73,KAHEKA STORE,Groceries
-74,McDonald's Restaurant #14616,Food Services
-75,Store L,Home Garden
-76,Ralphs,Groceries
-77,COSTCO,Groceries
-78,KAHEKA STORE,Groceries
-79,PACSUN,Clothing
-80,Longs Drugs,Health Beauty
-81,H MART,Electronics
-82,Grove Music,Alcohol Tobacco
-83,Taco Bell 002491,Food Services
-84,Longs,Groceries
-85,Walmart,Clothing
-86,Wet'N'Wild Hawaii,Groceries
-87,Oahu Honolulu Ala Moana,Groceries
-88,COSTCO,Groceries
-89,COSTCO,Groceries
-90,Sam's Club,Groceries
-91,KAHEKA STORE,Groceries
-92,KAHEKA STORE,Groceries
-93,WHOLE FOODS,Groceries
-94,Sam's Club,Groceries
-95,"See's Candies, Inc",Groceries
-96,Dunkin',Food Services
-97,SAFEWAY,Groceries
-98,Walmart,Clothing
-99,Target,Groceries
-100,UNITED STATES POSTAL SERVICE,Education Office Supplies(optional)
-101,Foodland,Groceries
-102,Foodland,Groceries
-103,ABC STORES,Groceries
-104,Raising CHICKEN Hawaii Kai Town Center,Food Services
-105,Walmart,Clothing
-106,COSTCO,Groceries
-107,Wal-Mart,Clothing
-108,Baskin Robbins,Food Services
-109,SAFEWAY,Groceries
-110,Panda Express #2150,Food Services
-111,University of Hawaii - Manoa Bookstore,Home Garden
-112,H MART,Electronics
-113,How doers,Entertainment Leisure
-114,SAFEWAY,Groceries
-115,Whole Foods Market,Groceries
-116,SAFEWAY,Groceries
-117,The Counter,Home Garden
-118,See's Candies,Groceries
-119,T.J.MAXX,Clothing
-120,SAFEWAY,Groceries
-121,SAFEWAY,Groceries
-122,KOZO SUSHI MOILIILI,Groceries
-123,Walmart,Clothing
-124,KAHEKA STORE,Groceries
-125,Whole Foods Market,Groceries
-126,Kozo Sushi,Groceries
-127,Honolulu Store,Groceries
-128,Target,Groceries
-129,WHOLE FOODS,Groceries
-130,KAHEKA STORE,Groceries
-131,T&C Surf Designs Ala Moana,Home Garden
-132,Taste Tea,Groceries
-133,McDonald's Restaurant,Food Services
+,description,KNN Prediction
+0,LUCERNE MILK WHOLE,Groceries
+1,Knitty Critters - Pouch Pals - Eddy,Groceries
+2,The Bear Crochet Kit,Entertainment Leisure
+3,Knitty Critters - Pouch Pals - Popcorn The Bunny Crochet Kit,Entertainment Leisure
+4,Paper Bag ($0.15),Groceries
+5,SPRAY ROSES,Home Garden
+6,LINDT MILK CHOC,Groceries
+7,#18. Lamb Salad,Groceries
+8,GV CF LG F,Electronics
+9,EZEKIEL F,Groceries
+10,Poi Donut,Food Services
+11,Coco Puff,Food Services
+12,Green Tea Puff,Groceries
+13,LOCK BOX,Home Garden
+14,PREP PROD CH F,Groceries
+15,GV CHK MOZZ F,Clothing
+16,KETTLE,Groceries
+17,POPCORN,Groceries
+18,DOG SNACKS,Pets(optional)
+19,CHK NDL SOUP,Food Services
+20,POT RST SOUP,Food Services
+21,TUNA,Food Services
+22,SPAM LNCH MT,Food Services
+23,DL BAR 8CT,Electronics
+24,BENADRYL,Health Beauty
+25,GOLDBEARS,Groceries
+26,SR GLDBRS,Electronics
+27,NORI,Groceries
+28,CHASE VISA,Travel Accommodation(optional)
+29,DOLE JCE,Food Services
+30,HI FEE/DEP,Groceries
+31,FC PNUT PNUT BTR BTR,Groceries
+32,SEASONED SF CANDY,Groceries
+33,SF CANDY,Groceries
+34,KETCHUP,Groceries
+35,LAUHALA MAT,Home Garden
+36,MASHD POTATO,Groceries
+37,WHOLE MILK,Groceries
+38,PINEAPPLE,Groceries
+39,SPRING MIX,Groceries
+40,KS BAGS,Automotive
+41,MASSAMAN,Groceries
+42,BEEF BULGOGI,Groceries
+43,SF CANDY,Groceries
+44,FC PB 6CT,Electronics
+45,FC PB 6CT,Electronics
+46,365WFM OG ITALIAN BAG,Groceries
+47,365WFM BREADED CALAMARI,Food Services
+48,OVF OG UHT WHOLE MLK,Groceries
+49,365WFM PECAN HALVES,Groceries
+50,Classic Choc,Food Services
+51,Fries & Sweets,Food Services
+52,K-Mini Burgers,Food Services
+53,Beef 1/3,Groceries
+54,Glass of Water,Home Garden
+55,Diet Coke,Groceries
+56,Total,Food Services
+57,SALMON FILLET,Food Services
+58,FF CHX BL SL THGH,Groceries
+59,#NAME?,Groceries
+60,KFT F/MEX 4-CHS PC,Food Services
+61,#NAME?,Food Services
+62,KFT SHRD ITAL 5CHSPC,Groceries
+63,OM FC BACON PC,Food Services
+64,93/7 GRND BF BRICKPC,Entertainment Leisure
+65,CHALL CANOLA OIL PC,Groceries
+66,LCL POKE AHI PC,Groceries
+67,LCL AHI CAL ROLL PPC,Groceries
+68,LCL AHI MAUI POKE PC,Groceries
+69,LCL FLOUR TORT PC,Groceries
+70,ROSARITA REFRIED BPC,Groceries
+71,#NAME?,Groceries
+72,<UNKNOWN> @ 3.59 /lb WT,Groceries
+73,#NAME?,Groceries
+74,120Z BLUE PREMIUM,Clothing
+75,12x11.3x4.75 Acac,Home Garden
+76,TRAVEL SEWING KIT,Entertainment Leisure
+77,SLAM DUNK BUBBLE GUM,Food Services
+78,KABOCHA,Food Services
+79,MINT,Groceries
+80,OYSTER SAUCE 180Z,Groceries
+81,QRT CK LEMON,Groceries
+82,NY STYLE GRND PORK,Groceries
+83,GREEN CABBAGE,Groceries
+84,REDUCED BANANAS,Groceries
+85,BEEF LIVER SLICED,Groceries
+86,Grill Chz,Food Services
+87,Sourdough,Food Services
+88,2WChdChz,Groceries
+89,1AmrChz,Food Services
+90,2pc Bagel Minis Plain,Food Services
+91,Sm Ice Orig Latte,Groceries
+92,LABCOAT UNISEX L WHITE,Home Garden
+93,GOGGLES SAFETY GREEN,Entertainment Leisure
+94,FOUNTAIN DRNK,Groceries
+95,AMB BENTO SPCY CKN,Food Services
+96,CG SPRING WTR,Groceries
+97,DEP SFTDK SNGL FS,Electronics
+98,FEE SFTDK SNGL FS,Groceries
+99,SIG PARCHMENT PAPR,Alcohol Tobacco
+100,Pump #02 - Self,Automotive
+101,QTY SIG DIET T,Groceries
+102,DEP SFTDK SNGL FS,Electronics
+103,FEE SFTDK SNGL FS,Groceries
+104,LUC CHESE,Groceries
+105,HORIZON ORGANIC,Groceries
+106,BROWN COW YGRT VAN,Groceries
+107,Multipurpose Living Box,Home Garden
+108,Freezer Bag -With Seal - M -,Home Garden
+109,Freezer plastic bag Ssize for freezing,Home Garden
+110,DAISO GO Alkaline Battery LR03-5PCS,Alcohol Tobacco
+111,1.50$,Groceries
+112,PETIT ECOLIR MLK,Groceries
+113,MEADOW GOLD ICE,Groceries
+114,General,Groceries
+115,Child,Groceries
+116,Md Ice Orig Latte,Groceries
+117,Md Ice Orig Latte,Groceries
+118,Chkn RstdPep Wrap,Food Services
+119,SWBCO SHR SUNSCREEN SPRY,Health Beauty
+120,BODY ARMOR,Entertainment Leisure
+121,DEP SFTDK PK FS,Groceries
+122,FEE SFTDK PK FS,Groceries
+123,16oz Iced Latte,Groceries
+124,SIG MINI PRETZELS,Groceries
+125,VELVETTA,Groceries
+126,BROWN COW CRM TOP,Groceries
+127,SIG TURKEY BREAST,Groceries
+128,Lg Ice Orig Latte,Groceries
+129,F CVS LINER UNSC DB,Automotive
+130,F HALLS COOL BRRY CD 70CT,Health Beauty
+131,F CVS LINER UNSC DB 135S,Automotive
+132,365WFM OG ROMAINE BAG,Groceries
+133,KND PCN MAPLE BAR,Groceries
+134,SPRKO RED WAX GOUDA,Groceries
+135,365WFM BREADED CALAMARI,Food Services
+136,750ML POMEGRANATE,Clothing
+137,SUGAR FREE HAZELNU,Clothing
+138,50.72oz OKA ALKALI,Clothing
+139,#NIKE MD VALIANT,Clothing
+140,TH Pillow,Home Garden
+141,RE Pillow,Home Garden
+142,5. Deep Green,Groceries
+143,Pump# UNLEAD (11),Groceries
+144,GapKids <UNKNOWN> Disney Mickey Mouse Graphic T-Shirt,Entertainment Leisure
+145,GapKids &#124 Disney Mickey Mouse <UNKNOWN> Graphic T-Shirt,Entertainment Leisure
+146,"Gap <UNKNOWN> Star Wars&#153 4"" Boxers",Entertainment Leisure
+147,LIFEWAY OWM KFR PL.,Groceries
+148,OPN NT PIZZA,Food Services
+149,SIG PISTACHIOS,Groceries
+150,APPLES ROYAL GALA,Groceries
+151,LUC UNSALTD BUTTER,Groceries
+152,KRYGOLD IRSH BTTR,Groceries
+153,SF CANDY,Groceries
+154,FC PB 6CT,Electronics
+155,CORKSCREW,Home Garden
+156,LG PAN,Electronics
+157,TONGS,Groceries
+158,Latte Iced Medium,Groceries
+159,LTRBK JAPANESE WHIT BREAD,Food Services
+160,Md Ice Orig Latte,Groceries
+161,Table Games,Entertainment Leisure
+162,Soft Drink,Groceries
+163,Calamari,Groceries
+164,Soup & Salad,Food Services
+165,Gnocchi,Groceries
+166,Kids Strawberry,Groceries
+167,Kid CYO Meat Sauce,Groceries
+168,Spaghetti,Groceries
+169,Add Meatball,Groceries
+170,w/1 MB,Electronics
+171,Fries,Groceries
+172,HAAGEN DAZS COFFEEAC,Groceries
+173,MR,Groceries
+174,HI WATER 12P,Groceries
+175,HI BEVERAGE,Groceries
+176,<UNKNOWN>,Groceries
+177,HI BEVERAGE,Groceries
+178,WATERMELON,Groceries
+179,BLACK GRAPE,Groceries
+180,PRINGLES VTY,Groceries
+181,PANDA COOKIE,Groceries
+182,DUMPLINGS,Groceries
+183,<UNKNOWN>,Groceries
+184,MANDARINS,Groceries
+185,VAR. MUFFIN,Food Services
+186,SPINSALAD,Groceries
+187,OREO ORIG DBL STFF 14.0,Health Beauty
+188,BAUD WAFER CHOCLT,Health Beauty
+189,HWNISL TEABG GVGNS,Health Beauty
+190,Donut,Food Services
+191,RAINBOW PLAYBALL EACH,Pets(optional)
+192,CFRIO SF PEG BAG,Home Garden
+193,CFRIO SF PEG BAG,Home Garden
+194,CONCRETE MIX 60lb QUIKRETE,Entertainment Leisure
+195,Cucumber Maki,Home Garden
+196,Shrimp Tempura Hr,Home Garden
+197,JK ALKALINE BATTERY,Groceries
+198,ORANGE NAVEL <UNKNOWN>,Groceries
+199,PFD BTRNUT SOUP OG,Food Services
+200,PFD OG CRMY CARROT SOUP,Groceries
+201,365WFM BREADED CALAMARI,Food Services
+202,VTACO CCNUT WT,Groceries
+203,CARROT GINGER SOUP,Groceries
+204,OG CAULIFLOWER,Groceries
+205,CIABATTA BREAD,Food Services
+206,Plate,Food Services
+207,FRIED RICE-1/2,Food Services
+208,HNY WLT SHRIMP,Food Services
+209,BLK PEPPER STEAK,Food Services
+210,Panda Cares Donation,Groceries
+211,SQZ BUF MAYO,Food Services
+212,MAND 3# BAG,Home Garden
+213,Double <UNKNOWN>,Food Services
+214,<UNKNOWN> French Fries,Food Services
+215,SF PEG BAG 3Z,Home Garden
+216,FRIO SF PEG BAG 3Z,Home Garden
+217,Happy Meal Ch Burger,Food Services
+218,Cheeseburger,Food Services
+219,Extra Kids Fry,Food Services
+220,THOR Love & Thunder,Food Services
+221,Apple Juice,Food Services
+222,S Frozen Coke,Food Services
+223,THAT'S IT,Groceries
+224,GENERALMILLS,Groceries
+225,CPK,Groceries
+226,GG CRACKER,Groceries
+227,CHOBANI,Groceries
+228,CHOBANI,Groceries
+229,CHOBANI,Groceries
+230,ALANI,Groceries
+231,ALANI,Groceries
+232,GG CHEESE,Groceries
+233,BENADRYL,Health Beauty
+234,Method BW,Groceries
+235,Rohto,Groceries
+236,Reduce,Groceries
+237,FranklinSprt,Groceries
+238,BULLSEYE'S A,Groceries
+239,CHEESECAKE SLICE,Food Services
+240,Parking Fee,Travel Accommodation(optional)
+241,Bean Burrito,Food Services
+242,Add Beef,Food Services
+243,NISHIKI RICE VINEGAR,Groceries
+244,AJI GYOZA PORK & CHK,Groceries
+245,SK AMAZU SHOGA,Groceries
+246,OSTS GLZ OF DONUT HS,Food Services
+247,OM HARD SALAMI,Groceries
+248,HEARTH N HARVEST WH*,Groceries
+249,CROWN ROYAL PEACH,Groceries
+250,SAPPORO 12PK BEER*,Alcohol Tobacco
+251,HF LTL SMOKIES*,Alcohol Tobacco
+252,GRND BF 75% LEAN,Groceries
+253,GRND BF 75% LEAN,Groceries
+254,PAPER BAG TIMES,Education Office Supplies(optional)
+255,Happy Meal Ch Burger,Food Services
+256,Cheeseburger,Food Services
+257,Extra Kids Fry,Food Services
+258,Apple Juice,Food Services
+259,S Apl Jc Surcharge,Food Services
+260,ELEMENTAL,Food Services
+261,S Grimace Bday Shake,Food Services
+262,S Shake Surcharge,Food Services
+263,L <UNKNOWN> LIGHT,Home Garden
+264,ADBR COFFEE RIO,Groceries
+265,CHKN TAQUITO,Food Services
+266,ORG BANANAS,Groceries
+267,ORG BLEND,Groceries
+268,SRDOUGH BRD,Food Services
+269,KS BLUEBERRY,Groceries
+270,AVOCADOS,Groceries
+271,CREAM CHEESE,Food Services
+272,KS BACON,Food Services
+273,SW WRAP,Food Services
+274,PIE PUMPKINS,Groceries
+275,WHOLE MILK,Groceries
+276,WHOLE <UNKNOWN>,Groceries
+277,ALL IN PAN,Home Garden
+278,<UNKNOWN>,Groceries
+279,HERSHEYS PUDDING SMO,Groceries
+280,NESTLE DRUMSTK-S/DI*,Groceries
+281,TERRA BEER BOTTLE,Alcohol Tobacco
+282,TERRA BEER BOTTLE,Alcohol Tobacco
+283,Jg striped brianna sweate,Clothing
+284,ROUND UP CHARITY,Health Beauty
+285,CFRIO SF PEG BAG 3Z 4.59B,Home Garden
+286,CFRIO SF PEG BAG 3Z 4.59B,Home Garden
+287,CFRIO SF PEG BAG 3Z 4.59B,Home Garden
+288,CR GYSR SPR WTR 33.8,Health Beauty
+289,BOTTLE DEPOSIT,Groceries
+290,HI CONTAINER FEE,Health Beauty
+291,CR GYSR SPR WTR 33.8,Health Beauty
+292,BOTTLE DEPOSIT,Groceries
+293,HI CONTAINER FEE,Health Beauty
+294,SY RAMEN HOT MULTI,Food Services
+295,IND MI GORENG NOOD,Groceries
+296,HT BEEF DUMPLING D,Food Services
+297,NS SHRIMP HOT SNCK,Food Services
+298,ME AZUKI ICE CREAM,Groceries
+299,ACCES0843 - Fender Dreadnought/12-String Case Black,Entertainment Leisure
+300,Beef Crunchy Taco,Food Services
+301,Beef Soft Taco,Food Services
+302,Chzy Bean Rice Bur,Food Services
+303,Chips N Cheese,Food Services
+304,CFRIO SF PEG BAG 3Z,Home Garden
+305,HLMRK EVERYDY CARD ASST,Education Office Supplies(optional)
+306,TROLLI SOUR CRAWLR 5Z,Groceries
+307,SF CANDY,Groceries
+308,Gold Pass,Entertainment Leisure
+309,Season Pass,Entertainment Leisure
+310,ProCat,Groceries
+311,ProCat Puna,Groceries
+312,KS ORG EGGS,Groceries
+313,CHKN CHUNKS,Food Services
+314,ONION GRUYER,Groceries
+315,KEBABS,Groceries
+316,KS PISTACHIO,Groceries
+317,ORG LATE JUL,Groceries
+318,MOZZ STICKS,Groceries
+319,FR <UNKNOWN>,Groceries
+320,ORG AVO OIL.,Health Beauty
+321,SHAVED PARM,Groceries
+322,KIMCHI,Groceries
+323,GUACAMOLE,Groceries
+324,ORG CELERY,Groceries
+325,MINI LIGHTS,Home Garden
+326,GREEN <UNKNOWN>,Groceries
+327,DIAPERS SZ,Health Beauty
+328,BLUE DOGFOOD,Pets(optional)
+329,FILET STEAK,Groceries
+330,STRAWBERRIES,Groceries
+331,SAMURAI,Home Garden
+332,WHOLE MILK,Groceries
+333,REVOL,Food Services
+334,GOUDAHAVARTF,Groceries
+335,VOID,Food Services
+336,CREST PASTE,Groceries
+337,TAMPAX RAD,Food Services
+338,BANANAS,Groceries
+339,ORANGE NAVEL,Groceries
+340,CHINESE PARSLEY CILA,Groceries
+341,CARROTS-CELLO 2# BH! W,Groceries
+342,JK NET SPONGE,Groceries
+343,PLS FRIDGE TRAY WIDE,Home Garden
+344,REFRIGERATER SLIM,Home Garden
+345,PLASTIC KIREI STOCKE,Alcohol Tobacco
+346,AVOCADO,Groceries
+347,BC PLAIN CRM TOP YGRT,Groceries
+348,365WFM RBST FREE CRM CHS,Groceries
+349,365WFM BREADED CALAMARI,Food Services
+350,PINEAPPLE SMALL,Groceries
+351,BAG FEE,Groceries
+352,EZPEELSHRINF,Groceries
+353,DC 24PK CANF,Alcohol Tobacco
+354,HI DEPOSIT F,Groceries
+355,HI HANDLINGF,Groceries
+356,MIXED NUTS F,Groceries
+357,DORITOS COOF,Groceries
+358,DORITOS COO,Groceries
+359,BASHATI,Groceries
+360,BULK CANDY,Groceries
+361,HI1 Candy,Groceries
+362,Lg Ice Orig Latte,Groceries
+363,PETIT ECOLIR MLK,Groceries
+364,BOOSTER,Food Services
+365,VOIDED BANKCARD TRANSACTION,Groceries
+366,Reusble Bags,Entertainment Leisure
+367,PAJAMA BOTTOM,Home Garden
+368,Stars Above,Groceries
+369,SHOE RACKS,Home Garden
+370,Therabreath,Health Beauty
+371,Raw Sugar,Groceries
+372,Native,Entertainment Leisure
+373,Native,Entertainment Leisure
+374,Raw Sugar,Groceries
+375,Raw Sugar,Groceries
+376,AIM,Entertainment Leisure
+377,All in Motion,Entertainment Leisure
+378,USPS Grnd Advtg,Entertainment Leisure
+379,SH WHOLE MILK,Groceries
+380,QKR CHEWY GRANOLA,Groceries
+381,MUFFINS-MINI BLBRY,Food Services
+382,SH FAT FREE MILK PC,Groceries
+383,SH WHOLE MILK PC,Groceries
+384,SALMON FILLET,Food Services
+385,FF CHX BL SL THGH,Groceries
+386,OM FC BACON PC,Food Services
+387,LCL POKE AHI PC,Groceries
+388,LCL AHI CAL ROLL PPC,Groceries
+389,LCL AHI MAUI POKE PC,Groceries
+390,APPLE ENVY PC,Groceries
+391,EVIAN WATER LTR,Groceries
+392,FINGER COMBO,Food Services
+393,BOX COMBO,Food Services
+394,SWEET TEA,Food Services
+395,JELLO,Groceries
+396,FIESTA SH,Food Services
+397,GAR ULT BF,Groceries
+398,JOSEPH BREAD,Food Services
+399,AVOCADO,Groceries
+400,SNFLWR SEEDS,Groceries
+401,SF CANDY,Groceries
+402,SLICE CHEESE,Food Services
+403,SLICE PEP,Food Services
+404,CB MCHA FRZE,Food Services
+405,FC MANGO,Groceries
+406,OV UH RF JUG F,Groceries
+407,Single Scoop,Food Services
+408,Dip Sugar Cone,Food Services
+409,SIG PARCHMENT PAPR,Alcohol Tobacco
+410,SIG ALUMINUM FOIL,Home Garden
+411,LUCERNE MILK WHOLE,Groceries
+412,Plate,Food Services
+413,FRIED RICE-1/2,Food Services
+414,FRIED <UNKNOWN>,Food Services
+415,STR BN CKN BRST,Alcohol Tobacco
+416,ORANGE CKN,Groceries
+417,XTRA ENTREE,Food Services
+418,VEG SPRING <UNKNOWN>,Groceries
+419,<UNKNOWN>,Electronics
+420,PAD TRACING 11X14,Education Office Supplies(optional)
+421,WANG DANGMYUN,Electronics
+422,K-T TOPPOKI,Groceries
+423,OTG SOUP RICECAKE,Food Services
+424,HT VEGE DUMPLING,Groceries
+425,TAPCON BIT <A>,Entertainment Leisure
+426,"TAPCON DRILL BIT 5/32X3-1/2, SGL CT",Entertainment Leisure
+427,TAPCON 3/16 <A>,Alcohol Tobacco
+428,TAPCON 3/16X1-3/4 STAR FLAT <UNKNOWN>,Electronics
+429,OOK KIDSAFE,Entertainment Leisure
+430,DETAILERS MICROFIBER QC TOWELS 3PK,Health Beauty
+431,10-PIECE BRASS BOREFAST SELF DRILLIN,Entertainment Leisure
+432,DW MAX IMPACT SET 30PC,Alcohol Tobacco
+433,OYSTER SAUCE 180Z,Groceries
+434,QRT CK LEMON,Groceries
+435,NY STYLE GRND PORK,Food Services
+436,GREEN CABBAGE,Groceries
+437,REDUCED BANANAS,Groceries
+438,CRISPY CAULIFLOWER BITES,Food Services
+439,THE MARKET PUB BURGER,Food Services
+440,MIXER,Groceries
+441,SIG ICE CREAM BAR,Groceries
+442,Fries & Sweets,Food Services
+443,Purist,Home Garden
+444,Beef 1/3,Groceries
+445,Chocolate Colored Film,Groceries
+446,#NAME?,Health Beauty
+447,#NAME?,Health Beauty
+448,#NAME?,Entertainment Leisure
+449,BH CHORIZO SAUSAGE,Food Services
+450,WAIALUA FRESH CAGE,Pets(optional)
+451,DANISH VARIETY FRT,Groceries
+452,Sale,Home Garden
+453,CALAMARI RNG F,Food Services
+454,ALMOND MILK F,Groceries
+455,SF CANDY F,Groceries
+456,COCONUT MILK F,Groceries
+457,JOLLYTIME POPCORN,Groceries
+458,POPCORN BAGS PK,Groceries
+459,MANGO TANGO SMOOTHIE,Groceries
+460,RG ICED LATTE,Groceries
+461,Cucumber Maki,Home Garden
+462,Shrimp Tempura Hr,Home Garden
+463,CARDAMOM POWDER,Groceries
+464,CINN VIETNAMESE,Groceries
+465,CUMIN SEED GROUND,Groceries
+466,HERSHEY PB,Groceries
+467,365WFM PASTA SAUCE,Groceries
+468,365WFM RSTD SLTD ALMDS,Groceries
+469,365WFM BREADED CALAMARI,Food Services
+470,CHINESE PARSLEY CILA,Groceries
+471,PAPER BAG TIMES,Education Office Supplies(optional)
+472,FT CUSHION VISTA VINTAGE,Home Garden
+473,BAG FEE,Home Garden
+474,Blended Milk Tea,Groceries
+475,Happy Meal Ch Burger,Food Services
+476,Cheeseburger,Food Services
+477,Extra Kids Fry,Food Services
+478,Apple Juice,Food Services
+479,M Diet Coke,Food Services
