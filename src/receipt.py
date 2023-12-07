@@ -329,7 +329,7 @@ elif st.session_state['active_dashboard'] == 'Database':
         # Create a bar chart using Plotly
         fig = px.bar(x=vendor_names, y=row_counts,
                      labels={'x': 'Vendor Category', 'y': 'Row Count'},
-                     title='Total Row Counts per Vendor Category')
+                     title='Total Number of Data Vendor Category')
 
         # Customize plot size and font
         fig.update_layout(
