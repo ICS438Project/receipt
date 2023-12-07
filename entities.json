@@ -372,6 +372,20 @@
                     "discountAmount": 0
                 },
                 {
+                    "description": "HI FEE/DEP",
+                    "quantity": 1,
+                    "unitPrice": 9.96,
+                    "totalPrice": 9.96,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "FC PNUT PNUT BTR BTR",
+                    "quantity": 1,
+                    "unitPrice": 3.48,
+                    "totalPrice": 3.48,
+                    "discountAmount": 0
+                },
+                {
                     "description": "SEASONED SF CANDY",
                     "quantity": 1,
                     "unitPrice": 3.48,
@@ -388,8 +402,8 @@
                 {
                     "description": "KETCHUP",
                     "quantity": 1,
-                    "unitPrice": 2.3,
-                    "totalPrice": 2.3,
+                    "unitPrice": 4.54,
+                    "totalPrice": 4.54,
                     "discountAmount": 0
                 }
             ]
@@ -2085,9 +2099,9 @@
                 },
                 {
                     "description": "5092 WATERMELON",
-                    "quantity": 1,
+                    "quantity": 2,
                     "unitPrice": 12.99,
-                    "totalPrice": 12.99,
+                    "totalPrice": 25.98,
                     "discountAmount": 0
                 },
                 {
@@ -2902,8 +2916,8 @@
                 {
                     "description": "1 Cheeseburger",
                     "quantity": 1,
-                    "unitPrice": 0,
-                    "totalPrice": 0,
+                    "unitPrice": 4.39,
+                    "totalPrice": 4.39,
                     "discountAmount": 0
                 },
                 {
@@ -3665,49 +3679,56 @@
             "receiptTime": "19:15 6265 04755 069 9069",
             "ITEMS": [
                 {
-                    "description": "SAMURAI 990309440 BOOK",
+                    "description": "SAMURAI",
                     "quantity": 1,
                     "unitPrice": 8.98,
                     "totalPrice": 8.98,
                     "discountAmount": 0
                 },
                 {
-                    "description": "298804 WHL MILK",
+                    "description": "WHOLE MILK",
                     "quantity": 1,
                     "unitPrice": 5.92,
                     "totalPrice": 5.92,
                     "discountAmount": 0
                 },
                 {
-                    "description": "984177946 REVOL",
+                    "description": "REVOL",
                     "quantity": 1,
                     "unitPrice": 3.88,
                     "totalPrice": 3.88,
                     "discountAmount": 0
                 },
                 {
-                    "description": "476202 GOUDAHAVARTF",
+                    "description": "GOUDAHAVARTF",
                     "quantity": 3,
                     "unitPrice": 8.98,
                     "totalPrice": 26.94,
                     "discountAmount": 0
                 },
                 {
-                    "description": "990002870 CRESTPASTE",
+                    "description": "VOID",
+                    "quantity": 1,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "CREST PASTE",
                     "quantity": 1,
                     "unitPrice": 16.38,
                     "totalPrice": 16.38,
                     "discountAmount": 0
                 },
                 {
-                    "description": "990015995 TAMPAX RAD",
+                    "description": "TAMPAX RAD",
                     "quantity": 1,
                     "unitPrice": 17.38,
                     "totalPrice": 17.38,
                     "discountAmount": 0
                 },
                 {
-                    "description": "344627 BANANAS",
+                    "description": "BANANAS",
                     "quantity": 1,
                     "unitPrice": 3.58,
                     "totalPrice": 3.58,
@@ -4284,7 +4305,7 @@
     },
     {
         "ReceiptInfo": {
-            "merchant": "Raising Cane's",
+            "merchant": "Raising CHICKEN Hawaii Kai Town Center",
             "address": "Hawaii Kai Town Center",
             "city": "Honolulu",
             "state": "HI",
@@ -4865,7 +4886,7 @@
     },
     {
         "ReceiptInfo": {
-            "merchant": "See's Candies, Inc",
+            "merchant": "See's Candies",
             "address": "4211 Waialae Ave",
             "city": "Honolulu",
             "state": "HI",
