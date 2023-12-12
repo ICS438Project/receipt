@@ -1,6 +1,12 @@
-./ipynb_checkpoints
-./idea
-./devcontainer
-embeddedProductDatabase.csv
-/src/embeddedProductDatabase.csv
 .DS_Store
+
+/.idea
+/.ipynb_checkpoints
+/.devcontainer
+
+/databases/product/embedding/embedded_product_database.csv
+
+
+
+
+
