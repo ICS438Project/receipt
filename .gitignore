@@ -1,6 +1,6 @@
-.ipynb_checkpoints/
-.idea/
-.devcontainer
+./ipynb_checkpoints
+./idea
+./devcontainer
 embeddedProductDatabase.csv
 /src/embeddedProductDatabase.csv
 .DS_Store
