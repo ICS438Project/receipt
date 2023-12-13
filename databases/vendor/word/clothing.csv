@@ -1,168 +1,448 @@
 Items
-T-shirt H&M
-Jeans Levi's
-Sneakers Nike
-Dress Zara
-Suit Armani
-Socks Adidas
-Underwear Calvin Klein
-Jacket North Face
-Skirt Gucci
-Sweater Ralph Lauren
-Scarf Burberry
-Belt Hermes
-Gloves Coach
-Cap New Era
-Sunglasses Ray-Ban
-Watch Rolex
-Backpack JanSport
-Tie Brooks Brothers
-Swimsuit Speedo
-Sandals Birkenstock
-Hoodie Supreme
-Leggings Lululemon
-Blazer Hugo Boss
-Boots Timberland
-Cufflinks Tiffany & Co.
-Pajamas Victoria's Secret
-Beanie Carhartt
-Tracksuit Puma
-Slippers Ugg
-Wallet Louis Vuitton
-Raincoat Patagonia
-Shawl Chanel
-Formal Shoes Clarks
-Bra Savage X Fenty
-Sports Jacket Columbia
-Yoga Pants Alo Yoga
-Flip Flops Havaianas
-Overcoat Burberry
-Briefcase Samsonite
-Ankle Boots Dr. Martens
-Sports Bra Under Armour
-Knee High Socks Happy Socks
-Trench Coat London Fog
-Running Shoes Asics
-Basketball Shorts Jordan
-Baseball Cap 47 Brand
-Fleece Jacket Columbia
-Leather Belt Montblanc
-Evening Gown Oscar de la Renta
-Bow Tie Tom Ford
-Crossbody Bag Kate Spade
-Denim Jacket Wrangler
-Winter Coat Canada Goose
-Fisherman's Hat Stussy
-Wool Scarf Acne Studios
-Bomber Jacket Alpha Industries
-Cargo Pants Carhartt
-High Heels Jimmy Choo
-Sweatpants Champion
-Cardigan Banana Republic
-Knit Hat The North Face
-Lingerie Agent Provocateur
-Maternity Dress Motherhood Maternity
-Cargo Shorts Dockers
-Wristlet Coach
-Denim Shorts American Eagle
-Windbreaker Adidas
-Long Sleeve Shirt Uniqlo
-Ballet Flats Tory Burch
-Vest Patagonia
-Messenger Bag Fossil
-Sports Socks Nike
-Turtleneck J.Crew
-Mittens REI
-Cycling Shorts Pearl Izumi
-Hiking Boots Merrell
-Workout Tank Gymshark
-Leather Jacket Schott NYC
-Boxer Briefs Tommy Hilfiger
-Cami Top Forever 21
-Fedora Borsalino
-Leather Gloves Dents
-Board Shorts Quiksilver
-Plaid Shirt Abercrombie & Fitch
-Wool Coat J.Crew
-Cropped Top Topshop
-Yoga Shorts PrAna
-Straw Hat Tommy Bahama
-Riding Boots Ariat
-Sports Hoodie Reebok
-Compression Leggings 2XU
-Bikini Triangl
-Chelsea Boots Blundstone
-Aviator Sunglasses Persol
-Brogues Allen Edmonds
-Varsity Jacket Starter
-Athletic Shorts Adidas
-Wool Sweater Woolrich
-Lace Dress Self-Portrait
-Fitness Tracker Fitbit
-Beanie Patagonia
-Corduroy Pants Levi's
-Snow Boots Sorel
-Running Tights New Balance
-Maxi Dress Free People
-Graphic Tee Vans
-Polo Shirt Lacoste
-Silk Scarf Hermes
-Mini Skirt Missguided
-Espadrilles Castaner
-Parka Fjallraven
-Jumpsuit ASOS
-Duffle Bag The North Face
-Bucket Hat Kangol
-Bodycon Dress Fashion Nova
-Peacoat Schott NYC
-Loafers G.H. Bass & Co.
-Lace Bralette Aerie
-Flannel Shirt LL Bean
-Cargo Jacket Levi's
-Work Boots Red Wing Shoes
-Leather Wallet Fossil
-Chinos Dockers
-Cycling Jersey Castelli
-Puffer Jacket Moncler
-Dress Shoes Johnston & Murphy
-Thermal Shirt Under Armour
-Shift Dress Ann Taylor
-Waistcoat Brooks Brothers
-Yoga Mat Bag Manduka
-Basketball Shoes Adidas
-Down Vest The North Face
-Running Cap Nike
-Sarong Seafolly
-Combat Boots Dr. Martens
-Sweatshirt Champion
-Running Socks Balega
-Strappy Heels Steve Madden
-Denim Skirt Levi's
-Tennis Skirt Nike
-Fleece Vest Patagonia
-Biker Shorts Alo Yoga
-Tote Bag Michael Kors
-Overalls Dickies
-Harem Pants Free People
-Quarter-Zip Pullover The North Face
-Trucker Hat Von Dutch
-Shearling Jacket Acne Studios
-Hiking Pants Columbia
-Rash Guard O'Neill
-Gym Bag Adidas
-Kimono Anthropologie
-Wedge Sandals Clarks
-Wool Trousers Theory
-Leather Backpack Tumi
-Sweat Shorts Nike
-Rain Boots Hunter
-Poncho Pendleton
-Cross Trainers Reebok
-Base Layer Smartwool
-Velvet Blazer Ted Baker
-Camo Pants Rothco
-Linen Shirt Tommy Bahama
-Graphic Sweatshirt Stussy
-Cycling Shoes Shimano
-Silk Tie Dolce & Gabbana
-Surf Shorts Billabong
+Adidas
+Burberry
+Calvin Klein
+Dolce & Gabbana
+Gucci
+H&M
+Levi¡¯s
+Nike
+Prada
+Zara
+Armani
+Balenciaga
+Chanel
+Fendi
+Givenchy
+Louis Vuitton
+Ralph Lauren
+Tommy Hilfiger
+Versace
+Elie Tahari
+Jaeger Le Coultre
+Fossil
+Elie Saab
+Vacheron Constantin
+Bogner
+ESCADA
+Off White
+Banana Republic
+Breguet
+Swatch
+Ted Baker
+Desigual
+Chanel
+Ralph Lauren
+Hugo Boss
+Herm¨¨s
+Yves Saint Laurent
+Dior
+Valentino
+Salvatore Ferragamo
+Dolce & Gabbana
+Marc Jacobs
+Guess
+Abercrombie & Fitch
+Ted Baker
+Christian Louboutin
+Chloe
+Alexander McQueen
+Burberry
+Elie Tahari
+Jaeger Le Coultre
+Fossil
+Elie Saab
+Vacheron Constantin
+Bogner
+ESCADA
+Off White
+Banana Republic
+Breguet
+Swatch
+Ted Baker
+Desigual
+Chanel
+Ralph Lauren
+Hugo Boss
+Herm¨¨s
+Yves Saint Laurent
+Dior
+Valentino
+Salvatore Ferragamo
+Dolce & Gabbana
+Marc Jacobs
+Guess
+Abercrombie & Fitch
+Ted Baker
+Christian Louboutin
+Chloe
+Alexander McQueen
+Burberry
+Elie Tahari
+Jaeger Le Coultre
+Fossil
+Elie Saab
+Vacheron Constantin
+Bogner
+ESCADA
+Off White
+Banana Republic
+Breguet
+Swatch
+Ted Baker
+Desigual
+Chanel
+Ralph Lauren
+Hugo Boss
+Herm¨¨s
+Yves Saint Laurent
+Dior
+Valentino
+Salvatore Ferragamo
+Fashion Domino
+Katydid
+"DENIOS, Inc."
+"Joseph Fazzio, Inc."
+Industrial Metal Supply
+Medline Industries LP.
+"The CDM Company, Inc."
+Airgas
+Renfro Corporation
+DuPont
+Snap Creative Marketing
+"Mouser Electronics, Inc."
+GTM Sportswear
+HONESTEE
+HONEYDEW
+HOPELY
+HOUSE OF E ATL
+Hustle + Heart
+I LOVE S&S
+INSANE GENE
+Itssy
+J CHRONICLES
+J.NNA
+JADE BY JANE
+JULIA
+Kissed Apparel
+KNITTREND
+KORI AMERICA
+KTOO
+LA MIEL
+LA SOUL
+Lady Curvaceous Apparel
+ANT Wholesale Clothing (UK)
+Riolio Wholesale (China)
+U-Go Sports (UK)
+Penguin Kids
+ocean+main
+JODIFL
+Spiritex
+S&G Apparel
+FashionGo
+Bloom Wholesale
+Sugarlips
+Griffati
+Missi Clothing
+WFS
+Yabelo
+BrandsGateway
+F&P Stock Solution
+UTT Europe
+LePrix
+Styliafoe
+LA Showroom
+Cotton Bleu
+Tyche Los Angeles
+Paper Doll Wholesale
+POL Clothing
+MIO Wholesale
+Vanilla Monkey
+She + Sky
+Eesome
+Cherish
+Entro
+Umgee USA
+Andree by Unit
+Kori America
+Storia
+Wishlist
+HYFVE
+Zenana
+Mixologie
+TCEC
+Kancan USA
+Flying Tomato
+Listicle
+Blue B
+Hem & Thread
+Ces Femme
+Just Panmaco
+Love Tree Fashion
+Fortune Dynamic
+Bamboo Trading Company
+Lush Clothing
+Mono B
+Olivaceous
+Pink Owl
+Le Lis
+Nature Denim
+Very J
+Sweet Lovely by Jen
+Symphony Fashion
+12PM by Mon Ami
+Q2
+Main Strip
+GeeGee
+T-Party Fashion
+Peach Love California
+Entro USA
+Gilli
+Staccato
+Tea N Rose
+Sugar Lips
+Doe & Rae
+Ellison
+GLAM
+Heart & Hips
+HYFVE
+In The Beginning
+Jireh
+KanCan
+L Love
+LA Soul
+Love Stitch
+Lush
+Mystree
+Naked Zebra
+Oddi
+POL
+She & Sky
+Umgee
+Wishlist
+143 Story
+By Together
+Entro
+Hem & Thread
+Honey Punch
+Le Lis
+Listicle
+Love Tree
+Lush
+Mabel
+Main Strip
+Mustard Seed
+Olivaceous
+Paper Crane
+Promesa
+Staccato
+Sugarlips
+Timing
+Umgee
+Very J
+Wishlist
+Zenana
+Audrey 3+1
+Blue Blush
+Cello Jeans
+Davi & Dani
+En Creme
+Everly
+Flying Tomato
+GJG Denim
+Hem & Thread
+Honey Belle
+HYFVE
+Kancan USA
+L Love
+Le Lis
+Listicle
+Love Tree
+Lush
+Main Strip
+Miss Love
+Mystree
+POL
+She & Sky
+Umgee USA
+Very J
+Wishlist
+Zenana
+Aakaa
+Andree By Unit
+Blu Pepper
+Cello Jeans
+Davi & Dani
+Entro
+Eesome
+Everly
+FSL Apparel
+Hem & Thread
+HYFVE
+Kancan USA
+Listicle
+Love Tree
+Lush
+Main Strip
+Mustard Seed
+Naked Zebra
+Olivaceous
+Paper Crane
+Promesa
+Ryu
+She & Sky
+Sugar Lips
+Umgee
+Vervet by Flying Monkey
+Very J
+Wishlist
+Zenana
+Audrey 3+1
+Blue Blush
+Bras
+Caps
+Cardigans
+Children's clothing
+Clutches
+Coats
+Cosplay outfits
+Costumes
+Cufflinks
+Dancewear
+Denim jackets
+Dresses
+Earrings
+Evening gowns
+Flats
+Flip-flops
+Formal shirts
+Formalwear
+Gloves & mittens
+Hair accessories
+Handbags
+Hats
+Heels
+Hoodies
+Jackets
+Jeans
+Jewelry
+Jumpsuits
+Keychains
+Kilts
+Kimonos
+Leather jackets
+Leggings
+Leotards & tights
+Lingerie
+Loafers
+Luggage
+Maternity wear
+Necklaces
+Panties
+Pants
+Parkas
+Performance wear
+Prescription glasses
+Raincoats
+Rings
+Robes
+Rompers
+Sandals
+Sarees
+Scarves
+School uniforms
+Shawls
+Shoes
+Shorts
+Skirts
+Sleepwear
+Slippers
+Sneakers
+Sports bras
+Sports leggings
+Sports uniforms
+Sportswear
+Spring jackets
+Stilettos
+Suits
+Sunglasses
+Sweaters
+Swimwear
+T-shirts
+Theatrical costumes
+Tie clips
+Ties & bow ties
+Tote bags
+Tracksuits
+Traditional clothing
+Trench coats
+Tuxedos
+Umbrellas
+Uniforms
+Wallets
+Watches
+Windbreakers
+Winter jackets
+Work gloves
+Work uniforms
+Workout clothes
+Jeans
+Jumper
+Jumpsuit
+Kilt
+Kimono
+Knickerbockers
+Leggings
+Legwarmers
+Leotard
+Panties
+Pants/Trousers
+Petticoat
+Playsuits
+Poncho
+Pajamas
+Sarong
+Shawl
+Shirt
+Shorts
+Skirt
+Abaya
+Apron
+Band Uniform
+Baseball Jersey
+Bathrobe
+Bell Bottoms
+Beret
+Bermuda Shorts
+Blazer
+Blouse
+Bomber Jacket
+Boots
+Burka
+Business Suit
+Caftan
+Cap and Gown
+Cardigan
+Cargo Shorts
+Chador
+Cheerleader Outfit
+Culottes
+Denim Jacket
+Dhoti
+Duster
+Fatigues
+Flannel Shirt
+Flip Flops
+Football Jersey
+Gloves
+A Great Bathing Suit
+Habit
+Halter Top
+Hanbok
+Hawaiian Shirt
+Hazmat Suit
+Hockey Gear
+Hoodies
+Hoop Skirt
+Jeans
+Jodhpurs
