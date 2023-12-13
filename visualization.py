@@ -7,6 +7,7 @@ import zipfile
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import numpy as np
 
 from langchain.llms import OpenAI
 from transformers import BertModel, BertTokenizer
@@ -161,11 +162,9 @@ def generate_response(input_text, openai_api_key):
     validate_json(response)
     return response
 
-def KNN(X_train, y_train, X_test):
-    clf = KNeighborsClassifier(n_neighbors=20)
-    clf.fit(X_train, y_train)
-
-    return (clf.predict(X_test))
+def cosine_similarity_clf(X_train, y_train, X_test):
+    df = (X_train.values @ X_test.values.T) / np.linalg.norm(X_train.values, axis=1).reshape(-1, 1) / np.linalg.norm(X_test.values, axis=1)
+    return y_train[pd.DataFrame(df, columns=X_test.index, index=X_train.index).idxmax()[0]]
 
 def get_embedded_database(zip_file_path, csv_file_name):
     # Check if the zip file exists
@@ -201,12 +200,12 @@ def get_vendor_category(vendor):
                                            "embedded_vendor_database.csv")
 
     # Convert the vendor into dataframe
-    merchants_df = pd.DataFrame({'Vendor': vendor})
+    merchants_df = pd.DataFrame({'Vendor': [vendor]})
     merchants_embeddings = convert_to_embeddings_df(merchants_df)
-    X_test = merchants_embeddings.values
+    X_test = merchants_embeddings
 
     # Run the prediction model
-    results = pd.DataFrame(KNN(X_train, y_train, X_test), columns=['KNN Prediction'])
+    results = pd.DataFrame({'Prediction': [cosine_similarity_clf(X_train, y_train, X_test)]}).reset_index(drop=True)
     result_df = pd.concat([merchants_df, results], axis=1)
     return result_df
 
@@ -218,10 +217,10 @@ def get_product_category(products):
     # Convert descriptions to DataFrame
     products_df = pd.DataFrame({'Products': products})
     products_embeddings = convert_to_embeddings_df(products_df)
-    X_test =  products_embeddings.values
+    X_test =  products_embeddings
 
     # Run the prediction model
-    results = pd.DataFrame(KNN(X_train, y_train, X_test), columns=['KNN Prediction'])
+    results = pd.DataFrame({'Prediction': cosine_similarity_clf(X_train, y_train, X_test)}).reset_index(drop=True)
     result_df = pd.concat([products_df, results], axis=1)
     return result_df
 
@@ -292,7 +291,7 @@ def receipt_parsing():
             products = receipt_json['ReceiptInfo']['ITEMS']
 
             # Get predictions
-            vendor_prediction = get_vendor_category([vendor])
+            vendor_prediction = get_vendor_category(vendor)
 
             descriptions = [product['description'] for product in products]
             product_predictions = get_product_category(descriptions)
@@ -320,13 +319,13 @@ def receipt_dashboard():
         vendor_db_path = f'{DATA_PATH}predictions/vendor_category_predictions.csv'  # Update with the actual path
         df = pd.read_csv(vendor_db_path)
 
-        # Count the frequency of unique values in the 'KNN Prediction' column
-        knn_counts = df['KNN Prediction'].value_counts()
+        # Count the frequency of unique values in the 'Prediction' column
+        pred_counts = df['Prediction'].value_counts()
 
         # Create a bar chart using Plotly
-        fig = px.bar(knn_counts, x=knn_counts.index, y=knn_counts.values,
-                     labels={'x': 'KNN Prediction', 'y': 'Number of Data'},
-                     title='Distribution of KNN Predictions(Vendor Category)')
+        fig = px.bar(pred_counts, x=pred_counts.index, y=pred_counts.values,
+                     labels={'x': 'Prediction', 'y': 'Number of Data'},
+                     title='Distribution of Predictions(Vendor Category)')
 
         fig.update_layout(
             autosize=False,
@@ -348,13 +347,13 @@ def receipt_dashboard():
 
         df = pd.read_csv(product_db_path)
 
-        # Count the frequency of unique values in the 'KNN Prediction' column
-        knn_counts = df['KNN Prediction'].value_counts()
+        # Count the frequency of unique values in the 'Prediction' column
+        pred_counts = df['Prediction'].value_counts()
 
         # Create a bar chart using Plotly
-        fig = px.bar(knn_counts, x=knn_counts.index, y=knn_counts.values,
-                     labels={'x': 'KNN Prediction', 'y': 'Number of Data'},
-                     title='Distribution of KNN Predictions(Product Category)')
+        fig = px.bar(pred_counts, x=pred_counts.index, y=pred_counts.values,
+                     labels={'x': 'Prediction', 'y': 'Number of Data'},
+                     title='Distribution of Predictions(Product Category)')
 
         fig.update_layout(
             xaxis_tickangle=45,
