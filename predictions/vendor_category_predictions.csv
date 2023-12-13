@@ -1,135 +1,135 @@
-,Vendors,KNN Prediction
-0,SAFEWAY,grocery
+,Vendors,Prediction
+0,SAFEWAY,food service
 1,Sugar Sugar Hawaii,grocery
 2,Foodland,grocery
 3,Halal Gyro Kabob House,food service
-4,Walmart,food service
+4,Walmart,home garden
 5,LILIHA BAKERY PEARL CITY,food service
-6,Walmart,food service
-7,Walmart,food service
-8,Walmart,food service
-9,DRIVER LICENSE HAWAII KA,entertainment
-10,Walmart,food service
+6,Walmart,home garden
+7,Walmart,home garden
+8,Walmart,home garden
+9,DRIVER LICENSE HAWAII KA,electronics
+10,Walmart,home garden
 11,BEN FRANKLIN CRAFTS #05575,home garden
-12,COSTCO WHOLESALE,grocery
-13,Walmart,food service
-14,WHOLE FOODS,grocery
-15,The Counter,home garden
-16,PHO 777,grocery
+12,COSTCO WHOLESALE,food service
+13,Walmart,home garden
+14,WHOLE FOODS,food service
+15,The Counter,food service
+16,PHO 777,food service
 17,Foodland,grocery
 18,ROSS DRESS FOR LESS,clothing
-19,BEN FRANKLIN CRAFTS #05614 (3),entertainment
-20,H MART,grocery
-21,Store 215 Dir Dane Elder,home garden
-22,Store  Jamie DePrizio,clothing
+19,BEN FRANKLIN CRAFTS #05614 (3),home garden
+20,H MART,clothing
+21,Store 215 Dir Dane Elder,food service
+22,Store  Jamie DePrizio,food service
 23,Dunkin',food service
-24,University of Hawaii - Manoa Bookstore,clothing
+24,University of Hawaii - Manoa Bookstore,home garden
 25,Foodland,grocery
-26,SAFEWAY,grocery
-27,Minit,health beauty
-28,SAFEWAY,grocery
-29,SAFEWAY,grocery
+26,SAFEWAY,food service
+27,Minit,clothing
+28,SAFEWAY,food service
+29,SAFEWAY,food service
 30,Daiso,food service
-31,SAFEWAY,grocery
-32,Kahala,grocery
+31,SAFEWAY,food service
+32,Kahala,health beauty
 33,Dunkin',food service
 34,Dunkin Donuts,food service
-35,WHOLE FOODS,grocery
-36,SAFEWAY O,grocery
+35,WHOLE FOODS,food service
+36,SAFEWAY O,food service
 37,Grain Exchange,grocery
-38,SAFEWAY,grocery
+38,SAFEWAY,food service
 39,Dunkin,food service
-40,Longs,clothing
-41,WHOLE FOODS,grocery
+40,Longs,food service
+41,WHOLE FOODS,food service
 42,ROSS DRESS FOR LESS,clothing
 43,Target,grocery
 44,LEAHI HEALTH MANOA,grocery
 45,Sam's Club #6410,food service
-46,GAP OUTLET,electronics
-47,SAFEWAY,grocery
-48,SAFEWAY,grocery
-49,Walmart,food service
-50,WALTER,grocery
+46,GAP OUTLET,home garden
+47,SAFEWAY,food service
+48,SAFEWAY,food service
+49,Walmart,home garden
+50,WALTER,home garden
 51,Krispy Kreme,food service
-52,Whole Foods Market,grocery
+52,Whole Foods Market,food service
 53,Dunkin,food service
 54,Olive,grocery
-55,SAFEWAY,grocery
-56,COSTCO WHOLESALE,grocery
+55,SAFEWAY,food service
+56,COSTCO WHOLESALE,food service
 57,Longs Drugs,health beauty
 58,Dunkin',food service
-59,Longs,clothing
-60,Hardware Hawaii,entertainment
+59,Longs,food service
+60,Hardware Hawaii,electronics
 61,Kozo Sushi,food service
 62,KAHEKA STORE,food service
-63,WHOLE FOODS,grocery
-64,Panda Express #1866,food service
-65,Walmart,food service
+63,WHOLE FOODS,food service
+64,Panda Express #1866,grocery
+65,Walmart,home garden
 66,McDonald's Restaurant,food service
-67,CVS Drugs,health beauty
+67,CVS Drugs,grocery
 68,McDonald's Restaurant,food service
-69,Oahu Honolulu Ala Moana,clothing
-70,SAFEWAY,grocery
-71,Honolulu Intl Airport 0169,entertainment
+69,Oahu Honolulu Ala Moana,food service
+70,SAFEWAY,food service
+71,Honolulu Intl Airport 0169,electronics
 72,Taco Bell 001281,food service
 73,KAHEKA STORE,food service
 74,McDonald's Restaurant #14616,food service
 75,Store L,home garden
-76,Ralphs,food service
+76,Ralphs,clothing
 77,COSTCO,grocery
 78,KAHEKA STORE,food service
 79,PACSUN,clothing
 80,Longs Drugs,health beauty
-81,H MART,grocery
-82,Grove Music,electronics
+81,H MART,clothing
+82,Grove Music,entertainment
 83,Taco Bell 002491,food service
-84,Longs,clothing
-85,Walmart,food service
-86,Wet'N'Wild Hawaii,grocery
-87,Oahu Honolulu Ala Moana,clothing
+84,Longs,food service
+85,Walmart,home garden
+86,Wet'N'Wild Hawaii,health beauty
+87,Oahu Honolulu Ala Moana,food service
 88,COSTCO,grocery
 89,COSTCO,grocery
 90,Sam's Club,food service
 91,KAHEKA STORE,food service
 92,KAHEKA STORE,food service
-93,WHOLE FOODS,grocery
+93,WHOLE FOODS,food service
 94,Sam's Club,food service
 95,"See's Candies, Inc",grocery
 96,Dunkin',food service
-97,SAFEWAY,grocery
-98,Walmart,food service
+97,SAFEWAY,food service
+98,Walmart,home garden
 99,Target,grocery
-100,UNITED STATES POSTAL SERVICE,entertainment
+100,UNITED STATES POSTAL SERVICE,electronics
 101,Foodland,grocery
 102,Foodland,grocery
 103,ABC STORES,clothing
 104,Raising CHICKEN Hawaii Kai Town Center,grocery
-105,Walmart,food service
+105,Walmart,home garden
 106,COSTCO,grocery
-107,Wal-Mart,clothing
+107,Wal-Mart,grocery
 108,Baskin Robbins,food service
-109,SAFEWAY,grocery
-110,Panda Express #2150,food service
-111,University of Hawaii - Manoa Bookstore,clothing
-112,H MART,grocery
-113,How doers,health beauty
-114,SAFEWAY,grocery
-115,Whole Foods Market,grocery
-116,SAFEWAY,grocery
-117,The Counter,home garden
+109,SAFEWAY,food service
+110,Panda Express #2150,grocery
+111,University of Hawaii - Manoa Bookstore,home garden
+112,H MART,clothing
+113,How doers,grocery
+114,SAFEWAY,food service
+115,Whole Foods Market,food service
+116,SAFEWAY,food service
+117,The Counter,food service
 118,See's Candies,grocery
 119,T.J.MAXX,clothing
-120,SAFEWAY,grocery
-121,SAFEWAY,grocery
+120,SAFEWAY,food service
+121,SAFEWAY,food service
 122,KOZO SUSHI MOILIILI,food service
-123,Walmart,food service
+123,Walmart,home garden
 124,KAHEKA STORE,food service
-125,Whole Foods Market,grocery
+125,Whole Foods Market,food service
 126,Kozo Sushi,food service
-127,Honolulu Store,clothing
+127,Honolulu Store,food service
 128,Target,grocery
-129,WHOLE FOODS,grocery
+129,WHOLE FOODS,food service
 130,KAHEKA STORE,food service
 131,T&C Surf Designs Ala Moana,clothing
-132,Taste Tea,grocery
+132,Taste Tea,food service
 133,McDonald's Restaurant,food service
