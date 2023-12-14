@@ -6,7 +6,8 @@
 
 /databases/product/embedding/embedded_product_database.csv
 
-
+/pytest/.pytest_cache
+/pytest/__pycache__
 
 
 

@@ -19,8 +19,8 @@ UPDATE_PRODUCT_DATABASE = False # Set this to true if we've added more categorie
 
 
 #Section 1:
-RECEIPTS_INPUT = './receipts/text'
-RECEIPTS_OUTPUT = './processed_receipts'
+RECEIPTS_INPUT = '../receipts/text'
+RECEIPTS_OUTPUT = '../processed_receipts'
 
 OPENAI_API_KEY = ''
 
@@ -352,7 +352,7 @@ def create_embedded_vendor_database():
         new_column['Category'] = category_name
 
         vendor_database = pd.concat([vendor_database, new_column], ignore_index=True, axis=0)
-    vendor_database.to_csv("./databases/vendor/embedding/embedded_vendor_database.csv")
+    vendor_database.to_csv("../databases/vendor/embedding/embedded_vendor_database.csv")
 
     return vendor_database
 
@@ -378,7 +378,7 @@ def create_embedded_product_database():
                 new_column['Category'] = category_name
 
                 product_database = pd.concat([product_database, new_column], ignore_index=True, axis=0)
-    product_database.to_csv('./databases/product/embedding/embedded_product_database.csv')
+    product_database.to_csv('../databases/product/embedding/embedded_product_database.csv')
 
     return product_database
 
@@ -422,9 +422,9 @@ def get_vendor_category():
     Outputs prediction results to ./predictions/vendor_category_predictions.csv.
     '''
 
-    X_train, y_train = split_database('./databases/vendor/embedding/embedded_vendor_database.csv')
+    X_train, y_train = split_database('../databases/vendor/embedding/embedded_vendor_database.csv')
 
-    receipts = pd.read_csv("./processed_receipts/vendors_and_products.csv")
+    receipts = pd.read_csv("../processed_receipts/vendors_and_products.csv")
     vendors = receipts['Vendors'].to_frame()
 
     vendors_embeddings = convert_to_embeddings_df(vendors)
@@ -436,7 +436,7 @@ def get_vendor_category():
 
 
 # Dump predictions to csv
-get_vendor_category().to_csv('./predictions/vendor_category_predictions.csv')
+get_vendor_category().to_csv('../predictions/vendor_category_predictions.csv')
 
 
 def process_list(row):
@@ -464,9 +464,9 @@ def get_product_category():
     Outputs prediction results to ./predictions/product_category_predictions.csv.
     '''
 
-    X_train, y_train = split_database('./databases/product/embedding/embedded_product_database.csv')
+    X_train, y_train = split_database('../databases/product/embedding/embedded_product_database.csv')
 
-    receipts = pd.read_csv('./processed_receipts/vendors_and_products.csv')
+    receipts = pd.read_csv('../processed_receipts/vendors_and_products.csv')
     receipts['Products'] = receipts['Products'].apply(eval)
     receipts = receipts.apply(process_list, axis=1)
 
@@ -493,4 +493,4 @@ def get_product_category():
 
 
 # Dump predictions to csv
-get_product_category().to_csv('./predictions/product_category_predictions.csv')
+get_product_category().to_csv('../predictions/product_category_predictions.csv')
