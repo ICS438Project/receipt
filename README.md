@@ -1,4 +1,4 @@
-# receipt
+# Receipt Classification
 
 ##### Authors: Alexander Hung, Jennifer Nakano, Jordan Wond
 
