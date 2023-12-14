@@ -1,6 +1,6 @@
 # Receipt Classification
 
-##### Authors: Alexander Hung, Jennifer Nakano, Jordan Wond
+##### Authors: Alexander Hung, Jennifer Nakano, Jordan Wong
 
 ##### Instructions
 - To produce predictions and run the streamlit vizualization application run, receipt.ipynb
