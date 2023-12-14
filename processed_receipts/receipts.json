@@ -372,20 +372,6 @@
                     "discountAmount": 0
                 },
                 {
-                    "description": "HI FEE/DEP",
-                    "quantity": 1,
-                    "unitPrice": 9.96,
-                    "totalPrice": 9.96,
-                    "discountAmount": 0
-                },
-                {
-                    "description": "FC PNUT PNUT BTR BTR",
-                    "quantity": 1,
-                    "unitPrice": 3.48,
-                    "totalPrice": 3.48,
-                    "discountAmount": 0
-                },
-                {
                     "description": "SEASONED SF CANDY",
                     "quantity": 1,
                     "unitPrice": 3.48,
@@ -402,8 +388,8 @@
                 {
                     "description": "KETCHUP",
                     "quantity": 1,
-                    "unitPrice": 4.54,
-                    "totalPrice": 4.54,
+                    "unitPrice": 2.3,
+                    "totalPrice": 2.3,
                     "discountAmount": 0
                 }
             ]
@@ -771,7 +757,7 @@
                     "discountAmount": 0.4
                 },
                 {
-                    "description": "<UNKNOWN> @ 3.59 /lb WT",
+                    "description": "<UNKNOWN> @ 3.59 /lb",
                     "quantity": 1,
                     "unitPrice": 3.59,
                     "totalPrice": 3.59,
@@ -930,11 +916,11 @@
             "address": "1772 South King Street",
             "city": "<UNKNOWN>",
             "state": "<UNKNOWN>",
-            "phoneNumber": "(973) 586-5868",
+            "phoneNumber": "(xxx) xxx-xxxx",
             "tax": 0.26,
             "total": 5.73,
-            "receiptDate": "09/17/2023",
-            "receiptTime": "12:47:17",
+            "receiptDate": "17SEP2023",
+            "receiptTime": "12:47:20",
             "ITEMS": [
                 {
                     "description": "BEEF LIVER SLICED",
@@ -1894,7 +1880,7 @@
     },
     {
         "ReceiptInfo": {
-            "merchant": "Whole Foods Market",
+            "merchant": "WHOLE FOODS",
             "address": "4211 Waialae Ave Ste 2000",
             "city": "Honolulu",
             "state": "HI",
@@ -1946,7 +1932,7 @@
             "tax": 3.81,
             "total": 44.61,
             "receiptDate": "07/13/2023",
-            "receiptTime": "5:34:20PM",
+            "receiptTime": "5:34:20PM 07/13/2023",
             "ITEMS": [
                 {
                     "description": "1 Table Games",
@@ -1979,8 +1965,8 @@
                 {
                     "description": "1 Gnocchi",
                     "quantity": 1,
-                    "unitPrice": 2.99,
-                    "totalPrice": 2.99,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
                     "discountAmount": 0
                 },
                 {
@@ -2000,8 +1986,8 @@
                 {
                     "description": "Spaghetti",
                     "quantity": 1,
-                    "unitPrice": 1.79,
-                    "totalPrice": 1.79,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
                     "discountAmount": 0
                 },
                 {
@@ -2013,8 +1999,8 @@
                 },
                 {
                     "description": "2 w/1 MB",
-                    "quantity": 2,
-                    "unitPrice": 1.79,
+                    "quantity": 1,
+                    "unitPrice": 3.58,
                     "totalPrice": 3.58,
                     "discountAmount": 0
                 },
@@ -2099,9 +2085,9 @@
                 },
                 {
                     "description": "5092 WATERMELON",
-                    "quantity": 2,
+                    "quantity": 1,
                     "unitPrice": 12.99,
-                    "totalPrice": 25.98,
+                    "totalPrice": 12.99,
                     "discountAmount": 0
                 },
                 {
@@ -2192,8 +2178,8 @@
                 {
                     "description": "HWNISL TEABG GVGNS",
                     "quantity": 1,
-                    "unitPrice": 3.6,
-                    "totalPrice": 3.6,
+                    "unitPrice": 5.49,
+                    "totalPrice": 5.49,
                     "discountAmount": 1.89
                 }
             ]
@@ -2242,16 +2228,9 @@
                 },
                 {
                     "description": "CFRIO SF PEG BAG",
-                    "quantity": 1,
+                    "quantity": 2,
                     "unitPrice": 3.99,
-                    "totalPrice": 3.99,
-                    "discountAmount": 0
-                },
-                {
-                    "description": "CFRIO SF PEG BAG",
-                    "quantity": 1,
-                    "unitPrice": 3.99,
-                    "totalPrice": 3.99,
+                    "totalPrice": 7.98,
                     "discountAmount": 0
                 }
             ]
@@ -2339,7 +2318,7 @@
     },
     {
         "ReceiptInfo": {
-            "merchant": "WHOLE FOODS",
+            "merchant": "Whole Foods Market",
             "address": "388 Kamakee St Ste 100",
             "city": "Honolulu",
             "state": "HI",
@@ -2368,7 +2347,7 @@
                     "quantity": 2,
                     "unitPrice": 6.79,
                     "totalPrice": 13.58,
-                    "discountAmount": 0
+                    "discountAmount": 1.9
                 },
                 {
                     "description": "VTACO CCNUT WT",
@@ -2376,13 +2355,6 @@
                     "unitPrice": 6.29,
                     "totalPrice": 4.39,
                     "discountAmount": 1.9
-                },
-                {
-                    "description": "CARROT GINGER SOUP",
-                    "quantity": 1,
-                    "unitPrice": 8.49,
-                    "totalPrice": 8.49,
-                    "discountAmount": 0
                 },
                 {
                     "description": "OG CAULIFLOWER",
@@ -2916,8 +2888,8 @@
                 {
                     "description": "1 Cheeseburger",
                     "quantity": 1,
-                    "unitPrice": 4.39,
-                    "totalPrice": 4.39,
+                    "unitPrice": 0,
+                    "totalPrice": 0,
                     "discountAmount": 0
                 },
                 {
@@ -3019,7 +2991,7 @@
             "tax": 9.76,
             "total": 216.89,
             "receiptDate": "09/28/2023",
-            "receiptTime": "17:48",
+            "receiptTime": "17:48 120 205 217 705",
             "ITEMS": [
                 {
                     "description": "18668 CHKN TAQUITO",
@@ -3150,16 +3122,23 @@
                 },
                 {
                     "description": "TERRA BEER BOTTLE 16",
-                    "quantity": 1,
+                    "quantity": 2,
                     "unitPrice": 3.69,
-                    "totalPrice": 3.69,
+                    "totalPrice": 7.38,
                     "discountAmount": 0
                 },
                 {
-                    "description": "TERRA BEER BOTTLE 16",
-                    "quantity": 1,
-                    "unitPrice": 3.69,
-                    "totalPrice": 3.69,
+                    "description": "HI DEP** 1PK",
+                    "quantity": 2,
+                    "unitPrice": 0.05,
+                    "totalPrice": 0.1,
+                    "discountAmount": 0
+                },
+                {
+                    "description": "HI TAX** 1PK",
+                    "quantity": 2,
+                    "unitPrice": 0.01,
+                    "totalPrice": 0.02,
                     "discountAmount": 0
                 }
             ]
@@ -4305,7 +4284,7 @@
     },
     {
         "ReceiptInfo": {
-            "merchant": "Raising CHICKEN Hawaii Kai Town Center",
+            "merchant": "Raising Cane's",
             "address": "Hawaii Kai Town Center",
             "city": "Honolulu",
             "state": "HI",
@@ -4405,7 +4384,7 @@
     },
     {
         "ReceiptInfo": {
-            "merchant": "COSTCO",
+            "merchant": "COSTCO WHOLESALE",
             "address": "333A Keahole Street",
             "city": "Honolulu",
             "state": "HI",
@@ -4792,7 +4771,7 @@
     },
     {
         "ReceiptInfo": {
-            "merchant": "Whole Foods Market",
+            "merchant": "WHOLE FOODS",
             "address": "629 Kailua Rd",
             "city": "Kailua",
             "state": "HI",
@@ -4886,7 +4865,7 @@
     },
     {
         "ReceiptInfo": {
-            "merchant": "See's Candies",
+            "merchant": "See's Candies, Inc",
             "address": "4211 Waialae Ave",
             "city": "Honolulu",
             "state": "HI",
@@ -5062,8 +5041,8 @@
         "ReceiptInfo": {
             "merchant": "KAHEKA STORE",
             "address": "SELF CHECKOUT",
-            "city": "XXXXXXX",
-            "state": "MID",
+            "city": "CONFECTIONARY",
+            "state": "Plu# 2819000257",
             "phoneNumber": "(xxx) xxx-xxxx",
             "tax": 0.34,
             "total": 7.62,
