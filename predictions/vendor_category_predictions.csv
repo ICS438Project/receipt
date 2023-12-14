@@ -1,0 +1,478 @@
+,Vendors,Prediction
+0,SAFEWAY,grocery
+1,Sugar Sugar Hawaii,health beauty
+2,Foodland,entertainment
+3,Halal Gyro Kabob House,entertainment
+4,Walmart,grocery
+5,LILIHA BAKERY PEARL CITY,grocery
+6,Walmart,grocery
+7,Walmart,food service
+8,Walmart,electronics
+9,DRIVER LICENSE HAWAII KA,clothing
+10,Walmart,food service
+11,BEN FRANKLIN CRAFTS #05575,food service
+12,COSTCO WHOLESALE,grocery
+13,Walmart,electronics
+14,WHOLE FOODS,grocery
+15,The Counter,grocery
+16,PHO 777,home garden
+17,Foodland,health beauty
+18,ROSS DRESS FOR LESS,grocery
+19,BEN FRANKLIN CRAFTS #05614 (3),grocery
+20,H MART,grocery
+21,Store 215 Dir Dane Elder,grocery
+22,Store  Jamie DePrizio,grocery
+23,Dunkin',grocery
+24,University of Hawaii - Manoa Bookstore,health beauty
+25,Foodland,grocery
+26,SAFEWAY,health beauty
+27,Minit,health beauty
+28,SAFEWAY,electronics
+29,SAFEWAY,grocery
+30,Daiso,grocery
+31,SAFEWAY,grocery
+32,Kahala,grocery
+33,Dunkin',home garden
+34,Dunkin Donuts,grocery
+35,WHOLE FOODS,grocery
+36,SAFEWAY O,grocery
+37,Grain Exchange,food service
+38,SAFEWAY,clothing
+39,Dunkin,food service
+40,Longs,grocery
+41,WHOLE FOODS,grocery
+42,ROSS DRESS FOR LESS,home garden
+43,Target,home garden
+44,LEAHI HEALTH MANOA,food service
+45,Sam's Club #6410,grocery
+46,GAP OUTLET,food service
+47,SAFEWAY,grocery
+48,SAFEWAY,food service
+49,Walmart,food service
+50,WALTER,food service
+51,Krispy Kreme,food service
+52,WHOLE FOODS,grocery
+53,Dunkin,food service
+54,Olive,food service
+55,SAFEWAY,grocery
+56,COSTCO WHOLESALE,grocery
+57,Longs Drugs,grocery
+58,Dunkin',grocery
+59,Longs,grocery
+60,Hardware Hawaii,grocery
+61,Kozo Sushi,food service
+62,KAHEKA STORE,food service
+63,Whole Foods Market,grocery
+64,Panda Express #1866,food service
+65,Walmart,electronics
+66,McDonald's Restaurant,food service
+67,CVS Drugs,grocery
+68,McDonald's Restaurant,grocery
+69,Oahu Honolulu Ala Moana,grocery
+70,SAFEWAY,home garden
+71,Honolulu Intl Airport 0169,grocery
+72,Taco Bell 001281,clothing
+73,KAHEKA STORE,clothing
+74,McDonald's Restaurant #14616,entertainment
+75,Store L,health beauty
+76,Ralphs,health beauty
+77,COSTCO,entertainment
+78,KAHEKA STORE,food service
+79,PACSUN,health beauty
+80,Longs Drugs,food service
+81,H MART,food service
+82,Grove Music,grocery
+83,Taco Bell 002491,grocery
+84,Longs,food service
+85,Walmart,food service
+86,Wet'N'Wild Hawaii,food service
+87,Oahu Honolulu Ala Moana,food service
+88,COSTCO,grocery
+89,COSTCO,food service
+90,Sam's Club,clothing
+91,KAHEKA STORE,clothing
+92,KAHEKA STORE,grocery
+93,WHOLE FOODS,grocery
+94,Sam's Club,food service
+95,"See's Candies, Inc",health beauty
+96,Dunkin',food service
+97,SAFEWAY,grocery
+98,Walmart,electronics
+99,Target,food service
+100,UNITED STATES POSTAL SERVICE,health beauty
+101,Foodland,food service
+102,Foodland,food service
+103,ABC STORES,grocery
+104,Raising Cane's,grocery
+105,Walmart,health beauty
+106,COSTCO WHOLESALE,home garden
+107,Wal-Mart,home garden
+108,Baskin Robbins,health beauty
+109,SAFEWAY,grocery
+110,Panda Express #2150,food service
+111,University of Hawaii - Manoa Bookstore,food service
+112,H MART,grocery
+113,How doers,health beauty
+114,SAFEWAY,food service
+115,WHOLE FOODS,food service
+116,SAFEWAY,food service
+117,The Counter,health beauty
+118,"See's Candies, Inc",clothing
+119,T.J.MAXX,grocery
+120,SAFEWAY,grocery
+121,SAFEWAY,grocery
+122,KOZO SUSHI MOILIILI,grocery
+123,Walmart,food service
+124,KAHEKA STORE,grocery
+125,Whole Foods Market,grocery
+126,Kozo Sushi,home garden
+127,Honolulu Store,clothing
+128,Target,electronics
+129,WHOLE FOODS,health beauty
+130,KAHEKA STORE,grocery
+131,T&C Surf Designs Ala Moana,grocery
+132,Taste Tea,grocery
+133,McDonald's Restaurant,grocery
+134,,health beauty
+135,,clothing
+136,,grocery
+137,,clothing
+138,,home garden
+139,,home garden
+140,,health beauty
+141,,health beauty
+142,,clothing
+143,,clothing
+144,,clothing
+145,,food service
+146,,food service
+147,,grocery
+148,,grocery
+149,,grocery
+150,,health beauty
+151,,grocery
+152,,home garden
+153,,electronics
+154,,electronics
+155,,food service
+156,,food service
+157,,grocery
+158,,food service
+159,,entertainment
+160,,grocery
+161,,grocery
+162,,food service
+163,,food service
+164,,grocery
+165,,grocery
+166,,food service
+167,,food service
+168,,grocery
+169,,food service
+170,,food service
+171,,grocery
+172,,grocery
+173,,grocery
+174,,food service
+175,,grocery
+176,,grocery
+177,,grocery
+178,,grocery
+179,,grocery
+180,,food service
+181,,food service
+182,,food service
+183,,grocery
+184,,grocery
+185,,health beauty
+186,,electronics
+187,,health beauty
+188,,food service
+189,,entertainment
+190,,clothing
+191,,entertainment
+192,,grocery
+193,,grocery
+194,,electronics
+195,,grocery
+196,,food service
+197,,food service
+198,,food service
+199,,food service
+200,,food service
+201,,grocery
+202,,grocery
+203,,grocery
+204,,food service
+205,,food service
+206,,health beauty
+207,,food service
+208,,clothing
+209,,food service
+210,,food service
+211,,clothing
+212,,clothing
+213,,food service
+214,,food service
+215,,food service
+216,,food service
+217,,grocery
+218,,food service
+219,,health beauty
+220,,health beauty
+221,,food service
+222,,grocery
+223,,grocery
+224,,grocery
+225,,grocery
+226,,food service
+227,,food service
+228,,grocery
+229,,health beauty
+230,,health beauty
+231,,food service
+232,,health beauty
+233,,health beauty
+234,,food service
+235,,food service
+236,,entertainment
+237,,food service
+238,,food service
+239,,grocery
+240,,grocery
+241,,food service
+242,,food service
+243,,food service
+244,,health beauty
+245,,food service
+246,,food service
+247,,entertainment
+248,,health beauty
+249,,health beauty
+250,,entertainment
+251,,food service
+252,,food service
+253,,food service
+254,,grocery
+255,,food service
+256,,food service
+257,,food service
+258,,food service
+259,,health beauty
+260,,food service
+261,,food service
+262,,clothing
+263,,home garden
+264,,grocery
+265,,grocery
+266,,grocery
+267,,grocery
+268,,food service
+269,,home garden
+270,,food service
+271,,grocery
+272,,food service
+273,,home garden
+274,,food service
+275,,grocery
+276,,grocery
+277,,food service
+278,,grocery
+279,,grocery
+280,,clothing
+281,,health beauty
+282,,clothing
+283,,clothing
+284,,clothing
+285,,health beauty
+286,,health beauty
+287,,home garden
+288,,health beauty
+289,,health beauty
+290,,home garden
+291,,food service
+292,,health beauty
+293,,food service
+294,,food service
+295,,food service
+296,,entertainment
+297,,food service
+298,,food service
+299,,food service
+300,,food service
+301,,clothing
+302,,clothing
+303,,health beauty
+304,,grocery
+305,,entertainment
+306,,entertainment
+307,,food service
+308,,food service
+309,,grocery
+310,,grocery
+311,,food service
+312,,food service
+313,,grocery
+314,,grocery
+315,,grocery
+316,,grocery
+317,,grocery
+318,,health beauty
+319,,grocery
+320,,grocery
+321,,food service
+322,,health beauty
+323,,grocery
+324,,clothing
+325,,food service
+326,,food service
+327,,grocery
+328,,food service
+329,,grocery
+330,,food service
+331,,food service
+332,,food service
+333,,health beauty
+334,,food service
+335,,food service
+336,,grocery
+337,,food service
+338,,grocery
+339,,food service
+340,,home garden
+341,,health beauty
+342,,food service
+343,,grocery
+344,,food service
+345,,food service
+346,,grocery
+347,,grocery
+348,,food service
+349,,entertainment
+350,,food service
+351,,food service
+352,,health beauty
+353,,grocery
+354,,food service
+355,,food service
+356,,food service
+357,,grocery
+358,,grocery
+359,,home garden
+360,,food service
+361,,electronics
+362,,clothing
+363,,clothing
+364,,clothing
+365,,entertainment
+366,,health beauty
+367,,health beauty
+368,,grocery
+369,,entertainment
+370,,entertainment
+371,,grocery
+372,,grocery
+373,,entertainment
+374,,entertainment
+375,,electronics
+376,,grocery
+377,,grocery
+378,,grocery
+379,,grocery
+380,,grocery
+381,,grocery
+382,,grocery
+383,,food service
+384,,food service
+385,,electronics
+386,,food service
+387,,home garden
+388,,grocery
+389,,clothing
+390,,entertainment
+391,,grocery
+392,,grocery
+393,,food service
+394,,food service
+395,,grocery
+396,,grocery
+397,,health beauty
+398,,grocery
+399,,grocery
+400,,food service
+401,,grocery
+402,,food service
+403,,food service
+404,,food service
+405,,food service
+406,,grocery
+407,,grocery
+408,,grocery
+409,,food service
+410,,grocery
+411,,food service
+412,,grocery
+413,,grocery
+414,,grocery
+415,,grocery
+416,,grocery
+417,,entertainment
+418,,food service
+419,,clothing
+420,,grocery
+421,,food service
+422,,food service
+423,,health beauty
+424,,food service
+425,,food service
+426,,home garden
+427,,health beauty
+428,,health beauty
+429,,entertainment
+430,,grocery
+431,,food service
+432,,grocery
+433,,food service
+434,,food service
+435,,grocery
+436,,food service
+437,,home garden
+438,,food service
+439,,food service
+440,,food service
+441,,food service
+442,,grocery
+443,,health beauty
+444,,health beauty
+445,,clothing
+446,,grocery
+447,,food service
+448,,food service
+449,,food service
+450,,grocery
+451,,grocery
+452,,grocery
+453,,grocery
+454,,health beauty
+455,,health beauty
+456,,food service
+457,,food service
+458,,grocery
+459,,grocery
+460,,grocery
+461,,food service
+462,,grocery
+463,,grocery
+464,,grocery
+465,,food service
+466,,grocery
+467,,food service
+468,,entertainment
+469,,clothing
+470,,clothing
+471,,food service
+472,,food service
+473,,food service
+474,,food service
+475,,grocery
+476,,food service

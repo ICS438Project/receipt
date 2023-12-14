@@ -6,3 +6,4 @@ torch
 chardet
 plotly
 scikit-learn
+faiss-cpu
